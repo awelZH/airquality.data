@@ -1,0 +1,545 @@
+year;site_short;site;siteclass;ecosystem_category;critical_load_min;critical_load_single;critical_load_max;estimate;parameter;value;unit;source
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.44075301;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;N-Deposition;23.73530885;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;7.637746594;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;8.026201293;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.963268034;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;0.734240348;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;5.432233812;kg-N/ha/a;Ostluft
+2001;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.500865758;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.41910462;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;N-Deposition;24.91548144;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;7.152110212;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;9.52244994;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.98712684;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;0.604668522;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;5.743830177;kg-N/ha/a;Ostluft
+2002;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.486191133;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.31536;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;N-Deposition;23.65568266;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;7.669174053;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;8.025456325;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;1.040902091;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;0.763034087;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;5.276327043;kg-N/ha/a;Ostluft
+2003;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.565429058;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;20.96839316;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;5.186254171;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.958620053;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.7983864;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.744629353;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.058745983;kg-N/ha/a;Ostluft
+2004;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;22.5719672;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;5.286669492;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;8.966944242;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.769357938;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.737692643;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.589545685;kg-N/ha/a;Ostluft
+2005;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;26.56492698;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;7.810243593;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;9.855670098;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.850845532;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.799523759;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;6.026886796;kg-N/ha/a;Ostluft
+2006;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.83999057;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.641133888;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.512580945;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.782444305;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.762054546;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;4.920019687;kg-N/ha/a;Ostluft
+2007;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.965175361;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;19.56489319;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;5.377985917;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.544404566;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.638672378;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.796663076;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;4.815758344;kg-N/ha/a;Ostluft
+2008;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.426233546;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;22.88405603;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;7.086971995;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.938896084;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.721010311;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.743892632;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.171527805;kg-N/ha/a;Ostluft
+2009;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.94608;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;20.59407881;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.203602556;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.375232829;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.741444102;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.810368982;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.136553142;kg-N/ha/a;Ostluft
+2010;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3807972;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.985442042;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.059116;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;7.327261947;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.313777688;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.746946132;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.760748858;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;4.44086592;kg-N/ha/a;Ostluft
+2011;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.484073409;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.94608;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.03905594;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.272040521;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.845002873;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.521848092;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.712808194;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.343922659;kg-N/ha/a;Ostluft
+2012;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.3973536;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.909925209;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.16609448;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;5.573577876;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.140516461;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.6843312;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.768187375;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.608147542;kg-N/ha/a;Ostluft
+2013;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.481408815;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.820181244;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.24782803;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;7.335915219;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.8098754;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.489854323;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.735876541;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;4.708394452;kg-N/ha/a;Ostluft
+2014;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.347730852;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.770583523;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;18.75463975;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.901999885;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;5.529220464;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.5132484;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.713178431;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.979291457;kg-N/ha/a;Ostluft
+2015;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.347117591;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.689328981;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;20.03783181;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.077342455;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.7931611;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.57278348;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.650081734;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;4.897258946;kg-N/ha/a;Ostluft
+2016;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.357875113;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.831795396;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;21.93281807;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.780790344;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.502767385;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.60421628;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.628291847;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;5.205772664;kg-N/ha/a;Ostluft
+2017;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.379184155;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.760915162;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;23.20670892;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;10.48192984;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;6.639822871;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.620238673;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.653073551;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.648494615;kg-N/ha/a;Ostluft
+2018;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.4022342;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.615932869;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;22.20502241;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;9.228560876;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.021994596;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.444318864;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.57547019;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.992720903;kg-N/ha/a;Ostluft
+2019;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.326024108;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.601298382;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;N-Deposition;18.66650713;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;7.918609688;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.94185433;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.426173407;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;0.472818579;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;3.023003286;kg-N/ha/a;Ostluft
+2020;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.282749461;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.60576956;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;17.21652678;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.207209955;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;5.940741927;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.524757141;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.479798737;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.138344485;kg-N/ha/a;Ostluft
+2021;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.319904979;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.63605803;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;N-Deposition;19.63720135;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.716425667;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;7.444572746;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.357900392;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.435757835;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.786507347;kg-N/ha/a;Ostluft
+2022;BA;Hinwil_Bachtel Sennenberg;hoch;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.259979336;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.44075301;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;N-Deposition;35.08913413;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH3-N Gasdep.;16.54845095;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;8.026201293;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Interzeption;1.926536068;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO2-N Gasdep.;1.713227478;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;5.432233812;kg-N/ha/a;Ostluft
+2001;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Interzeption;1.001731516;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.41910462;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;N-Deposition;35.53915269;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH3-N Gasdep.;15.49623879;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;9.52244994;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Interzeption;1.974253681;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO2-N Gasdep.;1.410893217;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;5.743830177;kg-N/ha/a;Ostluft
+2002;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.972382265;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.31536;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;N-Deposition;35.22676232;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH3-N Gasdep.;16.61654378;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;8.025456325;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Interzeption;2.081804183;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO2-N Gasdep.;1.78041287;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;5.276327043;kg-N/ha/a;Ostluft
+2003;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Interzeption;1.130858116;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;29.19104576;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;11.23688404;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.958620053;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.5967728;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.73746849;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.058745983;kg-N/ha/a;Ostluft
+2004;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;30.8734936;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;11.45445057;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;8.966944242;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.538715875;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.721282833;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.589545685;kg-N/ha/a;Ostluft
+2005;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;37.97455224;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;16.92219445;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;9.855670098;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.701691063;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.865555437;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;6.026886796;kg-N/ha/a;Ostluft
+2006;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;31.76729434;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;14.38912342;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.512580945;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.56488861;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.778127275;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;4.920019687;kg-N/ha/a;Ostluft
+2007;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.965175361;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;27.96633345;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;11.65230282;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.544404566;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.277344756;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.858880511;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;4.815758344;kg-N/ha/a;Ostluft
+2008;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.852467093;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.84096;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;33.24585437;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;15.35510599;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.938896084;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.442020623;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.735749475;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.171527805;kg-N/ha/a;Ostluft
+2009;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.94608;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;30.0343484;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;13.44113887;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.375232829;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.482888204;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.890860957;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.136553142;kg-N/ha/a;Ostluft
+2010;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7615944;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.985442042;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;31.85293962;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;15.87573422;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.313777688;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.493892263;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.775080669;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;4.44086592;kg-N/ha/a;Ostluft
+2011;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.968146817;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.94608;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;30.22604916;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;13.58942113;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.845002873;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.043696184;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.66321912;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.343922659;kg-N/ha/a;Ostluft
+2012;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.7947072;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.909925209;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;29.85859185;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;12.0760854;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.140516461;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.3686624;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.792437208;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.608147542;kg-N/ha/a;Ostluft
+2013;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.962817629;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.820181244;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;31.62514968;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;15.89448297;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.8098754;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;0.979708647;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.717045262;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;4.708394452;kg-N/ha/a;Ostluft
+2014;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.695461703;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.770583523;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;28.61824351;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;14.95433309;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;5.529220464;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.0264968;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.664083005;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.979291457;kg-N/ha/a;Ostluft
+2015;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.694235181;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.689328981;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;28.92549891;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;13.16757532;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.7931611;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.14556696;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.516857379;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;4.897258946;kg-N/ha/a;Ostluft
+2016;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.715750226;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.831795396;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;31.66486304;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;14.69171241;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.502767385;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.20843256;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.466014311;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;5.205772664;kg-N/ha/a;Ostluft
+2017;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.75836831;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.760915162;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;37.32886468;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;22.710848;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;6.639822871;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.240477347;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.523838286;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.648494615;kg-N/ha/a;Ostluft
+2018;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.804468401;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.615932869;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;34.50931332;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;19.99521523;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.021994596;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;0.888637728;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.342763776;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.992720903;kg-N/ha/a;Ostluft
+2019;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.652048216;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.601298382;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;N-Deposition;29.24423274;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH3-N Gasdep.;17.15698766;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.94185433;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.852346814;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO2-N Gasdep.;1.10324335;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;3.023003286;kg-N/ha/a;Ostluft
+2020;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.565498921;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.60576956;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;25.9426655;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;13.4489549;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;5.940741927;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;1.049514282;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.119530386;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.138344485;kg-N/ha/a;Ostluft
+2021;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.639809958;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.63605803;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;28.67192147;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;14.55225561;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;7.444572746;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;0.715800783;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;1.016768281;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.786507347;kg-N/ha/a;Ostluft
+2022;BA_Wald;Hinwil_Bachtel Sennenberg_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.519958672;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;HNO3-N Gasdep.;0.9556876;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;N-Deposition;21.12009595;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH3-N Gasdep.;11.21635313;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH4-N Gravitationsdep.;4.457764213;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH4-N Interzeption;0.298750339;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO2-N Gasdep.;1.371918765;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO3-N Gravitationsdep.;2.5834607;kg-N/ha/a;Ostluft
+2019;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO3-N Interzeption;0.236161197;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;HNO3-N Gasdep.;0.849059798;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;N-Deposition;23.94290303;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NH3-N Gasdep.;13.07582254;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NH4-N Gravitationsdep.;5.648009073;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NH4-N Interzeption;0.263559052;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NO2-N Gasdep.;1.426249878;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NO3-N Gravitationsdep.;2.463247698;kg-N/ha/a;Ostluft
+2020;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;geschätzt;NO3-N Interzeption;0.216954985;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;HNO3-N Gasdep.;0.881931713;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;N-Deposition;19.1832511;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH3-N Gasdep.;9.003554964;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH4-N Gravitationsdep.;5.137594439;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NH4-N Interzeption;0.278444093;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO2-N Gasdep.;1.268484103;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO3-N Gravitationsdep.;2.377862595;kg-N/ha/a;Ostluft
+2022;AEG;Knonau_Ägelsee;hoch;Hochmoor;5;5;10;gemessen;NO3-N Interzeption;0.235379192;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.9556876;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;26.84913845;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;14.58125907;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;4.457764213;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;0.597500678;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;3.201143786;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;2.5834607;kg-N/ha/a;Ostluft
+2019;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.472322395;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.849059798;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;N-Deposition;30.24783033;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NH3-N Gasdep.;16.99856931;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.648009073;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.527118104;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NO2-N Gasdep.;3.327916383;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.463247698;kg-N/ha/a;Ostluft
+2020;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.433909969;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.881931713;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;N-Deposition;24.08945301;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH3-N Gasdep.;11.70462145;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;5.137594439;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NH4-N Interzeption;0.556888185;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO2-N Gasdep.;2.95979624;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;2.377862595;kg-N/ha/a;Ostluft
+2022;AEG_Wald;Knonau_Ägelsee_Wald;hoch;Wald;5;10;20;gemessen;NO3-N Interzeption;0.470758384;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;HNO3-N Gasdep.;0.854470076;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;N-Deposition;23.76036124;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH3-N Gasdep.;12.53932089;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH4-N Gravitationsdep.;5.482089789;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH4-N Interzeption;0.294372346;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO2-N Gasdep.;1.688392878;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO3-N Gravitationsdep.;2.681406827;kg-N/ha/a;Ostluft
+2021;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO3-N Interzeption;0.220308437;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;HNO3-N Gasdep.;0.972951052;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;N-Deposition;25.14931846;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH3-N Gasdep.;14.13688091;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH4-N Gravitationsdep.;5.489210339;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NH4-N Interzeption;0.263981041;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO2-N Gasdep.;1.583655652;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO3-N Gravitationsdep.;2.484070599;kg-N/ha/a;Ostluft
+2022;NET;Neerach_Turpenlöcher;mittel;Flachmoor;15;15;30;geschätzt;NO3-N Interzeption;0.218568868;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;HNO3-N Gasdep.;0.808997592;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;N-Deposition;19.73140652;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH3-N Gasdep.;9.110666517;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.197663894;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH4-N Interzeption;0.287859265;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO2-N Gasdep.;1.534586322;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.578001434;kg-N/ha/a;Ostluft
+2021;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO3-N Interzeption;0.213631499;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;HNO3-N Gasdep.;0.932178702;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;N-Deposition;20.54664363;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH3-N Gasdep.;10.4157681;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH4-N Gravitationsdep.;4.954083865;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NH4-N Interzeption;0.26075932;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO2-N Gasdep.;1.438607191;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.329196151;kg-N/ha/a;Ostluft
+2022;OSD;Ossingen_Dachsenhuserriet;mittel;Flachmoor;15;15;25;geschätzt;NO3-N Interzeption;0.216050307;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.808997592;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;25.01221234;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;11.84386647;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.197663894;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.575718529;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;3.580701417;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.578001434;kg-N/ha/a;Ostluft
+2021;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.427262998;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.932178702;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;26.06632661;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;13.54049853;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;4.954083865;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.521518639;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;3.356750113;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.329196151;kg-N/ha/a;Ostluft
+2022;OSD_Wald;Ossingen_Dachsenhuserriet_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.432100613;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;HNO3-N Gasdep.;0.816728519;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;N-Deposition;17.62785342;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NH3-N Gasdep.;6.314416879;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NH4-N Gravitationsdep.;5.747731602;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NH4-N Interzeption;0.408982953;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NO2-N Gasdep.;0.883237373;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NO3-N Gravitationsdep.;3.156696585;kg-N/ha/a;Ostluft
+2019;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;gemessen;NO3-N Interzeption;0.300059512;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.712240017;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;N-Deposition;17.30205352;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;6.693687178;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.386382733;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.36354064;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;1.158228157;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.718574174;kg-N/ha/a;Ostluft
+2020;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.269400623;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.74188144;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;N-Deposition;17.87377914;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;6.658164931;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.80827306;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.392333748;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;1.056730226;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.910353943;kg-N/ha/a;Ostluft
+2022;TAB;Tablat_Risihölzli;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.306041787;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;HNO3-N Gasdep.;0.816728519;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;N-Deposition;26.88136541;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NH3-N Gasdep.;13.68123657;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NH4-N Gravitationsdep.;5.747731602;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NH4-N Interzeption;0.817965906;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NO2-N Gasdep.;2.060887203;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NO3-N Gravitationsdep.;3.156696585;kg-N/ha/a;Ostluft
+2019;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;gemessen;NO3-N Interzeption;0.600119024;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.712240017;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;27.2886007;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;14.50298888;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.386382733;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.72708128;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;2.702532365;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.718574174;kg-N/ha/a;Ostluft
+2020;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.538801246;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.74188144;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;27.74898739;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;14.42602402;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.80827306;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.784667495;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;2.465703861;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.910353943;kg-N/ha/a;Ostluft
+2022;TAB_Wald;Tablat_Risihölzli_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.612083574;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.724956251;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;N-Deposition;15.2876238;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;4.954413886;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.228512626;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.273410993;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;1.304956252;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.599121445;kg-N/ha/a;Ostluft
+2021;WAB;Wasterkingen_Büelhalden;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.20225235;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.724956251;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;23.28337835;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;10.73456342;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.228512626;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.546821987;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;3.044897922;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.599121445;kg-N/ha/a;Ostluft
+2021;WAB_Wald;Wasterkingen_Büelhalden_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.4045047;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;0.906985013;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;N-Deposition;17.01772179;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;5.466848244;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.286192677;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.406605511;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;1.842919278;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.804580855;kg-N/ha/a;Ostluft
+2021;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.303590211;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;HNO3-N Gasdep.;1.044030673;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;N-Deposition;17.23260471;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH3-N Gasdep.;6.02753147;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Gravitationsdep.;5.200267359;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NH4-N Interzeption;0.371903375;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO2-N Gasdep.;1.738541974;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Gravitationsdep.;2.558898197;kg-N/ha/a;Ostluft
+2022;WIH;Winterthur_Hoh Wülflingen;mittel;Trockenrasen;15;15;25;geschätzt;NO3-N Interzeption;0.291431665;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;0.906985013;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;26.56313283;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;11.84483786;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.286192677;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.813211022;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;4.300144983;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.804580855;kg-N/ha/a;Ostluft
+2021;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.607180421;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;HNO3-N Gasdep.;1.044030673;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;N-Deposition;27.24611577;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH3-N Gasdep.;13.05965152;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Gravitationsdep.;5.200267359;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NH4-N Interzeption;0.74380675;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO2-N Gasdep.;4.056597939;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Gravitationsdep.;2.558898197;kg-N/ha/a;Ostluft
+2022;WIH_Wald;Winterthur_Hoh Wülflingen_Wald;mittel;Wald;5;10;20;geschätzt;NO3-N Interzeption;0.58286333;kg-N/ha/a;Ostluft
