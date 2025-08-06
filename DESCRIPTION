@@ -1,18 +1,23 @@
 Package: airquality.data
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Air quality monitoring data within the Canton of Zurich, Switzerland
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Jörg", "Sintermann",
+      email = "luft@bd.zh.ch",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Provides air quality monitoring data within the Canton of Zurich, Switzerland, as yearly aggregates
+    from intercantonal air quality monitoring network "Ostluft" as well as from the national air quality monitoring network 
+    NABEL (BAFU & Empa). These data are used in the air quality analysis for the Canton of Zurich (GitHub repo awelZH/airquality).
+    The airquality.data package should be replaced by routines in the airquality project as soon as monitoing data are 
+    available via api.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 3.5)
+URL: https://github.com/awelZH/airquality.data
+BugReports: https://github.com/awelZH/airquality.data/issues
