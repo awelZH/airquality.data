@@ -21,3 +21,4 @@ Depends:
     R (>= 3.5)
 URL: https://github.com/awelZH/airquality.data
 BugReports: https://github.com/awelZH/airquality.data/issues
+RoxygenNote: 7.3.2
