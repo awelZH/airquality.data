@@ -1,7 +1,8 @@
 devtools::load_all()
 
-# compiling air quality monitoring data from several sites in the Canton of Zürich by Ostluft and NABEL monitoring networks
 
+# fundamentals for general air quality analysis
+# compiling air quality monitoring data from several sites in the Canton of Zürich by Ostluft and NABEL monitoring networks
 
 # read datasets ...
 # ---
@@ -59,6 +60,49 @@ data_monitoring_ndep <-
 # save datasets
 # ---
 usethis::use_data(data_monitoring_aq, overwrite = TRUE)
+
+
+
+
+
+
+# fundamentals for nitrogen deposition analysis:
+# compiling monitoring period data and site metadata in Ostluft by Ostluft and NABEL monitoring networks
+
+# read datasets ...
+# ---
+# => read ndep Ostluft & NABEL monitoring data based on sample periods (about one month)
+data_monitoring_ndep <- read_local_csv("inst/extdata/ostluft_ndep_periods.csv", locale = readr::locale(encoding = "UTF-8"))
+
+# => read ndep monitoring site metadata
+site_meta_ndep <- read_local_csv("inst/extdata/ostluft_site_ndep_metadata.csv", locale = readr::locale(encoding = "UTF-8"))
+
+
+# prepare datasets ...
+# ---
+# => restructure site metadata
+site_meta_ndep <-
+  site_meta_ndep |>
+  dplyr::rename(site = msNameAirMo)
+# TODO: write & apply function to derive Ostluft Standortklasse (as in report)
+
+# => msNameAirMo as primary key
+data_monitoring_ndep <-
+  site_meta_ndep |>
+  dplyr::select(site, fubcode) |>
+  dplyr::right_join(data_monitoring_ndep, by = "fubcode") |>
+  dplyr::mutate(
+    starttime = lubridate::fast_strptime(starttime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT+1", lt = FALSE),
+    endtime = lubridate::fast_strptime(endtime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT+1", lt = FALSE),
+    interval = "period"
+  ) |>
+  dplyr::mutate_if(is.character, factor) |>
+  dplyr::select(site, starttime, endtime, interval, parameter, value, unit, method, source)
+
+
+# save datasets
+# ---
+usethis::use_data(site_meta_ndep, overwrite = TRUE)
 usethis::use_data(data_monitoring_ndep, overwrite = TRUE)
 
 

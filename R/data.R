@@ -13,16 +13,32 @@
 
 
 
-#' Air quality monitoring data for reactive nitrogen deposition to sensitive ecosystems within the Canton of Zürich
+#' Air quality monitoring period-data for deriving reactive nitrogen deposition to sensitive ecosystems in Ostluft
 #'
-#' Pre-compiled air quality monitoring data as yearly values for reactive nitrogen deposition to sensitive ecosystems
-#' at sites in the Canton of Zürich, Switzerland,
-#' from the cantonal (Ostluft) air quality monitoring network.
+#' Concentration or deposition data, respectively, for NH3, NO2, HNO3, aerosol NH4+, aerosol NO3-, bulk deposition of NH4+, bulk deposition of NO3-
+#' at sites in the area of Ostluft, Switzerland,
+#' based on sampling periods at ecosystem reactive nitrogen deposition sites
+#' from the intercantonal (Ostluft) and national (NABEL) air quality monitoring networks.
 #'
 #' @format ## `data_monitoring_ndep`
 #' A tibble:
 #' ...
 #'
-#' @source <https://www.ostluft.ch/>
+#' @source <https://www.ostluft.ch/>, <https://www.bafu.admin.ch/bafu/de/home/themen/luft/zustand/daten/nationales-beobachtungsnetz-fuer-luftfremdstoffe--nabel-.html>
 "data_monitoring_ndep"
+
+
+
+#' Air quality monitoring site-metadata for deriving reactive nitrogen deposition to sensitive ecosystems in Ostluft
+#'
+#' metadata at ecosystem reactive nitrogen deposition sites in the area of Ostluft, Switzerland,
+#' from the intercantonal (Ostluft) and national (NABEL) air quality monitoring networks.
+#'
+#' @format ## `site_meta_ndep`
+#' A tibble:
+#' ...
+#'
+#' @source <https://www.ostluft.ch/>
+"site_meta_ndep"
+
 

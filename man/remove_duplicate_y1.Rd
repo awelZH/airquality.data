@@ -13,6 +13,7 @@ remove_duplicate_y1(data)
 Function to make sure that there are no duplicate measurements per site / year / unit for data with interval = y1 in format rOstluft::format_rolf()
 in case there have been NO2 monitor and passive sampler measurements (prefer monitor data = reference method);
 same for PM10 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method);
-same for PM2.5 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method)
+same for PM2.5 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method);
+in case there have been eBC/EC values for both the 10 and 2.5 PM-fraction - then prefer the PM2.5 fraction.
 }
 \keyword{internal}
