@@ -80,7 +80,7 @@ prepare_monitoring_ostluft_y1 <- function(data, keep_incomplete = FALSE, tz = "E
 
   data <- restructure_monitoring_ostluft(data, keep_incomplete = keep_incomplete, tz = tz, na.rm = TRUE)
 
-  # remove duplicate parameters in Ostluft data => use preferred method (NO2 passive samplers vs. monitor & PM10/PM2.5 HVS vs. monitor)
+  # remove duplicate parameters in Ostluft data => use preferred method (NO2 passive samplers vs. monitor & PM10/PM2.5 HVS vs. monitor & eBC/EC 2.5 vs 10)
   data <- remove_duplicate_y1(data)
 
   data <- dplyr::mutate(data, source = factor("ostluft"))

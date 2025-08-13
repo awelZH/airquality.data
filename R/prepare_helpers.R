@@ -126,7 +126,7 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
   # FIXME: kann das vereinfacht werden mit pivot_longer? sollte eigentlich möglich sein
   sites <- c(header[1, ], recursive = TRUE)
   sites <- rlang::set_names(sites, col_ids)
-  parameters <- c(header[which(dplyr::pull(header,1) %in% c("NO2","NO2_PS","O3","PM10","PM10h","PM2.5","PM2.5h")),], recursive = TRUE) #! ... Liste vervollständigen
+  parameters <- c(header[which(dplyr::pull(header,1) %in% c("NO2","NO2_PS","O3","PM10","PM10h","PM2.5","PM2.5h","EC10","EC2.5")),], recursive = TRUE) #! ... Liste vervollständigen
   parameters <- rlang::set_names(parameters, col_ids)
   intervals <- c(header[which(dplyr::pull(header,1) %in% c("y1","m1","d1","h1","min30","min10")),], recursive = TRUE)
   intervals <- rlang::set_names(intervals, col_ids)
@@ -163,7 +163,8 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
 #' Function to make sure that there are no duplicate measurements per site / year / unit for data with interval = y1 in format rOstluft::format_rolf()
 #' in case there have been NO2 monitor and passive sampler measurements (prefer monitor data = reference method);
 #' same for PM10 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method);
-#' same for PM2.5 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method)
+#' same for PM2.5 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method);
+#' in case there have been eBC/EC values for both the 10 and 2.5 PM-fraction - then prefer the PM2.5 fraction.
 #'
 #' @param data ...
 #'
@@ -197,17 +198,27 @@ remove_duplicate_y1 <- function(data){
     return(value)
   }
 
+  replace_ec <- function(parameter, value){
+    if (sum(c("EC10", "EC2.5") %in% parameter) == 2) {
+      if (!is.na(value[which(parameter == "EC10")])){
+        value[which(parameter == "EC10")] <- NA
+      }
+    }
+    return(value)
+  }
+
   data <-
     data |>
     dplyr::group_by(starttime, site, unit) |>
     dplyr::mutate(
       value = replace_no2_ps(parameter, value),
       value = replace_pm10(parameter, value),
-      value = replace_pm25(parameter, value)
+      value = replace_pm25(parameter, value),
+      value = replace_ec(parameter, value)
     ) |>
     dplyr::ungroup() |>
     dplyr::filter(!is.na(value)) |>
-    dplyr::mutate(parameter = dplyr::recode_factor(parameter, !!!c("NO2_PS" = "NO2", "PM10h" = "PM10", "PM2.5h" = "PM2.5")))
+    dplyr::mutate(parameter = dplyr::recode_factor(parameter, !!!c("NO2_PS" = "NO2", "PM10h" = "PM10", "PM2.5h" = "PM2.5", "EC10" = "eBC", "EC2.5" = "eBC")))
 
   return(data)
 }
