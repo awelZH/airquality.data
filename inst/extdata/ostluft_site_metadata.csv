@@ -1,246 +1,739 @@
-"msID","msNameAirMo","msCode_PS","msOrt","msOrtsteil","msKT","spID","spXCoord","spYCoord","spHoehe","spBisDatum","scID","scVerkehrslage","scSiedlungsgroesse","scLagerelativSiedlung","scSpezialinfo","scIDBStandorttyp","scIDBStationstyp","scIDBBebauung","scIDBVerkehr","scBisDatum"
-5,"Opf_Balsberg","8152_0010","Opfikon","Balsberg","ZH",436,2685351,1254830,430,,2025,"S32","H31","Randzonen","A2","Vorstädtisch","Verkehr","offen","&gt; 50&apos;000",
-10,"Wal_Dietlikonerstrasse","8304_0010","Wallisellen","Dietlikonerstrasse","ZH",446,2688071,1252880,470,,2027,"S0","H21","Randzonen","A2","Vorstädtisch","Hintergrund","offen","&lt; 5&apos;000",
-11,"Win_Obertor","8400_0010","Winterthur","Obertor","ZH",451,2697436,1261855,448,,2030,"S0","H23","Zentrum","A2","Städtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-12,"8000_0010","8000_0010","Zürich","Kaserne","ZH",665,2682451,1247990,409,,2127,"S0","H33","Zentrum","A2","Städtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-13,"Zch_Schimmelstrasse","8000_0031","Zürich","Schimmelstrasse","ZH",453,2681942,1247245,415,,2434,"S23","H33","Zentrum","A2","Städtisch","Verkehr","geschlossen","20&apos;000 - 50&apos;000",
-14,"Zch_Stampfenbachstrasse","8000_0020","Zürich","Stampfenbachstrasse","ZH",455,2683146,1249020,445,,2435,"S0","H33","Zentrum","A2","Städtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-15,"Zch_Schwamendingen","8000_0460","Zürich","Schwamendingen","ZH",454,2685101,1251305,430,,2279,"S33","H32","Wohngebiete","A2","Städtisch","Verkehr","geschlossen","&gt; 50&apos;000",
-19,"8164_0010","8164_0010","Bachs","Gemeindehausstrasse 8","ZH",19,2675386,1264265,460,,1315,"S0","H0",,,,,,,
-20,"Bac_Turm","8340_0010","Hinwil","Bachtel Turm","ZH",428,2709501,1239250,1145,,2021,"S00","H00","","A0","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-21,"8906_0010","8906_0010","Bonstetten","Alte Stationsstrasse 6","ZH",21,2677829,1241048,542,,1825,"S0","H12","Wohngebiete","A2",,,,,
-25,"8193_0010","8193_0010","Eglisau","Rheinstrasse","ZH",25,2681551,1270050,364,,1321,"S12","H13",,,,,,,
-27,"8245_0010","8245_0010","Feuerthalen","Zürcherstrasse 21","ZH",27,2690441,1283235,405,,1688,"S12","H13","Zentrum",,,,,,
-29,"8627_0010","8627_0010","Grüningen","Chugelgasse","ZH",29,2700158,1237937,488,,1325,"S0","H13",,,,,,,
-30,"Hed_Affolternstrasse","8908_0010","Hedingen","Affolternstrasse 21","ZH",30,2676457,1238755,502,,1826,"S12","H12","Wohngebiete","A3",,,,,
-31,"8442_0010","8442_0010","Hettlingen","Alte Schaffhauserstrasse","ZH",355,2695621,1267010,441,,1327,"S0","H13",,,,,,,
-33,"8181_0010","8181_0010","Höri","Pflanzgarten","ZH",33,2679447,1262844,462,,1329,"S00","H00",,"A1",,,,,
-34,"8308_0010","8308_0010","Illnau-Effretikon","Örmis","ZH",34,2695400,1251864,522,,1330,"S00","H00",,,,,,,
-35,"8302_0010","8302_0010","Kloten","Wilder Mann","ZH",35,2686136,1256500,435,,1331,"S23","H23",,,,,,,
-36,"8934_0010","8934_0010","Knonau","Uttenbergstrasse 1","ZH",36,2677521,1230803,431,,1827,"S0","H13","Zentrum","A2",,,,,
-38,"8706_0010","8706_0010","Meilen","Justrain 62","ZH",38,2691951,1236090,450,,1334,"S0","H12",,"A1",,,,,
-40,"8153_0010","8153_0010","Rümlang","Leuchtmast Nr 23","ZH",367,2682134,1256745,445,,1336,"S0","H11",,,,,,,
-41,"8630_0010","8630_0010","Rüti","Rothensteinstrasse","ZH",41,2707961,1234980,512,,1337,"S0","H11",,"A1",,,,,
-43,"8488_0010","8488_0010","Turbenthal","Lindenweg 1","ZH",43,2706353,1254882,551,,1339,"S0","H13",,,,,,,
-46,"8610_0010","8610_0010","Uster","Stadthaus","ZH",46,2696738,1244952,464,,1342,"S0","H23",,,,,,,
-48,"8820_0010","8820_0010","Wädenswil","Park","ZH",48,2693326,1231790,417,,1689,"S00","H13","Zentrum",,,,,,
-49,"8907_0010","8907_0010","Wettswil","Golfplatz","ZH",49,2677210,1243041,543,,1824,"S21","H00",,"A3",,,,,
-52,"8126_0010","8126_0010","Zumikon","Morgental 28","ZH",52,2689026,1243595,647,,1348,"S0","H12",,,,,,,
-53,"8400_0020","8400_0020","Winterthur","Sägeweg","ZH",53,2699862,1260009,458,,1349,"S00","H21",,,,,,,
-54,"8400_0030","8400_0030","Winterthur","Breitestrasse 148","ZH",54,2696487,1260734,463,,1350,"S12","H21",,,,,,,
-55,"8400_0050","8400_0050","Winterthur","Güterstrasse 1","ZH",55,2695801,1260700,446,,1351,"S0","H21",,,,,,,
-56,"8400_0060","8400_0060","Winterthur","Schlosstalstrasse","ZH",56,2694501,1261925,425,,1352,"S12","H21",,,,,,,
-57,"8400_0070","8400_0070","Winterthur","Schulhaus Hohfurri","ZH",57,2694622,1262779,419,,1353,"S0","H21",,,,,,,
-58,"8400_0080","8400_0080","Winterthur","Schulhaus Langwiesen","ZH",58,2694126,1263250,421,,1354,"S0","H21",,,,,,,
-59,"8400_0090","8400_0090","Winterthur","Schulhaus Rychenberg","ZH",59,2698881,1262648,485,,1355,"S0","H21",,,,,,,
-60,"8400_0100","8400_0100","Winterthur","Sulzerallee","ZH",60,2699747,1262149,460,,1356,"S11","H21",,,,,,,
-61,"8400_0040","8400_0040","Winterthur","Technikumstrasse 79","ZH",61,2696973,1261613,447,,1357,"S23","H23",,,,,,,
-62,"8000_0080","8000_0080","Zürich","Bellevue","ZH",62,2683576,1246775,410,,1358,"S22","H33","Zentrum",,,,,,
-63,"8000_0300","8000_0300","Zürich","Birchstrasse 579","ZH",63,2683286,1253365,435,,1359,"S0","H32","Wohngebiete",,,,,,
-64,"8000_0280","8000_0280","Zürich","Eichbühlstrasse 43","ZH",64,2680891,1248575,410,,1360,"S00","H32","Wohngebiete",,,,,,
-65,"8000_0390","8000_0390","Zürich","Forchstrasse 145","ZH",65,2684961,1246140,440,,1361,"S12","H33","Zentrum",,,,,,
-66,"8000_0400","8000_0400","Zürich","Franklinplatz","ZH",66,2683421,1251580,445,,1362,"S12","H32","Wohngebiete",,,,,,
-67,"8000_0060","8000_0060","Zürich","Gerhardstrasse","ZH",67,2681916,1247180,415,,1363,"S0","H33","Zentrum",,,,,,
-68,"8000_0370","8000_0370","Zürich","Schulhaus Hirzenbach","ZH",68,2686701,1250900,430,,1364,"S00","H31","Randzonen",,,,,,
-69,"8000_0360","8000_0360","Zürich","In Böden 123","ZH",69,2680901,1252540,460,,1365,"S0","H32","Wohngebiete",,,,,,
-70,"8000_0100","8000_0100","Zürich","Meientalstrasse","ZH",70,2678486,1248885,415,,1366,"S0","H31","Randzonen",,,,,,
-71,"8000_0320","8000_0320","Zürich","Josefstrasse 175","ZH",71,2682051,1248830,405,,1367,"S00","H33","Zentrum",,,,,,
-72,"8000_0070","8000_0070","Zürich","Paradeplatz","ZH",72,2683116,1247165,415,,1368,"S0","H33","Zentrum",,,,,,
-73,"8000_0090","8000_0090","Zürich","Rosengarten","ZH",73,2682101,1249920,430,,1369,"S22","H33","Zentrum",,,,,,
-74,"Zch_Heubeeribüel","8000_0270","Zürich","Heubeeribüel","ZH",452,2685126,1248460,610,,2436,"S00","H32","Wohngebiete","A2","Vorstädtisch","Hintergrund","offen","&lt; 5&apos;000",
-76,"8000_0310","8000_0310","Zürich","Schulhaus Seefeld","ZH",76,2684361,1245800,415,,1372,"S0","H33","Zentrum",,,,,,
-77,"8000_0350","8000_0350","Zürich","Schulhaus Vogtsrain","ZH",77,2680081,1251965,495,,1373,"S0","H32","Wohngebiete",,,,,,
-78,"8000_0380","8000_0380","Zürich","Schweighofstrasse 367","ZH",78,2680341,1246660,450,,1374,"S12","H32","Wohngebiete",,,,,,
-79,"8000_0110","8000_0110","Zürich","Wachtelstrasse","ZH",79,2682211,1244125,455,,1375,"S0","H32","Wohngebiete",,,,,,
-80,"8000_0340","8000_0340","Zürich","Strandbad Mythenquai","ZH",80,2682801,1245500,410,,1376,"S00","H33","Zentrum",,,,,,
-238,"Spr_Willenacher","8957_0010","Spreitenbach","Willenacher","ZH",238,2670581,1252800,,,1534,,,,,,,,,
-239,"Die_Industriestrasse","8953_0010","Dietikon","Industriestrasse","ZH",239,2672291,1252360,,,1535,,,,,,,,,
-385,"Wld_Höhenklinik","8340_0020","Wald","Höhenklinik","ZH",821,2713780,1237408,910,,2026,"S0","H0","","A1","Ländlich","Hintergrund","offen","&lt; 5&apos;000",
-386,"8308_0020","8308_0020","Illnau-Effretikon","Langhaag","ZH",368,2693965,1254909,527,,1729,"S32","H0",,,,,,,
-395,"Wet_Filderen","8907_0030","Wettswil","Filderen","ZH",448,2677330,1243853,528,,2028,"S21","H00","","A2","Ländlich","Hintergrund","offen","20&apos;000 - 50&apos;000",
-396,"Wet_Weieraecher","8907_0040","Wettswil","Weieraecher","ZH",449,2678079,1243686,550,,2029,"S0","H11","Randzonen","A1","Ländlich","Hintergrund","einseitig offen","&lt; 5&apos;000",
-401,"8400_0110","8400_0110","Winterthur","Polizeiposten Ohringen","ZH",398,2696211,1264320,460,,1721,"S11","H21","Randzonen","A2",,,,,
-409,"8000_0790","8000_0790","Zürich","Rosengartenstrasse Einfahrt","ZH",406,2682093,1249943,430,,1727,"S23","H33","Zentrum",,,,,,
-428,"8903_0100","8903_0100","Birmensdorf","Vorder Altenberg 187","ZH",503,2674342,1244554,520,,1962,"S11","H00",,"A1",,,,,
-430,"8903_0040","8903_0040","Birmensdorf","Hochspannungsmast","ZH",497,2674846,1245610,468,,1958,"S0","H11",,"A3",,,,,
-434,"8903_0060","8903_0060","Birmensdorf","Breitestrasse 13","ZH",499,2675447,1244925,476,,1959,"S0","H11",,"A3",,,,,
-435,"8903_0080","8903_0080","Birmensdorf","Kreisel Arni-Aesch-Lieli","ZH",501,2675493,1244649,485,,1961,"S11","H11",,"A1",,,,,
-436,"8910_0030","8910_0030","Affoltern a. A.","Heimpelstrasse","ZH",516,2675701,1236793,493,,1973,"S0","H0",,"A2",,,,,
-437,"8903_0070","8903_0070","Birmensdorf","Riedtstrasse 14","ZH",500,2675827,1244852,495,,1960,"S0","H12",,"A3",,,,,
-439,"8903_0030","8903_0030","Birmensdorf","Risistrasse 24b","ZH",496,2676007,1245899,529,,1957,"S12","H12",,"A1",,,,,
-441,"8903_0020","8903_0020","Birmensdorf","Ringstrasse 8","ZH",495,2676768,1245919,560,,1956,"S12","H11",,"A1",,,,,
-442,"8910_0020","8910_0020","Affoltern a. A.","Alte Dorfstrasse 21","ZH",858,2676819,1236905,489,,2327,"S13","H13","Zentrum","A2","Vorstädtisch","Verkehr","geschlossen","5&apos;000 - 20&apos;000",
-443,"8932_0020","8932_0020","Mettmenstetten","Untere Bahnhofsstrasse 28","ZH",519,2677062,1233341,470,,1974,"S12","H11",,"A2",,,,,
-444,"8903_0010","8903_0010","Birmensdorf","Schwandenweg","ZH",494,2677281,1245278,505,,1955,"S0","H0",,"A3",,,,,
-445,"8906_0020","8906_0020","Bonstetten","Chrüzacherweg 2","ZH",512,2677434,1241118,535,,1970,"S11","H11",,"A3",,,,,
-446,"8907_0050","8907_0050","Wettswil","Bahndamm","ZH",528,2677548,1243795,527,,1979,"S00","H00",,"A3",,,,,
-448,"8907_0120","8907_0120","Wettswil","Heidenchilenstrasse 1","ZH",526,2677641,1244480,556,,1978,"S0","H11",,"A3",,,,,
-450,"8934_0030","8934_0030","Knonau","Brücke","ZH",522,2677823,1230975,434,,1983,"S21","H11","Randzonen","A2",,,,,
-451,"8907_0070","8907_0070","Wettswil","In der Rehweid","ZH",507,2677889,1244340,580,,1966,"S0","H11",,"A3",,,,,
-452,"8907_0060","8907_0060","Wettswil","Rastbank","ZH",529,2677897,1243727,538,,1980,"S00","H00",,"A3",,,,,
-454,"8142_0010","8142_0010","Uitikon","Zopfstrasse","ZH",504,2677921,1245655,614,,1963,"S0","H11",,"A1",,,,,
-456,"8906_0030","8906_0030","Bonstetten","Schule im Bruggen","ZH",524,2678111,1241880,542,,1976,"S0","H12",,"A3",,,,,
-458,"8907_0100","8907_0100","Wettswil","Poststrasse 1","ZH",510,2678205,1243622,560,,1982,"S12","H13","Zentrum","A3",,,,,
-459,"8907_0080","8907_0080","Wettswil","Strumbergweg 17","ZH",508,2678296,1244043,608,,1967,"S00","H11",,"A3",,,,,
-460,"8907_0090","8907_0090","Wettswil","Junggrüststrasse 12","ZH",509,2678729,1243018,631,,1968,"S0","H11",,"A1",,,,,
-461,"8143_0010","8143_0010","Stallikon","Loomattstrasse 1","ZH",505,2679066,1243772,557,,1981,"S11","H11","Randzonen","A3",,,,,
-462,"8143_0020","8143_0020","Stallikon","Chilegass","ZH",506,2679508,1242234,554,,1965,"S12","H11",,"A3",,,,,
-463,"8910_0010","8910_0010","Affoltern a. A.","Sandacherstrasse 22","ZH",514,2674895,1238216,476,,1971,"S0","H0",,"A1",,,,,
-464,"8907_0020","8907_0020","Wettswil","Eichholzkamin","ZH",525,2677695,1244650,584,,1977,"S00","H00",,"A1",,,,,
-501,"Kno_Oberdorfstrasse","8934_0050","Knonau","Oberdorfstrasse","ZH",573,2677585,1230948,432,,2022,"S0","H12","Wohngebiete","A2",,,,,
-544,"Opf_Tenniscenter","8152_0070","Opfikon","Tenniscenter","ZH",901,2685570,1253830,431,,2376,"S31","H21","Randzonen","A2","Vorstädtisch","Verkehr","offen","&gt; 50&apos;000",
-557,"Wad_Spital","8340_0310","Wald","Spital","ZH",903,2711161,1237318,642,,2378,"S0","H11","Randzonen","A1","Ländlich","Hintergrund","offen","&lt; 5&apos;000",
-562,"Zch_SchwamAlt","8000_0050","Zürich","Schwamendingen Schulhaus Saatlen","ZH",75,2684921,1251510,430,,1371,"S00","H32","Wohngebiete",,,,,,
-563,"Zch_Rosengartenstrasse","8000_1720","Zürich","Rosengartenstrasse","ZH",578,2682096,1249940,433,,2437,"S33","H33","Zentrum","A2","Städtisch","Verkehr","geschlossen","&gt; 50&apos;000",
-566,"Obf_Gugelrebenstrasse","8912_0050","Obfelden","Gugelrebenstrasse","ZH",582,2674772,1235944,474,,2024,"S0","H12","Wohngebiete","A1","Ländlich","Verkehr","einseitig offen","&lt; 5&apos;000",
-603,"8000_0130","8000_0130","Zürich","Limmatquai 18","ZH",621,2683468,1247065,408,,2076,"S12","H33",,"A2",,,,,
-616,"8000_0990","8000_0990","Zürich","Turbinenplatz","ZH",622,2681427,1249307,403,,2077,"S13","H33",,"A2",,,,,
-617,"8104_0010","8104_0010","Weiningen","Chübelackerstrasse","ZH",616,2675801,1252310,426,,2071,"S12","H12",,"A2",,,,,
-618,"8104_0020","8104_0020","Weiningen","Chalofenstrasse 9","ZH",615,2675936,1252300,439,,2070,"S12","H12",,"A2",,,,,
-619,"8104_0030","8104_0030","Weiningen","Grossächerweg 4","ZH",617,2675485,1252195,411,,2072,"S12","H11",,"A2",,,,,
-620,"8104_0040","8104_0040","Weiningen","Restaurant Winzerhaus","ZH",618,2674975,1252738,450,,2073,"S11","H11",,"A2",,,,,
-622,"8105_0020","8105_0020","Regensdorf","Affolternstrasse 313","ZH",629,2678821,1253360,455,,2088,"S11","H0","","A2",,,,,
-623,"8105_0030","8105_0030","Regensdorf","Im Vogelsang","ZH",607,2678821,1253360,445,,2062,"S11","H11",,"A2",,,,,
-625,"8152_0020","8152_0020","Opfikon","Frohdörflistrasse","ZH",603,2684333,1253656,437,,2058,"S23","H13",,"A2",,,,,
-626,"8152_0060","8152_0060","Opfikon","Kreisel Glatthof","ZH",604,2685161,1254405,426,,2059,"S23","H23",,"A2",,,,,
-629,"8174_0010","8174_0010","Stadel","Grundstrasse","ZH",669,2677921,1265241,426,,2130,"S00","H00   ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-632,"8194_0010","8194_0010","Hüntwangen","Steinacker","ZH",670,2678909,1271880,399,,2131,"S00","H0     ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-702,"8308_0030","8308_0030","Illnau-Effretikon","Wildert","ZH",672,2696535,1250584,543,,2133,"S0","H00   ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-715,"8400_0120","8400_0120","Winterthur","Bahnmeisterweg","ZH",620,2696628,1261540,437,,2075,"S13","H23",,"A2",,,,,
-716,"8400_0130","8400_0130","Winterthur","Eishalle","ZH",652,2698710,1261365,450,,2111,"S11","H22","Wohngebiete","A2",,,,,
-717,"8400_0140","8400_0140","Winterthur","Tenniscenter","ZH",661,2699619,1260950,453,,2120,"S11","H23","Zentrum","A2",,,,,
-718,"8400_0150","8400_0150","Winterthur","Holzwingertstrasse","ZH",654,2700753,1261981,473,,2113,"S0","H21","Randzonen","A2",,,,,
-719,"8400_0160","8400_0160","Winterthur","Schiessstand Ohrbühl","ZH",659,2699795,1261718,457,,2118,"S11","H23","Zentrum","A2",,,,,
-720,"8400_0170","8400_0170","Winterthur","Landenbergstrasse","ZH",656,2698402,1262227,507,,2115,"S00","H21","Randzonen","A2",,,,,
-721,"8400_0180","8400_0180","Winterthur","Sulzerallee 3","ZH",660,2699070,1261922,453,,2119,"S0","H23","Zentrum","A2",,,,,
-722,"8400_0190","8400_0190","Winterthur","Ida-Sträuli-Strasse","ZH",655,2700037,1262190,457,,2114,"S0","H21","Randzonen","A2",,,,,
-723,"8400_0200","8400_0200","Winterthur","Ohrbühlstrasse 93","ZH",657,2700203,1262318,460,,2116,"S0","H22","Wohngebiete","A2",,,,,
-724,"8400_0210","8400_0210","Winterthur","Rümikerstrasse 16","ZH",658,2700086,1262418,460,,2117,"S0","H22","Wohngebiete","A2",,,,,
-725,"8400_0220","8400_0220","Winterthur","Eulachpark","ZH",653,2699779,1262427,459,,2112,"S00","H21","Randzonen","A2",,,,,
-726,"8400_0230","8400_0230","Winterthur","Werkhof Wülflingen","ZH",662,2695728,1261118,436,,2121,"S11","H23","Zentrum","A2",,,,,
-727,"8400_0240","8400_0240","Winterthur","Bahnhof Neuhegi","ZH",651,2700257,1262102,460,,2110,"S0","H21","Randzonen","A2",,,,,
-728,"8414_0010","8414_0010","Buch am Irchel","Tächlishalden","ZH",673,2689194,1268759,453,,2134,"S00","H00   ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-733,"8463_0020","8463_0020","Benken","Dorfplatz","ZH",625,2691266,1278780,420,,2085,"S11","H11","Randzonen","A2",,,,,
-734,"8477_0020","8477_0020","Oberstammheim","Ölenberg","ZH",674,2702813,1276463,459,,2135,"S0","H00   ",,"A1     ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-750,"8617_0010","8617_0010","Mönchaltdorf","Altorfwisen","ZH",676,2697610,1239954,445,,2137,"S00","H00   ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-755,"8700_0010","8700_0010","Küsnacht","Küsnachter Berg","ZH",677,2690876,1241451,658,,2138,"S0","H0     ",,"A1     ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-773,"8824_0010","8824_0010","Schönenberg","Oberhüsli","ZH",678,2691695,1226810,730,,2139,"S0","H00   ",,"A1     ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-780,"8903_0050","8903_0050","Birmensdorf","Bachstrasse","ZH",592,2675438,1245168,482,,2047,"S13","H13",,"A2",,,,,
-781,"8903_0090","8903_0090","Birmensdorf","Am Berg 193","ZH",591,2674830,1244774,504,,2046,"S11","H11",,"A2",,,,,
-784,"8907_0110","8907_0110","Wettswil","Moosstrasse","ZH",619,2678118,1243249,538,,2074,"S12","H12",,"A2",,,,,
-785,"8908_0020","8908_0020","Hedingen","Zentrum","ZH",595,2676390,1239097,510,,2050,"S13","H13",,"A2",,,,,
-787,"8912_0010","8912_0010","Obfelden","Muristrasse 5","ZH",602,2675220,1235885,480,,2057,"S12","H11",,"A2",,,,,
-788,"8912_0020","8912_0020","Obfelden","Ecke Schürweidstrasse 4","ZH",601,2674815,1236010,475,,2056,"S11","H11",,"A2",,,,,
-789,"8912_0030","8912_0030","Obfelden","Dorfstrasse 63","ZH",600,2674465,1235108,440,,2055,"S12","H11",,"A2",,,,,
-790,"8912_0040","8912_0040","Obfelden","Sennhüttenstrasse 18","ZH",628,2674703,1235967,470,,2087,"S12","H11","Randzonen","A2",,,,,
-791,"8913_0010","8913_0010","Ottenbach","Widenospen 3","ZH",606,2673549,1236565,427,,2061,"S12","H11",,"A2",,,,,
-792,"8913_0020","8913_0020","Ottenbach","Dorfplatz","ZH",623,2673064,1237168,415,,2060,"S13","H13",,"A2",,,,,
-793,"8932_0010","8932_0010","Mettmenstetten","Sunneggstrasse 12","ZH",599,2675905,1234754,469,,2054,"S21","H0",,"A2",,,,,
-794,"8932_0030","8932_0030","Mettmenstetten","Gemeindehaus","ZH",598,2677589,1233010,472,,2053,"S13","H13",,"A2",,,,,
-795,"8926_0010","8926_0010","Kappel am Albis","Uerzlikon","ZH",679,2680067,1230326,527,,2140,"S00","H00   ",,"A2    ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-797,"8934_0020","8934_0020","Knonau","Chamstrasse 42","ZH",596,2677926,1230180,441,,2051,"S32","H11",,"A2",,,,,
-798,"8934_0040","8934_0040","Knonau","Waldrand","ZH",597,2677911,1231319,456,,2052,"S11","H11",,"A2",,,,,
-966,"Bac_Sennenberg","8340_0030","Bachtel","Sennenberg","ZH",590,2710341,1239600,930,,2045,"S00","H0     ",,"A1     ","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1061,"Sch_Güterstrasse","8952_0010","Schlieren","Güterstrasse","ZH",586,2676061,1250243,392,,2041,"S0","H12","Wohngebiete","A2","Vorstädtisch","Industrie","einseitig offen","&lt; 5&apos;000",
-1063,"Wez_Turnhallenstrasse","8620_0020","Wetzikon","Turnhallenstrasse","ZH",588,2703076,1242612,544,,2040,"S0","H22","Wohngebiete","A2","Vorstädtisch","Hintergrund","einseitig offen","&lt; 5&apos;000",
-1064,"Win_Veltheim","8400_0250","Winterthur","Veltheim","ZH",589,2696556,1262725,440,,2431,"S0","H22","Wohngebiete","A2","Vorstädtisch","Hintergrund","einseitig offen","&lt; 5&apos;000",
-1069,"8913_0030","8913_0030","Ottenbach","Dorfplatz Lichtsignal","ZH",718,2673044,1237170,415,,2180,"S12","H13    ",,"A2    ",,,,,
-1070,"8952_0020","8952_0020","Schlieren","Bernstrasse","ZH",717,2676203,1250677,392,,2179,"S21","H12    ",,"A2    ",,,,,
-1071,"8952_0030","8952_0030","Schlieren","Mühleackerstrasse 13","ZH",716,2676056,1249768,405,,2178,"S0","H12    ",,"A2    ",,,,,
-1072,"8952_0040","8952_0040","Schlieren","Sportanlage Zelgli","ZH",715,2675988,1251041,392,,2177,"S0","H11    ",,"A2    ",,,,,
-1073,"8952_0050","8952_0050","Schlieren","Stadtpark","ZH",714,2676062,1250053,395,,2176,"S0","H13    ",,"A2    ",,,,,
-1074,"8952_0060","8952_0060","Schlieren","Zürcherstrasse 4","ZH",713,2676227,1250109,395,,2175,"S22","H13    ",,"A2    ",,,,,
-1075,"8620_0030","8620_0030","Wetzikon","Bahnhofstrasse","ZH",712,2702522,1241986,530,,2174,"S21","H23   ",,"A2    ",,,,,
-1076,"8620_0040","8620_0040","Wetzikon","Hans Georg Nägelistrasse","ZH",711,2702408,1242324,551,,2173,"S0","H22",,"A2    ",,,,,
-1077,"8620_0050","8620_0050","Wetzikon","Legionärsweg","ZH",710,2703898,1243206,562,,2172,"S11","H22   ",,"A2    ",,,,,
-1078,"8620_0060","8620_0060","Wetzikon","Spitalstrasse","ZH",709,2702701,1241984,531,,2171,"S11","H22   ",,"A2    ",,,,,
-1079,"8620_0070","8620_0070","Wetzikon","Stadthaus","ZH",708,2703018,1242737,545,,2170,"S12","H23   ",,"A2    ",,,,,
-1082,"8308_0040","8308_0040","Illnau-Effretikon","Chrützegg","ZH",720,2696535,1251183,540,,2182,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1084,,,"Zürich-Kaserne","NABEL","ZH",723,2682450,1247990,409,,2185,,,,,,,,,
-1087,,,"Dübendorf","NABEL","ZH",726,2688675,1250900,432,,2188,,,,,,,,,
-1091,"Opf_Glattpark","8152_0120","Opfikon","Glattpark","ZH",732,2684665,1253012,426,,2193,"S0","H22","Wohngebiete","A2","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1096,"8152_0110","8152_0110","Opfikon","Boulevard Lilienthal 51","ZH",741,2684558,1252782,427,,2203,"S0","H22","Wohngebiete","A2","Städtisch","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1097,"8152_0100","8152_0100","Opfikon","Dufauxstrasse 54","ZH",740,2684759,1252838,425,,2202,"S0","H22","Wohngebiete","A2","Städtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-1098,"8152_0080","8152_0080","Opfikon","Earhart-Strasse 5","ZH",739,2684950,1253189,425,,2201,"S0","H22","Wohngebiete","A2","Städtisch","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1099,"8152_0090","8152_0090","Opfikon","Hamilton-Promenade","ZH",738,2684972,1253005,424,,2200,"S0","H22","Wohngebiete","A2","Städtisch","Hintergrund","einseitig offen","&lt; 5&apos;000",
-1104,"Wei_Nägelseestrasse","8104_0050","Weiningen","Nägelseestrasse","ZH",747,2675817,1252111,418,,2207,"S31","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1107,"Hor_Sekundarschule","8810_0030","Horgen","Sekundarschule","ZH",748,2687799,1234471,477,,2210,"S0","H13","Zentrum","A1","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1108,"Win_St.Gallerstrasse","8400_0270","Winterthur","St. Gallerstrasse","ZH",749,2697547,1261627,444,,2211,"S22","H23","Zentrum","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1109,"8103_0030","8103_0030","Unterengstringen","Büelstrasse","ZH",750,2675888,1251928,430,,2212,"S0","H11","Randzonen","A2",,,,,
-1110,"8103_0020","8103_0020","Unterengstringen","Chriesihogerweg","ZH",751,2675630,1252016,420,,2213,"S31","H11","Randzonen","A2",,,,,
-1112,"8134_0030","8134_0030","Adliswil","Dietlimoos","ZH",758,2682502,1241706,469,,2218,"S11","H11","Randzonen","A2","Vorstädtisch","Verkehr","offen","5&apos;000 - 20&apos;000",
-1114,"8810_0060","8810_0060","Horgen","Drusbergstrasse","ZH",760,2687706,1234339,490,,2220,"S0","H12","Wohngebiete","A1","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1115,"8810_0050","8810_0050","Horgen","Kummrütistrasse","ZH",761,2687559,1234159,520,,2221,"S0","H12","Wohngebiete","A1","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1116,"8810_0040","8810_0040","Horgen","Mythenstrasse","ZH",762,2687443,1234084,550,,2222,"S22","H11","Randzonen","A1","Städtisch","Verkehr","offen","5&apos;000 - 20&apos;000",
-1117,"8810_0080","8810_0080","Horgen","Schärbächlistrasse","ZH",763,2688024,1234836,420,,2223,"S12","H12","Wohngebiete","A1","Städtisch","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1118,"8810_0070","8810_0070","Horgen","Steinbruchstrasse","ZH",764,2687955,1234591,450,,2224,"S0","H13","Zentrum","A1","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1119,"8102_0010","8102_0010","Oberengstringen","Zürcherstrasse 21","ZH",765,2678522,1251005,428,,2225,"S12","H22","Wohngebiete","A2","Städtisch","Verkehr","offen","5&apos;000 - 20&apos;000",
-1136,"8105_0050","8105_0050","Regensdorf","Dorfstrasse","ZH",782,2678415,1254834,442,,2304,"S0","H12","Wohngebiete","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1137,"8105_0040","8105_0040","Regensdorf","Weiningerstrasse","ZH",783,2677188,1253459,492,,2243,"S0","H11","Randzonen","A2","Vorstädtisch","Verkehr","keine","5&apos;000 - 20&apos;000",
-1139,"8400_0260","8400_0260","Winterthur","Frauenfelderstrasse","ZH",785,2699387,1262562,456,,2245,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","offen","20&apos;000 - 50&apos;000",
-1140,"8400_0360","8400_0360","Winterthur","Kanzleistrasse","ZH",786,2699708,1259976,464,,2246,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1141,"8400_0280","8400_0280","Winterthur","Lindstrasse","ZH",787,2696734,1262854,442,,2247,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1142,"8400_0370","8400_0370","Winterthur","Metzggasse","ZH",788,2697128,1261699,441,,2248,"S0","H23","Zentrum","A2","Städtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-1143,"8400_0340","8400_0340","Winterthur","Mühlestrasse","ZH",789,2697556,1261462,443,,2249,"S00","H22","Wohngebiete","A2","Vorstädtisch","Hintergrund","offen","&lt; 5&apos;000",
-1144,"8400_0290","8400_0290","Winterthur","Neuwiesenstrasse","ZH",790,2696677,1262197,436,,2250,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1145,"8400_0330","8400_0330","Winterthur","St. Gallerstrasse 2","ZH",791,2697547,1261637,444,,2251,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1146,"8400_0350","8400_0350","Winterthur","St. Gallerstrasse 39","ZH",792,2697924,1261652,446,,2252,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1147,"8400_0320","8400_0320","Winterthur","Terrassenweg","ZH",793,2693765,1263594,426,,2253,"S0","H21","Randzonen","A2","Vorstädtisch","Hintergrund","offen","&lt; 5&apos;000",
-1148,"8400_0310","8400_0310","Winterthur","Wülflingerstrasse 393","ZH",794,2693540,1263540,409,,2254,"S22","H21","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1149,"8400_0300","8400_0300","Winterthur","Zürcherstrasse","ZH",795,2696252,1261509,439,,2255,"S22","H22","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1151,"Mei_Bezirksgericht","8706_0020","Meilen","Bezirksgericht","ZH",797,2691909,1235880,423,,2257,"S0","H13","Zentrum","A2","Städtisch","Hintergrund","offen","5&apos;000 - 20&apos;000",
-1153,"Bul_Stadthalle","8180_0020","Bülach","Stadthalle","ZH",808,2682598,1263398,406,,2263,"S0","H12","Wohngebiete","A2","Vorstädtisch","Hintergrund","einseitig offen","&lt; 5&apos;000",
-1154,"Klo_Gerlisbergstrasse","8302_0060","Kloten","Gerlisbergstrasse","ZH",906,2686430,1256533,440,,2271,"S0","H13","Zentrum","A2","Städtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1155,"8303_0010","8303_0010","Bassersdorf","Bachstrasse","ZH",804,2689307,1255529,455,,2260,"S12","H12","Wohngebiete","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1156,"8180_0050","8180_0050","Bülach","Allmendstrasse","ZH",805,2682112,1263005,434,,2261,"S22","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1157,"8180_0030","8180_0030","Bülach","Gewerbe Feldermösli","ZH",806,2682973,1262784,414,,2262,"S0","H12","Wohngebiete","A2","Vorstädtisch","Industrie","einseitig offen","&lt; 5&apos;000",
-1158,"8180_0040","8180_0040","Bülach","Glashütte","ZH",809,2682819,1264408,433,,2264,"S0","H12","Wohngebiete","A2","Vorstädtisch","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1159,"8180_0060","8180_0060","Bülach","Lindenhof","ZH",810,2682816,1263794,430,,2265,"S0","H13","Zentrum","A2","Vorstädtisch","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1160,"8953_0030","8953_0030","Dietikon","Badenerstrasse","ZH",811,2672485,1250960,391,,2266,"S12","H12","Wohngebiete","A2","Städtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1161,"8305_0010","8305_0010","Dietlikon","Gemeindehaus","ZH",812,2688998,1253335,402,,2267,"S12","H13","Zentrum","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1162,"8604_0010","8604_0010","Hegnau","Kreisel","ZH",813,2693508,1249425,459,,2268,"S12","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1163,"8913_0040","8913_0040","Ottenbach","Bibelaas","ZH",814,2672489,1236903,383,,2270,"S0","H00",,"A2","Ländlich","Hintergrund","offen","&lt; 5&apos;000",
-1181,"8306_0010","8306_0010","Brüttisellen","Haldenstrasse","ZH",856,2689893,1252918,443,,2326,"S0","H12","Wohngebiete","A2","Vorstädtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1182,"8157_0010","8157_0010","Dielsdorf","Wehntalerstrasse","ZH",855,2676479,1259551,455,,2325,"S12","H13","Zentrum","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1189,"Klo_Feld","8302_0070","Kloten","Feld","ZH",968,2686370,1256639,440,,2464,"S0","H22","Wohngebiete","A2","Vorstädtisch","Hintergrund","keine","&lt; 5&apos;000",
-1190,"8934_0060","8934_0060","Knonau","Ägelsee","ZH",847,2675681,1232590,447,,2317,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1193,"8330_0020","8330_0020","Pfäffikon","Rappengasse","ZH",844,2701487,1246996,384,,2314,"S0","H13","Zentrum","A2","Vorstädtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-1197,"8488_0020","8488_0020","Turbenthal","Tablat","ZH",840,2707669,1252229,646,,2310,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1198,"Ust_Bildungszentrum","8610_0030","Uster","Bildungszentrum","ZH",839,2695829,1244930,454,,2309,"S0","H21","Randzonen","A2","Vorstädtisch","Hintergrund","offen","&lt; 5&apos;000",
-1199,"8620_0080","8620_0080","Wetzikon","Robenhuserriet","ZH",838,2701988,1243514,538,,2308,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1200,"8400_0400","8400_0400","Winterthur","Haltestelle Hegi","ZH",837,2700217,1262011,460,,2307,"S12","H21","Randzonen","A2","Vorstädtisch","Verkehr","offen","5&apos;000 - 20&apos;000",
-1201,"Win_Neuhegi","8400_0390","Winterthur","Neuhegi","ZH",836,2700093,1262210,459,,2306,"S0","H21","Randzonen","A2","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1202,"8400_0380","8400_0380","Winterthur","Seenerstrasse","ZH",835,2699700,1262050,452,,2305,"S13","H21","Randzonen","A2","Städtisch","Verkehr","offen","5&apos;000 - 20&apos;000",
-1241,"Aff_Islisberg","8910_0170","Affoltern","Islisberg","ZH",897,2674876,1238892,475,,2372,"S23","H00",,"A2","Ländlich","Verkehr","geschlossen","20&apos;000 - 50&apos;000",
-1242,"8058_0010","8058_0010","Kloten","Flughafen Airside","ZH",898,2685175,1256475,465,,2373,"S0","H21","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1243,"8058_0020","8058_0020","Kloten","Flughafen Landside","ZH",899,2685175,1256475,465,,2374,"S0","H21","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1244,"8058_0030","8058_0030","Kloten","Flughafen Terminal A","ZH",900,2684300,1256500,440,,2375,"S0","H21","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1246,"Reg_Gubrist","8105_0060","Regensdorf","Gubrist-Tunnel","ZH",902,2678796,1253093,449,,2377,"S33","H00",,"A2","Vorstädtisch","Verkehr","geschlossen","&gt; 50&apos;000",
-1248,"Wei_Gubrist","8104_0060","Weiningen","Gubrist-Tunnel","ZH",904,2675892,1252279,410,,2379,"S33","H00",,"A2","Vorstädtisch","Verkehr","geschlossen","&gt; 50&apos;000",
-1249,"Wet_Islisberg","8907_0130","Wettswil","Islisberg","ZH",905,2677119,1243022,531,,2380,"S23","H00",,"A2","Ländlich","Verkehr","geschlossen","20&apos;000 - 50&apos;000",
-1251,"8106_0010","8106_0010","Adlikon b. R.","Breitestrasse","ZH",914,2677346,1255894,433,,2382,"S11","H11","Randzonen","A2","Vorstädtisch","Verkehr","offen","20&apos;000 - 50&apos;000",
-1252,"8134_0010","8134_0010","Adliswil","Grütstrasse","ZH",915,2682820,1241474,478,,2384,"S22","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","20&apos;000 - 50&apos;000",
-1253,"8953_0040","8953_0040","Dietikon","Kronenplatz","ZH",916,2672591,1250968,391,,2385,"S12","H23","Zentrum","A2","Städtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1254,"8451_0010","8451_0010","Kleinandelfingen","Trottenweg","ZH",917,2693600,1272807,365,,2383,"S0","H13","Zentrum","A2","Ländlich","Verkehr","geschlossen","&lt; 5&apos;000",
-1265,"8173_0010","8173_0010","Neerach","Turpenlöcher","ZH",928,2678574,1262079,409,,2396,"S0","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1267,"8475_0010","8475_0010","Ossingen","Dachsenhuserriet","ZH",930,2694191,1275542,410,,2398,"S0","H00",,"A2","Ländlich","Verkehr","keine","5&apos;000 - 20&apos;000",
-1272,"8195_0010","8195_0010","Wasterkingen","Büelhalden","ZH",935,2677272,1271915,427,,2403,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1273,"8620_0090","8620_0090","Wetzikon","Seeriet","ZH",936,2701636,1244049,538,,2404,"S00","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1274,"8400_0410","8400_0410","Winterthur","Hoh Wülflingen","ZH",937,2693935,1261383,516,,2405,"S0","H00",,"A2","Ländlich","Hintergrund","keine","&lt; 5&apos;000",
-1282,"8700_0020","8700_0020","Küsnacht","Seestrasse","ZH",947,2686256,1241411,412,,2416,"S13","H13","Zentrum","A2","Vorstädtisch","Verkehr","geschlossen","20&apos;000 - 50&apos;000",
-1284,"8330_0030","8330_0030","Pfäffikon","Hochstrasse","ZH",949,2701733,1246944,550,,2418,"S12","H13","Zentrum","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1285,"8105_0070","8105_0070","Regensdorf","Feldstrasse","ZH",950,2678120,1254544,441,,2419,"S12","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1289,"8104_0070","8104_0070","Weiningen","Zürcherstrasse","ZH",954,2675878,1252143,416,,2423,"S12","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1290,"8185_0010","8185_0010","Winkel","Niederrüti","ZH",955,2684108,1259212,436,,2424,"S0","H11","Randzonen","A2","Ländlich","Verkehr","offen","5&apos;000 - 20&apos;000",
-1297,"8706_0030","8706_0030","Meilen","Fähre","ZH",962,2690839,1235940,409,,2432,"S12","H11","Randzonen","A2","Vorstädtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1298,"8820_0030","8820_0030","Wädenswil","Zugerstrasse","ZH",963,2693209,1231700,419,,2433,"S0","H23","Zentrum","A1","Städtisch","Verkehr","einseitig offen","&lt; 5&apos;000",
-1300,"8000_1770","8000_1770","Zürich","Manessestrasse 34","ZH",967,2682011,1246986,415,,2440,"S22","H33","Zentrum","A2","Städtisch","Verkehr","einseitig offen","&gt; 50&apos;000",
-1301,"8000_1490","8000_1490","Zürich","Wasserwerkstrasse 18","ZH",966,2683149,1248650,415,,2441,"S23","H33","Zentrum","A2","Städtisch","Verkehr","geschlossen","20&apos;000 - 50&apos;000",
-1302,"8000_1050","8000_1050","Zürich","Seebahnstrasse 229","ZH",965,2681593,1248060,410,,2442,"S12","H33","Zentrum","A2","Städtisch","Verkehr","einseitig offen","5&apos;000 - 20&apos;000",
-1309,"Bau_Oberstufenschulhaus",,"Bauma","Oberstufenschulhaus","ZH",975,2708970,1247320,640,,2451,"S0","H13","Zentrum","A3","Ländlich","Hintergrund","einseitig offen","&lt; 5&apos;000",
-1312,"Wal_Feuerwehrdepot",,"Wald","Feuerwehrdepot","ZH",978,2711719,1236440,613,,2454,"S0","H11","Randzonen","A3","Ländlich","Hintergrund","einseitig offen","5&apos;000 - 20&apos;000",
-1313,"Zch_Bullingerhof",,"Zürich","Bullingerhof","ZH",979,2681189,1248091,411,,2455,"S00","H32","Wohngebiete","A2","Städtisch","Hintergrund","geschlossen","&lt; 5&apos;000",
-1314,"Brü_Säntis",,"Brütten","Säntisstrasse","ZH",980,2693324,1258946,630,,2456,"S0","H11","Randzonen","A2","Ländlich","Hintergrund","offen","&lt; 5&apos;000",
-1315,"Zch_Aubrücke",,"Zürich","Aubrücke","ZH",981,2685497,1251608,427,,2457,"S00","H31","Randzonen","A2","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1319,"8000_2220","8000_2220","Zürich","Saatlenstrasse Unterführung","ZH",985,2685118,1251318,430,,2461,"S0","H32","Wohngebiete","A2","Städtisch","Hintergrund","offen","&lt; 5&apos;000",
-1320,"8000_2230","8000_2230","Zürich","Überlandstrasse 200","ZH",986,2685435,1251641,425,,2462,"S00","H32","Wohngebiete","A2","Städtisch","Hintergrund","einseitig offen","&lt; 5&apos;000",
+msID,msNameAirMo,msCode_PS,msOrt,msOrtsteil,msKT,spID,spXCoord,spYCoord,spHoehe,spBisDatum,scID,scVerkehrslage,scSiedlungsgroesse,scLagerelativSiedlung,scSpezialinfo,scIDBStandorttyp,scIDBStationstyp,scIDBBebauung,scIDBVerkehr,scBisDatum;;
+1,Arb_Stadthaus,9320_0010,Arbon,Stadthaus,TG,570,2750326,1264763,407,,2016,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+2,Fra_Bahnhofstrasse,8500_0010,Frauenfeld,Bahnhofstrasse,TG,572,2709557,1268278,403,,2017,S13,H23,Zentrum,A2,Vorstädtisch,Hintergrund,geschlossen,5&apos;000 - 20&apos;000,
+3,Gra_Marktplatz,9472_0010,Grabs,Marktplatz,SG,756,2752175,1227830,469,,2284,S0,H13,Zentrum,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+4,Hei_Dunanthaus,9410_0010,Heiden,Dunanthaus,AR,434,2757825,1256790,795,,1992,S12,H13,Zentrum,A3,Ländlich,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+5,Opf_Balsberg,8152_0010,Opfikon,Balsberg,ZH,436,2685351,1254830,430,,2025,S32,H31,Randzonen,A2,Vorstädtisch,Verkehr,offen,&gt; 50&apos;000,
+6,Rap_Tüchelweier,8640_0010,Rapperswil-Jona,Tüchelweier,SG,437,2704856,1231660,412,,2004,S12,H23,Zentrum,A2,Städtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+7,StG_Stuelegg,9000_0010,St.Gallen,Stuelegg,SG,800,2747605,1252495,915,,2009,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+8,StG_Rorschacher Strasse,9000_0020,St.Gallen,Rorschacher Strasse,SG,440,2746951,1254950,660,,2008,S12,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+9,Vad_Mühleholz,9490_0010,Vaduz,Mühleholz,FL,444,2756741,1224690,452,,1996,S0,H11,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+10,Wal_Dietlikonerstrasse,8304_0010,Wallisellen,Dietlikonerstrasse,ZH,446,2688071,1252880,470,,2027,S0,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+11,Win_Obertor,8400_0010,Winterthur,Obertor,ZH,451,2697436,1261855,448,,2030,S0,H23,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+12,8000_0010,8000_0010,Zürich,Kaserne,ZH,665,2682451,1247990,409,,2127,S0,H33,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+13,Zch_Schimmelstrasse,8000_0031,Zürich,Schimmelstrasse,ZH,453,2681942,1247245,415,,2434,S23,H33,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+14,Zch_Stampfenbachstrasse,8000_0020,Zürich,Stampfenbachstrasse,ZH,455,2683146,1249020,445,,2435,S0,H33,Zentrum,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+15,Zch_Schwamendingen,8000_0460,Zürich,Schwamendingen,ZH,454,2685101,1251305,430,,2279,S33,H32,Wohngebiete,A2,Städtisch,Verkehr,geschlossen,&gt; 50&apos;000,
+19,8164_0010,8164_0010,Bachs,Gemeindehausstrasse 8,ZH,19,2675386,1264265,460,,1315,S0,H0,,,,,,,;;
+20,Bac_Turm,8340_0010,Hinwil,Bachtel Turm,ZH,428,2709501,1239250,1145,,2021,S00,H00,,A0,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+21,8906_0010,8906_0010,Bonstetten,Alte Stationsstrasse 6,ZH,21,2677829,1241048,542,,1825,S0,H12,Wohngebiete,A2,,,,,;;
+25,8193_0010,8193_0010,Eglisau,Rheinstrasse,ZH,25,2681551,1270050,364,,1321,S12,H13,,,,,,,;;
+27,8245_0010,8245_0010,Feuerthalen,Zürcherstrasse 21,ZH,27,2690441,1283235,405,,1688,S12,H13,Zentrum,,,,,,;;
+29,8627_0010,8627_0010,Grüningen,Chugelgasse,ZH,29,2700158,1237937,488,,1325,S0,H13,,,,,,,;;
+30,Hed_Affolternstrasse,8908_0010,Hedingen,Affolternstrasse 21,ZH,30,2676457,1238755,502,,1826,S12,H12,Wohngebiete,A3,,,,,;;
+31,8442_0010,8442_0010,Hettlingen,Alte Schaffhauserstrasse,ZH,355,2695621,1267010,441,,1327,S0,H13,,,,,,,;;
+33,8181_0010,8181_0010,Höri,Pflanzgarten,ZH,33,2679447,1262844,462,,1329,S00,H00,,A1,,,,,;;
+34,8308_0010,8308_0010,Illnau-Effretikon,Örmis,ZH,34,2695400,1251864,522,,1330,S00,H00,,,,,,,;;
+35,8302_0010,8302_0010,Kloten,Wilder Mann,ZH,35,2686136,1256500,435,,1331,S23,H23,,,,,,,;;
+36,8934_0010,8934_0010,Knonau,Uttenbergstrasse 1,ZH,36,2677521,1230803,431,,1827,S0,H13,Zentrum,A2,,,,,;;
+38,8706_0010,8706_0010,Meilen,Justrain 62,ZH,38,2691951,1236090,450,,1334,S0,H12,,A1,,,,,;;
+40,8153_0010,8153_0010,Rümlang,Leuchtmast Nr 23,ZH,367,2682134,1256745,445,,1336,S0,H11,,,,,,,;;
+41,8630_0010,8630_0010,Rüti,Rothensteinstrasse,ZH,41,2707961,1234980,512,,1337,S0,H11,,A1,,,,,;;
+43,8488_0010,8488_0010,Turbenthal,Lindenweg 1,ZH,43,2706353,1254882,551,,1339,S0,H13,,,,,,,;;
+46,8610_0010,8610_0010,Uster,Stadthaus,ZH,46,2696738,1244952,464,,1342,S0,H23,,,,,,,;;
+48,8820_0010,8820_0010,Wädenswil,Park,ZH,48,2693326,1231790,417,,1689,S00,H13,Zentrum,,,,,,;;
+49,8907_0010,8907_0010,Wettswil,Golfplatz,ZH,49,2677210,1243041,543,,1824,S21,H00,,A3,,,,,;;
+52,8126_0010,8126_0010,Zumikon,Morgental 28,ZH,52,2689026,1243595,647,,1348,S0,H12,,,,,,,;;
+53,8400_0020,8400_0020,Winterthur,Sägeweg,ZH,53,2699862,1260009,458,,1349,S00,H21,,,,,,,;;
+54,8400_0030,8400_0030,Winterthur,Breitestrasse 148,ZH,54,2696487,1260734,463,,1350,S12,H21,,,,,,,;;
+55,8400_0050,8400_0050,Winterthur,Güterstrasse 1,ZH,55,2695801,1260700,446,,1351,S0,H21,,,,,,,;;
+56,8400_0060,8400_0060,Winterthur,Schlosstalstrasse,ZH,56,2694501,1261925,425,,1352,S12,H21,,,,,,,;;
+57,8400_0070,8400_0070,Winterthur,Schulhaus Hohfurri,ZH,57,2694622,1262779,419,,1353,S0,H21,,,,,,,;;
+58,8400_0080,8400_0080,Winterthur,Schulhaus Langwiesen,ZH,58,2694126,1263250,421,,1354,S0,H21,,,,,,,;;
+59,8400_0090,8400_0090,Winterthur,Schulhaus Rychenberg,ZH,59,2698881,1262648,485,,1355,S0,H21,,,,,,,;;
+60,8400_0100,8400_0100,Winterthur,Sulzerallee,ZH,60,2699747,1262149,460,,1356,S11,H21,,,,,,,;;
+61,8400_0040,8400_0040,Winterthur,Technikumstrasse 79,ZH,61,2696973,1261613,447,,1357,S23,H23,,,,,,,;;
+62,8000_0080,8000_0080,Zürich,Bellevue,ZH,62,2683576,1246775,410,,1358,S22,H33,Zentrum,,,,,,;;
+63,8000_0300,8000_0300,Zürich,Birchstrasse 579,ZH,63,2683286,1253365,435,,1359,S0,H32,Wohngebiete,,,,,,;;
+64,8000_0280,8000_0280,Zürich,Eichbühlstrasse 43,ZH,64,2680891,1248575,410,,1360,S00,H32,Wohngebiete,,,,,,;;
+65,8000_0390,8000_0390,Zürich,Forchstrasse 145,ZH,65,2684961,1246140,440,,1361,S12,H33,Zentrum,,,,,,;;
+66,8000_0400,8000_0400,Zürich,Franklinplatz,ZH,66,2683421,1251580,445,,1362,S12,H32,Wohngebiete,,,,,,;;
+67,8000_0060,8000_0060,Zürich,Gerhardstrasse,ZH,67,2681916,1247180,415,,1363,S0,H33,Zentrum,,,,,,;;
+68,8000_0370,8000_0370,Zürich,Schulhaus Hirzenbach,ZH,68,2686701,1250900,430,,1364,S00,H31,Randzonen,,,,,,;;
+69,8000_0360,8000_0360,Zürich,In Böden 123,ZH,69,2680901,1252540,460,,1365,S0,H32,Wohngebiete,,,,,,;;
+70,8000_0100,8000_0100,Zürich,Meientalstrasse,ZH,70,2678486,1248885,415,,1366,S0,H31,Randzonen,,,,,,;;
+71,8000_0320,8000_0320,Zürich,Josefstrasse 175,ZH,71,2682051,1248830,405,,1367,S00,H33,Zentrum,,,,,,;;
+72,8000_0070,8000_0070,Zürich,Paradeplatz,ZH,72,2683116,1247165,415,,1368,S0,H33,Zentrum,,,,,,;;
+73,8000_0090,8000_0090,Zürich,Rosengarten,ZH,73,2682101,1249920,430,,1369,S22,H33,Zentrum,,,,,,;;
+74,Zch_Heubeeribüel,8000_0270,Zürich,Heubeeribüel,ZH,452,2685126,1248460,610,,2436,S00,H32,Wohngebiete,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+76,8000_0310,8000_0310,Zürich,Schulhaus Seefeld,ZH,76,2684361,1245800,415,,1372,S0,H33,Zentrum,,,,,,;;
+77,8000_0350,8000_0350,Zürich,Schulhaus Vogtsrain,ZH,77,2680081,1251965,495,,1373,S0,H32,Wohngebiete,,,,,,;;
+78,8000_0380,8000_0380,Zürich,Schweighofstrasse 367,ZH,78,2680341,1246660,450,,1374,S12,H32,Wohngebiete,,,,,,;;
+79,8000_0110,8000_0110,Zürich,Wachtelstrasse,ZH,79,2682211,1244125,455,,1375,S0,H32,Wohngebiete,,,,,,;;
+80,8000_0340,8000_0340,Zürich,Strandbad Mythenquai,ZH,80,2682801,1245500,410,,1376,S00,H33,Zentrum,,,,,,;;
+81,9656_0010,9656_0010,Alt St.Johann,Post Unterwasser,SG,81,2741686,1229045,906,,1377,S0,H0,,,,,,,;;
+82,9450_0010,9450_0010,Altstätten,Museum,SG,82,2758600,1249500,460,,1378,S0,H13,,,,,,,;;
+83,9450_0020,9450_0020,Altstätten,Bannriet,SG,803,2761030,1247635,415,,2259,S00,H0,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+84,7310_0010,7310_0010,Bad Ragaz,Hauptplatz,SG,84,2756791,1207700,520,,1380,S0,H13,,,,,,,;;
+85,9470_0010,9470_0010,Buchs,Alvierstrasse 8,SG,563,2754424,1226039,450,,1381,S0,H13,,,,,,,;;
+86,9470_0020,9470_0020,Buchs,Blumenweg 4,SG,86,2754251,1225540,450,,1382,S0,H13,,,,,,,;;
+87,9606_0010,9606_0010,Bütschwil,Kengelbach,SG,87,2723201,1244400,660,,1383,S0,H00,,,,,,,;;
+88,9444_0010,9444_0010,Diepoldsau,Hohenemserstrasse,SG,88,2767350,1250650,410,,1384,S12,H13,,,,,,,;;
+89,9444_0020,9444_0020,Diepoldsau,Unter Büchel,SG,89,2766370,1251180,406,,1385,S22,H00,,,,,,,;;
+90,8733_0010,8733_0010,Eschenbach,Hauptstrasse,SG,90,2712311,1233250,480,,1386,S12,H13,,,,,,,;;
+91,8733_0020,8733_0020,Eschenbach,Herrenweg,SG,91,2713726,1232740,485,,1387,S00,H00,,,,,,,;;
+92,9230_0010,9230_0010,Flawil,Kanzleistrasse 22,SG,92,2731941,1253020,610,,1388,S0,H13,,,,,,,;;
+93,9030_0010,9030_0010,Gaiserwald,Bildstrasse,SG,93,2741401,1253440,640,,1389,S12,H11,,,,,,,;;
+94,9030_0020,9030_0020,Gaiserwald,Säntispark,SG,94,2741551,1253500,640,,1390,S11,H11,,,,,,,;;
+95,9403_0010,9403_0010,Goldach,Ankerweg,SG,95,2752861,1260170,440,,1391,S0,H23,,,,,,,;;
+96,9403_0020,9403_0020,Goldach,Kronenkreuzung,SG,96,2753111,1260640,430,,1392,S12,H22,,,,,,,;;
+97,8737_0010,8737_0010,Gommiswald,Rickenstrasse,SG,97,2719871,1232445,590,,1393,S0,H12,,,,,,,;;
+98,9200_0010,9200_0010,Gossau,Multstrasse 16,SG,98,2736541,1252530,650,,1394,S0,H12,,,,,,,;;
+99,9200_0020,9200_0020,Gossau,Kirchplatz,SG,99,2736631,1253220,630,,1395,S23,H13,,,,,,,;;
+100,9200_0030,9200_0030,Gossau,Steigstrasse 11,SG,100,2738341,1253550,660,,1396,S0,H11,,,,,,,;;
+101,8645_0010,8645_0010,Rapperswil-Jona,Rütistrasse 68,SG,101,2705001,1232960,450,,1397,S12,H21,,,,,,,;;
+102,8645_0020,8645_0020,Rapperswil-Jona,Aubrigstrasse 15,SG,102,2705976,1232075,420,,1398,S0,H23,,,,,,,;;
+103,9533_0010,9533_0010,Kirchberg,Mühlaustrasse 3,SG,103,2723051,1252660,600,,1399,S0,H12,,,,,,,;;
+104,8887_0010,8887_0010,Mels,Pizol-Park,SG,104,2751551,1211950,480,,1400,S22,H11,,,,,,,;;
+105,8887_0020,8887_0020,Mels,Wältigasse 8,SG,105,2750361,1213090,490,,1401,S0,H11,,,,,,,;;
+106,9402_0010,9402_0010,Mörschwil,Autobahnsteigung Riederen,SG,106,2750451,1258350,585,,1402,S31,H0,,,,,,,;;
+107,9246_0010,9246_0010,Niederbüren,Mutwil,SG,107,2734551,1257700,575,,1403,S0,H00,,,,,,,;;
+108,9463_0010,9463_0010,Oberriet,Rathaus,SG,108,2760670,1243040,420,,1404,S0,H13,,,,,,,;;
+109,8878_0010,8878_0010,Quinten,Kirche,SG,109,2734841,1221450,440,,1405,S00,H0,,A1,,,,,;;
+110,9445_0010,9445_0010,Rebstein,Hauptstrasse 100,SG,110,2761770,1251880,415,,1406,S12,H12,,,,,,,;;
+111,9400_0010,9400_0010,Rorschach,Hauptstrasse 87,SG,111,2754651,1260680,400,,1407,S13,H23,,,,,,,;;
+112,9400_0020,9400_0020,Rorschach,Müller-Friedbergstrasse,SG,112,2755631,1260250,440,,1408,S0,H22,,,,,,,;;
+113,9404_0010,9404_0010,Rorschacherberg,Loch,SG,113,2754281,1259170,510,,1409,S0,H21,,A1,,,,,;;
+114,7320_0010,7320_0010,Sargans,Wildschutz,SG,114,2754271,1213100,484,,1410,S0,H00,,,,,,,;;
+115,8718_0010,8718_0010,Schänis,Steiner Riet,SG,115,2719951,1225500,414,,1411,S00,H00,,,,,,,;;
+116,8716_0010,8716_0010,Schmerikon,Hauptstrasse,SG,116,2714081,1231650,410,,1412,S13,H13,,,,,,,;;
+117,9466_0010,9466_0010,Sennwald,Hauptstrasse,SG,117,2756050,1236250,450,,1413,S0,H12,,,,,,,;;
+118,9430_0010,9430_0010,St.Margrethen,Einfahrt Rheinpark,SG,118,2767040,1257650,400,,1414,S22,H11,,,,,,,;;
+119,9430_0020,9430_0020,St.Margrethen,Wittestrasse 12,SG,119,2766000,1257800,400,,1415,S0,H13,,,,,,,;;
+120,9430_0030,9430_0030,St.Margrethen,Neudorfstrasse,SG,120,2766270,1258350,400,,1416,S21,H11,,,,,,,;;
+121,9000_0030,9000_0030,St.Gallen,Bärenplatz,SG,121,2746191,1254480,670,,1417,S00,H23,,,,,,,;;
+122,9000_0040,9000_0040,St.Gallen,Blumenbergkreuzung,SG,122,2746001,1254690,670,,1418,S23,H23,,,,,,,;;
+123,9000_0050,9000_0050,St.Gallen,Boppartshofstrasse 20,SG,123,2743111,1252230,680,,1419,S0,H22,,A1,,,,,;;
+124,9000_0060,9000_0060,St.Gallen,Favrestrasse,SG,124,2749021,1255930,660,,1420,S0,H22,,,,,,,;;
+125,9000_0070,9000_0070,St.Gallen,Gallusplatz,SG,125,2746171,1254200,675,,1421,S0,H23,,,,,,,;;
+126,9000_0080,9000_0080,St.Gallen,Heiligkreuzstrasse,SG,126,2747511,1256440,660,,1422,S12,H22,,,,,,,;;
+127,9000_0090,9000_0090,St.Gallen,Hölzli,SG,127,2741676,1252900,645,,1423,S00,H21,,,,,,,;;
+128,9000_0100,9000_0100,St.Gallen,Industriestrasse 3,SG,128,2740631,1252080,660,,1424,S0,H21,,,,,,,;;
+129,9000_0110,9000_0110,St.Gallen,Ludwigstrasse,SG,129,2746201,1256070,750,,1425,S0,H22,,,,,,,;;
+130,9000_0120,9000_0120,St.Gallen,Sömmerliweg,SG,130,2744071,1254070,660,,1426,S0,H22,,,,,,,;;
+131,9000_0130,9000_0130,St.Gallen,Splügenstrasse,SG,131,2747001,1255470,660,,1427,S22,H22,,,,,,,;;
+132,9000_0140,9000_0140,St.Gallen,St.Georgen-Strasse,SG,132,2746581,1253740,760,,1428,S0,H22,,A1,,,,,;;
+133,9000_0150,9000_0150,St.Gallen,Teufenerstrasse 148,SG,133,2745501,1252900,750,,1429,S13,H22,,,,,,,;;
+134,StG_Volksbadstrasse,9000_0160,St.Gallen,Volksbadstrasse,SG,134,2746951,1255010,650,,1430,S0,H22,,,,,,,;;
+135,9000_0170,9000_0170,St.Gallen,Zilstrasse 78,SG,135,2748901,1256520,670,,1702,S12,H21,Randzonen,,,,,,;;
+136,9000_0180,9000_0180,St.Gallen,Zürcherstrasse 27,SG,136,2744621,1253870,660,,1432,S23,H22,,,,,,,;;
+137,9127_0010,9127_0010,St.Peterzell,Kirche,SG,137,2731165,1242280,700,,1433,S0,H13,,,,,,,;;
+138,9425_0010,9425_0010,Thal,Dorfplatz,SG,138,2760581,1259300,420,,1434,S0,H13,,,,,,,;;
+139,9033_0010,9033_0010,Untereggen,Brand,SG,139,2751851,1258460,565,,1435,S00,H00,,,,,,,;;
+140,8730_0010,8730_0010,Uznach,Städtchen 10,SG,140,2717111,1231600,420,,1436,S13,H13,,,,,,,;;
+141,9240_0010,9240_0010,Uzwil,Flawilerstrasse,SG,141,2728461,1256350,520,,1437,S12,H12,,,,,,,;;
+142,8880_0010,8880_0010,Walenstadt,Lindenstrasse,SG,142,2742341,1220800,430,,1438,S0,H13,,,,,,,;;
+143,9630_0010,9630_0010,Wattwil,Bahnhofstrasse,SG,143,2724611,1240170,610,,1439,S13,H13,,,,,,,;;
+144,9630_0020,9630_0020,Wattwil,Ulisbach,SG,144,2725921,1237960,620,,1440,S11,H0,,,,,,,;;
+145,9500_0010,9500_0010,Wil,Wilenstrasse 63,SG,145,2720621,1257290,560,,2081,S31,H21,Randzonen,,,,,,;;
+146,9500_0020,9500_0020,Wil,Marktgasse 57,SG,146,2721431,1258570,590,,2079,S0,H23,Zentrum,,,,,,;;
+147,9500_0030,9500_0030,Wil,St.Gallerstrasse,SG,147,2721351,1258220,570,,2080,S12,H23,Zentrum,,,,,,;;
+148,9303_0010,9303_0010,Wittenbach,Dottenwil,SG,148,2746431,1260180,590,,1444,S00,H00,,,,,,,;;
+149,9303_0020,9303_0020,Wittenbach,Kronenkreuzung,SG,149,2747501,1258320,610,,1445,S12,H12,,,,,,,;;
+150,9303_0030,9303_0030,Wittenbach,Rosengartenstrasse 9,SG,150,2747351,1258170,630,,1446,S0,H12,,,,,,,;;
+151,9524_0010,9524_0010,Zuzwil,Taasel,SG,151,2726756,1259090,528,,1447,S00,H00,,,,,,,;;
+152,9556_0010,9556_0010,Affeltrangen,Bollsteg,TG,152,2719661,1265630,485,,1448,S0,H12,,,,,,,;;
+153,8580_0010,8580_0010,Amriswil,Alleestrasse,TG,153,2739866,1268090,450,,1449,S0,H12,Wohngebiete,,,,,,;;
+154,9320_0020,9320_0020,Arbon,Ev. Kirche,TG,154,2749926,1264650,418,,1450,S0,H12,,,,,,,;;
+155,Bis_Thurfeld,9220_0010,Bischofszell,Thurfeld,TG,155,2734871,1261965,466,,1451,S00,H00,,,,,,,;;
+156,9220_0020,9220_0020,Bischofszell,Zentrum,TG,156,2735806,1261895,501,,1452,S12,H13,,,,,,,;;
+157,8575_0010,8575_0010,Bürglen,Wiide,TG,157,2728626,1268455,438,,1453,S00,H11,,,,,,,;;
+158,8575_0020,8575_0020,Bürglen,Rossweid,TG,158,2730276,1267735,459,,1454,S11,H00,,,,,,,;;
+159,8253_0010,8253_0010,Diessenhofen,Franzosenstrasse,TG,159,2697921,1282990,408,,1455,S0,H11,,,,,,,;;
+160,9322_0010,9322_0010,Egnach,Buech,TG,160,2747001,1266960,411,,1456,S11,H0,,,,,,,;;
+161,8264_0010,8264_0010,Eschenz,Alte Bahnhofstrasse,TG,161,2708066,1278265,415,,1457,S00,H12,,,,,,,;;
+162,Fra_Rathaus,8500_0020,Frauenfeld,Rathaus,TG,162,2709811,1268220,415,,1458,S23,H23,,,,,,,;;
+163,8500_0030,8500_0030,Frauenfeld,Kurzdorf,TG,163,2709251,1268600,403,,1459,S0,H22,,,,,,,;;
+164,8546_0010,8546_0010,Islikon,Chelenbinz,TG,164,2706341,1267510,419,,1460,S0,H00,,,,,,,;;
+165,8280_0010,8280_0010,Kreuzlingen,Konradstrasse,TG,165,2731726,1278274,404,,1461,S0,H22,,,,,,,;;
+166,Kre_Löwenstrasse,8280_0020,Kreuzlingen,Löwenstrasse,TG,166,2730126,1278834,415,,1462,S12,H23,,,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+167,8280_0040,8280_0040,Kreuzlingen,Romanshornerstrasse,TG,167,2732601,1278054,411,,1463,S22,H22,,,,,,,;;
+168,8280_0030,8280_0030,Kreuzlingen,Weinberg,TG,168,2730676,1278224,440,,1464,S0,H22,,,,,,,;;
+169,8560_0010,8560_0010,Märstetten,ARA,TG,169,2721456,1272400,415,,1465,S00,H00,,,,,,,;;
+170,9315_0010,9315_0010,Egnach,Siebeneichen,TG,170,2745451,1264580,443,,1466,S00,H00,,,,,,,;;
+171,Rog_Gries,9325_0010,Roggwil,Gries,TG,171,2748626,1263100,407,,1467,S11,H00,,,Ländlich,Verkehr,keine,5&apos;000 - 20&apos;000,
+172,8590_0010,8590_0010,Romanshorn,Bahnhof,TG,172,2746001,1270125,399,,1468,S13,H13,,,,,,,;;
+173,8590_0020,8590_0020,Romanshorn,Florastrasse,TG,173,2745691,1269755,409,,1469,S0,H12,,,,,,,;;
+174,8507_0010,8507_0010,Homburg,Obersalen,TG,174,2718901,1278899,700,,1470,S00,H00,,,,,,,;;
+175,8370_0010,8370_0010,Sirnach,Wohngebiet,TG,175,2717651,1257750,560,,1471,S0,H12,,,,,,,;;
+176,8370_0020,8370_0020,Sirnach,Zentrum,TG,176,2717491,1257980,540,,1472,S13,H13,,,,,,,;;
+177,8266_0010,8266_0010,Steckborn,Seestrasse,TG,177,2715951,1280875,399,,1473,S13,H13,,,,,,,;;
+178,Wee_Weerstein,8570_0010,Weerswilen,Weerstein,TG,911,2727744,1271190,630,,2019,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+179,8570_0020,8570_0020,Weinfelden,Nollenstrasse,TG,179,2726366,1269560,431,,1475,S0,H12,,,,,,,;;
+180,8570_0030,8570_0030,Weinfelden,Deucherstrasse,TG,180,2726926,1269335,432,,1476,S12,H11,,,,,,,;;
+181,9545_0010,9545_0010,Wängi,Froberg,TG,181,2713926,1261155,505,,1477,S21,H00,,,,,,,;;
+182,9050_0010,9050_0010,Appenzell,Gansbach,AI,182,2748826,1244035,778,,1478,S0,H13,,,,,,,;;
+183,9050_0020,9050_0020,Appenzell,Hauptgasse 16,AI,183,2748916,1244082,778,,1479,S00,H13,,,,,,,;;
+184,9050_0030,9050_0030,Appenzell,Mettlenkreuzung,AI,184,2748726,1244545,765,,1480,S12,H12,,,,,,,;;
+185,9050_0040,9050_0040,Appenzell,Krankenhauskreuzung,AI,185,2749441,1244390,790,,1481,S12,H12,,,,,,,;;
+186,9108_0010,9108_0010,Gonten,Kronberg,AI,186,2742881,1239590,1650,,1482,S00,H00,,A0,,,,,;;
+187,9108_0020,9108_0020,Gonten,Loretto,AI,187,2743871,1243335,890,,1483,S0,H11,,,,,,,;;
+188,9413_0010,9413_0010,Oberegg,Wiesstrasse,AI,188,2759370,1254810,880,,1484,S0,H12,,A1,,,,,;;
+189,9058_0010,9058_0010,Rüte,Brülisau,AI,189,2752611,1240445,922,,1485,S0,H0,,A1,,,,,;;
+190,9058_0020,9058_0020,Rüte,Chüechlimoos,AI,190,2749458,1244280,784,,1486,S0,H12,,,,,,,;;
+191,9058_0030,9058_0030,Rüte,Hoher Kasten,AI,191,2754797,1239000,1794,,1487,S00,H00,,A0,,,,,;;
+192,9054_0010,9054_0010,Schlatt-Haslen,Haslen,AI,192,2745671,1248250,740,,1488,S0,H13,,A1,,,,,;;
+193,9057_0010,9057_0010,Schwende,Weissbad,AI,193,2750931,1241705,820,,1489,S0,H13,,,,,,,;;
+194,9057_0020,9057_0020,Appenzell,Weissbadstrasse,AI,194,2749091,1244033,776,,1490,S0,H13,,,,,,,;;
+195,9056_0010,9056_0010,Gais,Zwislen,AR,195,2752751,1247000,920,,1491,S00,H00,,,,,,,;;
+196,9410_0020,9410_0020,Heiden,Kursaal,AR,196,2757925,1257100,800,,1492,S0,H12,,A1,,,,,;;
+197,9410_0030,9410_0030,Heiden,Werdstrasse,AR,197,2757890,1256935,790,,1493,S12,H13,,,,,,,;;
+198,9100_0010,9100_0010,Herisau,Alpsteinstrasse,AR,198,2739126,1248700,750,,1494,S12,H12,,A3,,,,,;;
+199,9100_0020,9100_0020,Herisau,Ebnet,AR,199,2738971,1250340,780,,1495,S00,H13,,,,,,,;;
+200,9100_0030,9100_0030,Herisau,Kasernenstrasse,AR,200,2739201,1250010,770,,1496,S13,H13,,,,,,,;;
+201,9100_0040,9100_0040,Herisau,St.Gallerstrasse,AR,201,2738641,1250580,730,,1497,S12,H11,,A3,,,,,;;
+202,9103_0010,9103_0010,Schwellbrunn,Dorf,AR,202,2736926,1246400,960,,1498,S00,H12,,A1,,,,,;;
+203,9042_0010,9042_0010,Speicher,Bahnhof,AR,203,2751231,1253100,930,,1499,S0,H13,,,,,,,;;
+204,9053_0010,9053_0010,Teufen,Dorfbibliothek,AR,204,2747071,1250650,830,,1500,S0,H13,,,,,,,;;
+205,9107_0010,9107_0010,Urnäsch,Gemeindehaus,AR,205,2739451,1242325,830,,1501,S0,H13,,,,,,,;;
+206,8784_0010,8784_0010,Braunwald,Rehaclinic,GL,206,2718501,1199450,1180,,1502,S00,H00,,A0,,,,,;;
+207,8765_0010,8765_0010,Engi,ARA,GL,207,2729911,1204950,780,,1503,S0,H11,,,,,,,;;
+208,8755_0010,8755_0010,Ennenda,Kirchweg,GL,208,2724411,1210580,480,,1504,S0,H13,,,,,,,;;
+209,Gla_Feuerwehrstützpunkt,8750_0010,Glarus,Feuerwehrstützpunkt,GL,857,2723513,1212394,490,,1991,S0,H11,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+210,8750_0020,8750_0020,Glarus,Hauptstrasse,GL,210,2723701,1211300,480,,1506,S13,H13,,,,,,,;;
+211,8783_0010,8783_0010,Linthal,Gemeindehaus,GL,211,2718701,1197480,670,,1507,S0,H12,,,,,,,;;
+212,8752_0010,8752_0010,Näfels,Hauptstrasse,GL,212,2723251,1217800,440,,1508,S22,H13,,,,,,,;;
+213,8752_0020,8752_0020,Näfels,Mühle,GL,213,2722731,1216030,445,,1509,S11,H00,,,,,,,;;
+214,8867_0010,8867_0010,Niederurnen,Werkhof,GL,214,2722801,1220650,430,,1510,S0,H12,,,,,,,;;
+215,8867_0020,8867_0020,Niederurnen,Suterwies,GL,215,2723841,1221050,422,,1511,S21,H00,,,,,,,;;
+216,8762_0010,8762_0010,Schwanden,Hauptstrasse,GL,216,2724451,1206310,530,,1512,S0,H13,,,,,,,;;
+217,9496_0010,9496_0010,Balzers,Gagotz,FL,217,2756671,1215280,472,,1513,S11,H11,,,,,,,;;
+218,9487_0010,9487_0010,Bendern,Eschner Strasse,FL,218,2756669,1230993,441,,1514,S11,H0,,,,,,,;;
+219,9497_0020,9497_0020,Malbun,Jöraboden,FL,219,2764821,1218970,1602,,1515,S0,H0,,A0,,,,,;;
+220,9491_0010,9491_0010,Ruggell,Landstrasse,FL,220,2757871,1234260,433,,1516,S0,H12,,,,,,,;;
+221,9494_0010,9494_0010,Schaan,Lindenplatz Süd,FL,566,2756975,1225974,450,,1517,S13,H13,,,,,,,;;
+223,9488_0010,9488_0010,Schellenberg,im Dorf,FL,456,2759650,1233425,626,,1519,S0,H0,,A1,,,,,;;
+224,9492_0010,9492_0010,Eschen,Schwarze Strasse,FL,575,2758083,1229312,440,,1520,S00,H00,,,,,,,;;
+225,9495_0010,9495_0010,Triesen,Landstrasse,FL,225,2758321,1219730,463,,1521,S12,H13,,,,,,,;;
+226,9497_0010,9497_0010,Triesenberg,Zentrum,FL,802,2759735,1220730,885,,1522,S13,H13,,A1,,,,,;;
+227,9490_0020,9490_0020,Vaduz,Fürst-Johannes-Strasse,FL,227,2758161,1223960,556,,1523,S0,H11,,A1,,,,,;;
+228,9050_0050,9050_0050,Appenzell,Marktgasse/Kanzlei,AI,228,2748951,1244122,778,,1524,S00,H13,,,,,,,;;
+229,9050_0060,9050_0060,Appenzell,Einlenker/Ziel,AI,229,2748601,1244500,762,,1525,S12,H12,,,,,,,;;
+230,9050_0070,9050_0070,Appenzell,Ziel,AI,230,2748821,1244370,772,,1526,S0,H12,,,,,,,;;
+231,9050_0080,9050_0080,Appenzell,Blattenheimatstrasse,AI,231,2748701,1244205,776,,1527,S0,H12,Wohngebiete,,,,,,;;
+232,9050_0090,9050_0090,Appenzell,Hauptgasse 41,AI,232,2748746,1244160,775,,1528,S0,H13,,,,,,,;;
+233,9050_0100,9050_0100,Appenzell,Restaurant Hof,AI,233,2748826,1244125,774,,1529,S0,H13,,,,,,,;;
+234,9050_0110,9050_0110,Appenzell,Postplatz,AI,234,2748911,1244150,782,,1530,S0,H13,,,,,,,;;
+235,9057_0030,9057_0030,Schwende,Gringelstrasse,AI,235,2749116,1243927,779,,1531,S0,H13,,,,,,,;;
+236,WiH_Riet,9658_0010,Wildhaus,Riet,SG,757,2742785,1229365,987,,2217,S0,H11,Randzonen,A1,Ländlich,Verkehr,offen,&lt; 5&apos;000,
+237,9492_0020,9492_0020,Eschen,Essanestrasse,FL,237,2757852,1230811,445,,1533,S12,H12,,,,,,,;;
+238,Spr_Willenacher,8957_0010,Spreitenbach,Willenacher,ZH,238,2670581,1252800,,,1534,,,,,,,,,;;
+239,Die_Industriestrasse,8953_0010,Dietikon,Industriestrasse,ZH,239,2672291,1252360,,,1535,,,,,,,,,;;
+243,8233_0020,8233_0020,Bargen,Zoll,SH,243,2686101,1294400,687,,1539,S11,H00,,,,,,,;;
+244,8222_0020,8222_0020,Beringen,Zentrum,SH,244,2685221,1283750,456,,1540,S0,H13,,,,,,,;;
+245,8232_0010,8232_0010,Merishausen,Hagenturm,SH,834,2684623,1292112,905,,2303,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+246,8215_0010,8215_0010,Hallau,Tüfenbach,SH,246,2677881,1283050,419,,1542,S00,H00,,,,,,,;;
+247,8200_0010,8200_0010,Herblingen,Spitzwiesen,SH,386,2693071,1287015,455,,1865,S00,H00,,,,,,,;;
+248,Neu_Galgenbuck,8212_0020,Neuhausen am Rhf.,Galgenbuck,SH,435,2688241,1282800,490,,2012,S00,H21,Randzonen,A1,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+249,8212_0040,8212_0040,Neuhausen am Rhf.,Kirche,SH,249,2688651,1281800,410,,1545,S0,H23,,,,,,,;;
+250,8212_0050,8212_0050,Neuhausen am Rhf.,Rheinhofgässchen,SH,391,2688601,1282006,425,,1714,S22,H22,Wohngebiete,A2,,,,,;;
+251,8212_0060,8212_0060,Neuhausen am Rhf.,Rosenbergstrasse,SH,251,2688521,1282540,448,,1547,S0,H22,,A1,,,,,;;
+252,8212_0070,8212_0070,Neuhausen am Rhf.,Zollstrasse,SH,252,2688051,1282090,445,,1548,S12,H22,,,,,,,;;
+253,8262_0020,8262_0020,Ramsen,Raatli,SH,253,2703501,1283000,406,,1549,S00,H00,,,,,,,;;
+254,8455_0020,8455_0020,Rüdlingen,Haselgass,SH,254,2685301,1270440,362,,1550,S0,H00,,,,,,,;;
+255,8200_0020,8200_0020,Schaffhausen,Freudenfels,SH,387,2689853,1283650,399,,1866,S00,H23,Zentrum,,,,,,;;
+256,8200_0030,8200_0030,Schaffhausen,Gelbhausgarten,SH,388,2689916,1283880,398,,1713,S12,H23,Zentrum,A2,,,,,;;
+257,8200_0040,8200_0040,Schaffhausen,Hegaustrasse,SH,257,2690551,1284050,450,,1553,S0,H22,,,,,,,;;
+258,8200_0050,8200_0050,Schaffhausen,Hohbergschulhaus,SH,389,2691383,1286578,469,,1554,S0,H21,,,,,,,;;
+259,8200_0070,8200_0070,Schaffhausen,Mühlentalstrasse,SH,259,2689401,1284400,435,,1555,S0,H22,,,,,,,;;
+260,8200_0080,8200_0080,Schaffhausen,Münsterplatz,SH,260,2689856,1283440,396,,1556,S0,H23,,,,,,,;;
+261,8200_0090,8200_0090,Schaffhausen,Rheinuferstrasse,SH,261,2689721,1283235,393,,1712,S12,H23,Zentrum,A2,,,,,;;
+262,8260_0010,8260_0010,Stein am Rhein,Fronhof,SH,262,2706661,1279880,404,,1558,S0,H13,,,,,,,;;
+263,8240_0010,8240_0010,Thayngen,Dorfstrasse,SH,263,2695251,1289300,439,,1559,S0,H13,,,,,,,;;
+264,8240_0020,8240_0020,Thayngen,Zoll,SH,385,2695986,1288590,430,,1710,S12,H0,,A2,,,,,;;
+265,7000_0010,7000_0010,Chur,Altstadt,GR,265,2759771,1190870,592,,1617,S00,H23,Zentrum,,,,,,;;
+266,7000_0020,7000_0020,Chur,Baumgarten,GR,266,2758366,1191070,575,,1618,S0,H22,Wohngebiete,,,,,,;;
+267,7000_0030,7000_0030,Chur,Kornquader,GR,267,2758930,1190420,582,,1678,S0,H22,Wohngebiete,,,,,,;;
+268,Chu_RhBVerwaltung,7000_0050,Chur,RhB Verwaltung,GR,939,2759644,1191109,595,,2407,S0,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+269,Chu_Kantonsspital,7000_0060,Chur,Kantonsspital,GR,430,2760290,1192370,665,,2408,S00,H22,Wohngebiete,A1,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+270,Chu_A13,7000_0040,Chur,A13,GR,429,2757725,1191375,565,,2409,S22,H21,Randzonen,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+271,7013_0010,7013_0010,Domat/Ems,Schulhaus,GR,271,2753586,1189095,585,,1622,S0,H12,Wohngebiete,,,,,,;;
+272,7013_0020,7013_0020,Domat/Ems,Tuma Caste,GR,272,2753151,1189170,585,,1623,S0,H12,Wohngebiete,,,,,,;;
+273,7013_0030,7013_0030,Domat/Ems,Via Calundis,GR,273,2752716,1188005,590,,1624,S0,H11,Randzonen,,,,,,;;
+274,7306_0010,7306_0010,Fläsch,Dorf,GR,274,2757691,1210560,519,,1570,S0,H13,,A1,,,,,;;
+275,7206_0010,7206_0010,Igis,Dorf,GR,275,2762441,1201650,563,,1571,S0,H13,,A1,,,,,;;
+276,7304_0090,7304_0090,Maienfeld,A13 (BKW),GR,276,2760771,1204780,521,,1625,S21,H00,,,,,,,;;
+277,7302_0020,7302_0020,Landquart,Bahnhofstrasse,GR,277,2761350,1204080,528,,1626,S0,H13,Zentrum,,,,,,;;
+278,7302_0030,7302_0030,Landquart,RhB-Depot,GR,278,2761171,1203535,522,,1627,S0,H13,Zentrum,,,,,,;;
+279,7304_0010,7304_0010,Maienfeld,A13,GR,279,2758261,1207920,502,,2190,S21,H00,,A3,Ländlich,Verkehr,offen,20&apos;000 - 50&apos;000,
+280,7304_0020,7304_0020,Maienfeld,Dorf,GR,280,2759180,1208300,516,,1630,S0,H13,Zentrum,A3,,,,,;;
+281,7304_0030,7304_0030,Maienfeld,Querprofil A13: 10 m,GR,281,2759226,1206625,505,,1631,S21,H00,,,,,,,;;
+282,7304_0040,7304_0040,Maienfeld,Querprofil A13: 25 m,GR,282,2759241,1206640,505,,1634,S21,H00,,,,,,,;;
+283,7304_0050,7304_0050,Maienfeld,Querprofil A13: 50 m,GR,283,2759261,1206660,505,,1633,S21,H00,,,,,,,;;
+284,7304_0060,7304_0060,Maienfeld,Querprofil A13: 75 m,GR,284,2759296,1206695,505,,1632,S21,H00,,,,,,,;;
+285,7304_0070,7304_0070,Maienfeld,Querprofil A13: 150 m,GR,285,2759331,1206730,505,,1636,S21,H00,,,,,,,;;
+286,7304_0080,7304_0080,Maienfeld,Querprofil A13: 300 m,GR,286,2759451,1206860,505,,1635,S21,H00,,,,,,,;;
+287,7204_0010,7204_0010,Untervaz,Horn,GR,287,2760641,1198930,535,,1638,S00,H00,,,,,,,;;
+288,7204_0020,7204_0020,Untervaz,Ruine,GR,288,2760491,1197820,542,,1637,S00,H00,,,,,,,;;
+289,Ziz_Neulöser,7205_0010,Zizers,Neulöser,GR,289,2761251,1201200,527,,2124,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+290,7205_0020,7205_0020,Zizers,Zentrum,GR,290,2761801,1200345,530,,1586,S0,H13,,A1,,,,,;;
+295,8222_0010,8222_0010,Beringen,Sonnblickweg,SH,292,2687141,1283360,460,,1587,S11,H11,Randzonen,,,,,,;;
+296,8213_0010,8213_0010,Neunkirch,Vordergasse 28,SH,293,2679601,1282725,450,,1588,S0,H13,Zentrum,,,,,,;;
+298,8226_0010,8226_0010,Schleitheim,Adlerstrasse 15,SH,294,2678476,1289260,475,,1589,S0,H13,Zentrum,A3,,,,,;;
+299,8226_0020,8226_0020,Schleitheim,Chirchenzelg,SH,295,2679181,1288940,580,,1590,S00,H00,,A1,,,,,;;
+300,8233_0010,8233_0010,Bargen,Feuerwehrmagazin,SH,296,2687721,1294200,615,,1591,S0,H0,,A3,,,,,;;
+301,8234_0010,8234_0010,Stetten,Dorfstrasse 6,SH,297,2691811,1288470,575,,1593,S0,H0,,A1,,,,,;;
+302,8262_0010,8262_0010,Ramsen,Bahnhofstrasse 57,SH,298,2703681,1285000,420,,1594,S12,H12,Wohngebiete,,,,,,;;
+303,8239_0010,8239_0010,Dörflingen,Dorfstrasse 57,SH,299,2696481,1284660,460,,1595,S0,H0,,A1,,,,,;;
+304,8455_0010,8455_0010,Rüdlingen,Ausserdorf,SH,300,2685201,1270750,375,,1596,S0,H0,,,,,,,;;
+305,8200_0060,8200_0060,Schaffhausen,Moserstrasse 12,SH,301,2690151,1283420,400,,1597,S12,H23,Zentrum,,,,,,;;
+306,8200_0110,8200_0110,Schaffhausen,Steigstrasse/Fäsenstaubstrasse,SH,302,2689301,1283550,420,,1598,S0,H22,Wohngebiete,,,,,,;;
+307,8200_0100,8200_0100,Schaffhausen,Rietstrasse/Quellenstrasse,SH,303,2688511,1284210,465,,1599,S0,H21,Randzonen,,,,,,;;
+308,8212_0010,8212_0010,Neuhausen am Rhf.,Engestrasse,SH,304,2688236,1282310,465,,1615,S12,H22,Wohngebiete,,,,,,;;
+309,8212_0030,8212_0030,Neuhausen am Rhf.,Industrieplatz,SH,305,2688591,1281650,405,,1616,S0,H23,Zentrum,,,,,,;;
+311,8224_0010,8224_0010,Löhningen,Herrengasse 11,SH,306,2683606,1283940,475,,1600,S0,H13,Zentrum,,,,,,;;
+312,8215_0020,8215_0020,Hallau,Hauptstrasse 62,SH,307,2676716,1283545,430,,1601,S0,H13,Zentrum,,,,,,;;
+313,8218_0010,8218_0010,Osterfingen,Rossberghof,SH,308,2680811,1279550,630,,1602,S00,H00,,,,,,,;;
+314,8231_0010,8231_0010,Hemmental,Dorfplatz (Brunnen),SH,309,2685651,1287725,590,,1603,S0,H0,,,,,,,;;
+315,8242_0010,8242_0010,Bibern,Post,SH,310,2692901,1292050,460,,1604,S0,H0,,,,,,,;;
+316,8261_0010,8261_0010,Hemishofen,Garage Gfeller,SH,311,2704506,1281560,400,,1605,S0,H0,,,,,,,;;
+317,8454_0010,8454_0010,Buchberg,Sandackerstrasse/Dorfstrasse,SH,312,2684591,1269710,485,,1606,S0,H0,,,,,,,;;
+318,8200_0120,8200_0120,Schaffhausen,Felsgutstieg 2,SH,313,2689901,1284640,435,,1607,S0,H22,Wohngebiete,,,,,,;;
+319,8200_0130,8200_0130,Schaffhausen,Fischerhäuserstrasse 44,SH,314,2690501,1283430,400,,1608,S0,H23,Zentrum,,,,,,;;
+320,8212_0080,8212_0080,Neuhausen am Rhf.,Rheinweg 21,SH,397,2688887,1282970,390,,1720,S12,H22,Wohngebiete,A2,,,,,;;
+321,8200_0140,8200_0140,Schaffhausen,Urwerf 5 (Laterne 16),SH,394,2688957,1283320,407,,1717,S0,H22,Wohngebiete,A2,,,,,;;
+322,8200_0150,8200_0150,Schaffhausen,Löwenstrasse/Trubegüetlistrasse,SH,395,2688784,1283338,421,,1718,S0,H22,Wohngebiete,A2,,,,,;;
+323,8212_0090,8212_0090,Neuhausen am Rhf.,Charlottenfels Heinrich Moser-Bau,SH,396,2688821,1282872,425,,1719,S0,H22,Wohngebiete,A2,,,,,;;
+324,8212_0100,8212_0100,Neuhausen am Rhf.,Schaffhauserstrasse 71,SH,319,2688841,1283080,405,,1613,S13,H23,Zentrum,,,,,,;;
+326,9000_0230,9000_0230,St.Gallen,Sonnenmattstrasse 14,SG,326,2741501,1252280,645,,1647,S0,H21,Randzonen,,,,,,;;
+327,9000_0250,9000_0250,St.Gallen,Piccardstrasse,SG,323,2741316,1252635,650,,1644,S0,H21,Randzonen,,,,,,;;
+328,9000_0240,9000_0240,St.Gallen,Zürcherstrasse 430,SG,322,2741186,1252410,650,,1643,S12,H21,Randzonen,,,,,,;;
+329,9000_0260,9000_0260,St.Gallen,Billenberg,SG,325,2741746,1253235,640,,2007,S31,H21,Randzonen,,,,,,;;
+330,9000_0210,9000_0210,St.Gallen,Herisauerstrasse,SG,324,2740886,1252390,655,,1690,S12,H11,Randzonen,,,,,,;;
+331,9000_0220,9000_0220,St.Gallen,Hafnersbergstrasse,SG,327,2740761,1252640,650,,1648,S0,H21,Randzonen,,,,,,;;
+332,StG_Bild,9000_0270,St.Gallen,Bild,SG,439,2741161,1252470,655,,2006,S21,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+339,Tan_NABEL,8356_0010,Tänikon,NABEL-Messstation,TG,331,2710501,1259810,538,,2126,S0,H0,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+345,8200_0180,8200_0180,Schaffhausen,Mattenweg 6,SH,339,2689771,1284696,456,,1683,S0,H22,Wohngebiete,A2,,,,,;;
+346,8200_0190,8200_0190,Schaffhausen,Krebsbach/Hornbergstieg,SH,338,2689951,1284645,425,,1682,S22,H22,Wohngebiete,A1,,,,,;;
+347,8200_0200,8200_0200,Schaffhausen,Im Brüel 19,SH,337,2691916,1286365,439,,1681,S0,H22,Wohngebiete,A2,,,,,;;
+348,8200_0210,8200_0210,Schaffhausen,Klausweg 1,SH,336,2690241,1284500,444,,1680,S0,H22,Wohngebiete,A2,,,,,;;
+349,8200_0220,8200_0220,Schaffhausen,Ebnatweg,SH,335,2690121,1284585,428,,1679,S12,H22,Wohngebiete,A1,,,,,;;
+350,Vad_Austrasse,9490_0030,Vaduz,Austrasse,FL,443,2758192,1221295,459,,1995,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+353,9486_0020,9486_0020,Schaanwald,Vorarlbergerstrasse,FL,356,2761106,1231555,463,,1691,S12,H0,,,,,,,;;
+360,9103_0020,9103_0020,Schwellbrunn,Schwellbrunnerstrasse,AR,350,2737476,1247050,880,,1685,S0,H00,,,,,,,;;
+361,9103_0030,9103_0030,Schwellbrunn,Ädelswil Mitte,AR,351,2737571,1246795,840,,1686,S0,H0,,,,,,,;;
+362,9103_0040,9103_0040,Schwellbrunn,Ädelswil Süd,AR,352,2737656,1247090,820,,1687,S00,H0,,,,,,,;;
+365,9100_0050,9100_0050,Herisau,Schwellbrunnerstrasse,AR,354,2737486,1247652,805,,1730,S0,H11,Randzonen,,,,,,;;
+370,Arb_Bahnhofstrasse,9320_0030,Arbon,Bahnhofstrasse,TG,426,2750401,1264540,400,,2015,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+377,Kon_Wallgutstrasse,9999_0010,Konstanz,Wallgutstrasse,DE,533,2729991,1280749,399,,1993,S0,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+380,8200_0230,8200_0230,Herblingen,Ebnatstrasse 170,SH,360,2691521,1285970,427,,1693,S22,H21,Randzonen,A2,,,,,;;
+381,8200_0240,8200_0240,Herblingen,Kinepolis,SH,361,2691401,1285590,427,,1694,S0,H21,Randzonen,A2,,,,,;;
+382,8212_0110,8212_0110,Neuhausen am Rhf.,Klettgauerstrasse 16,SH,392,2688346,1282040,435,,1715,S22,H22,Wohngebiete,A2,,,,,;;
+383,8212_0120,8212_0120,Neuhausen am Rhf.,Klettgauerstrasse 60,SH,393,2688094,1282255,455,,1905,S12,H22,Wohngebiete,A2,,,,,;;
+384,8260_0020,8260_0020,Stein am Rhein,Chirchhofplatz 5,SH,364,2706754,1279692,401,,1697,S0,H13,Zentrum,,,,,,;;
+385,Wld_Höhenklinik,8340_0020,Wald,Höhenklinik,ZH,821,2713780,1237408,910,,2026,S0,H0,,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+386,8308_0020,8308_0020,Illnau-Effretikon,Langhaag,ZH,368,2693965,1254909,527,,1729,S32,H0,,,,,,,;;
+387,9524_0020,9524_0020,Zuzwil,Pumpwerk,SG,369,2723974,1257728,512,,1733,S31,H00,,,,,,,;;
+389,9444_0030,9444_0030,Diepoldsau,Autobahn,SG,370,2766289,1250817,407,,1728,S31,H00,,,,,,,;;
+390,9477_0010,9477_0010,Wartau,Autobahn,SG,371,2755146,1215270,478,,1732,S31,H11,Randzonen,,,,,,;;
+391,9430_0040,9430_0040,St.Margrethen,Bruggerhorn,SG,372,2767090,1257618,401,,1731,S31,H11,Randzonen,,,,,,;;
+394,SBe_Zollamt,9488_0020,Schellenberg,Zollamt,FL,438,2760661,1234550,600,,1994,S0,H0,,A1,,,,,;;
+395,Wet_Filderen,8907_0030,Wettswil,Filderen,ZH,448,2677330,1243853,528,,2028,S21,H00,,A2,Ländlich,Hintergrund,offen,20&apos;000 - 50&apos;000,
+396,Wet_Weieraecher,8907_0040,Wettswil,Weieraecher,ZH,449,2678079,1243686,550,,2029,S0,H11,Randzonen,A1,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+400,8212_0140,8212_0140,Neuhausen am Rhf.,Strommast Enge,SH,383,2687961,1282785,460,,1906,S11,H00,,,,,,,;;
+401,8400_0110,8400_0110,Winterthur,Polizeiposten Ohringen,ZH,398,2696211,1264320,460,,1721,S11,H21,Randzonen,A2,,,,,;;
+406,Tug_Mehrzweckhalle,8856_0010,Tuggen,Mehrzweckhalle,SZ,442,2714314,1228841,414,,2014,S0,H11,Randzonen,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+409,8000_0790,8000_0790,Zürich,Rosengartenstrasse Einfahrt,ZH,406,2682093,1249943,430,,1727,S23,H33,Zentrum,,,,,,;;
+410,Mel_Wältigasse,8887_0030,Mels,Wältigasse,SG,407,2750283,1213040,490,,2037,S0,H11,Randzonen,A3,,,,,;;
+428,8903_0100,8903_0100,Birmensdorf,Vorder Altenberg 187,ZH,503,2674342,1244554,520,,1962,S11,H00,,A1,,,,,;;
+430,8903_0040,8903_0040,Birmensdorf,Hochspannungsmast,ZH,497,2674846,1245610,468,,1958,S0,H11,,A3,,,,,;;
+434,8903_0060,8903_0060,Birmensdorf,Breitestrasse 13,ZH,499,2675447,1244925,476,,1959,S0,H11,,A3,,,,,;;
+435,8903_0080,8903_0080,Birmensdorf,Kreisel Arni-Aesch-Lieli,ZH,501,2675493,1244649,485,,1961,S11,H11,,A1,,,,,;;
+436,8910_0030,8910_0030,Affoltern a. A.,Heimpelstrasse,ZH,516,2675701,1236793,493,,1973,S0,H0,,A2,,,,,;;
+437,8903_0070,8903_0070,Birmensdorf,Riedtstrasse 14,ZH,500,2675827,1244852,495,,1960,S0,H12,,A3,,,,,;;
+439,8903_0030,8903_0030,Birmensdorf,Risistrasse 24b,ZH,496,2676007,1245899,529,,1957,S12,H12,,A1,,,,,;;
+441,8903_0020,8903_0020,Birmensdorf,Ringstrasse 8,ZH,495,2676768,1245919,560,,1956,S12,H11,,A1,,,,,;;
+442,8910_0020,8910_0020,Affoltern a. A.,Alte Dorfstrasse 21,ZH,858,2676819,1236905,489,,2327,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+443,8932_0020,8932_0020,Mettmenstetten,Untere Bahnhofsstrasse 28,ZH,519,2677062,1233341,470,,1974,S12,H11,,A2,,,,,;;
+444,8903_0010,8903_0010,Birmensdorf,Schwandenweg,ZH,494,2677281,1245278,505,,1955,S0,H0,,A3,,,,,;;
+445,8906_0020,8906_0020,Bonstetten,Chrüzacherweg 2,ZH,512,2677434,1241118,535,,1970,S11,H11,,A3,,,,,;;
+446,8907_0050,8907_0050,Wettswil,Bahndamm,ZH,528,2677548,1243795,527,,1979,S00,H00,,A3,,,,,;;
+448,8907_0120,8907_0120,Wettswil,Heidenchilenstrasse 1,ZH,526,2677641,1244480,556,,1978,S0,H11,,A3,,,,,;;
+450,8934_0030,8934_0030,Knonau,Brücke,ZH,522,2677823,1230975,434,,1983,S21,H11,Randzonen,A2,,,,,;;
+451,8907_0070,8907_0070,Wettswil,In der Rehweid,ZH,507,2677889,1244340,580,,1966,S0,H11,,A3,,,,,;;
+452,8907_0060,8907_0060,Wettswil,Rastbank,ZH,529,2677897,1243727,538,,1980,S00,H00,,A3,,,,,;;
+454,8142_0010,8142_0010,Uitikon,Zopfstrasse,ZH,504,2677921,1245655,614,,1963,S0,H11,,A1,,,,,;;
+456,8906_0030,8906_0030,Bonstetten,Schule im Bruggen,ZH,524,2678111,1241880,542,,1976,S0,H12,,A3,,,,,;;
+458,8907_0100,8907_0100,Wettswil,Poststrasse 1,ZH,510,2678205,1243622,560,,1982,S12,H13,Zentrum,A3,,,,,;;
+459,8907_0080,8907_0080,Wettswil,Strumbergweg 17,ZH,508,2678296,1244043,608,,1967,S00,H11,,A3,,,,,;;
+460,8907_0090,8907_0090,Wettswil,Junggrüststrasse 12,ZH,509,2678729,1243018,631,,1968,S0,H11,,A1,,,,,;;
+461,8143_0010,8143_0010,Stallikon,Loomattstrasse 1,ZH,505,2679066,1243772,557,,1981,S11,H11,Randzonen,A3,,,,,;;
+462,8143_0020,8143_0020,Stallikon,Chilegass,ZH,506,2679508,1242234,554,,1965,S12,H11,,A3,,,,,;;
+463,8910_0010,8910_0010,Affoltern a. A.,Sandacherstrasse 22,ZH,514,2674895,1238216,476,,1971,S0,H0,,A1,,,,,;;
+464,8907_0020,8907_0020,Wettswil,Eichholzkamin,ZH,525,2677695,1244650,584,,1977,S00,H00,,A1,,,,,;;
+465,EKa_Gillstrasse,9642_0010,Ebnat-Kappel,Gillstrasse,SG,532,2727351,1236350,630,,2302,S0,H13,Zentrum,A3,Ländlich,Verkehr,einseitig offen,&lt; 5&apos;000,
+497,App_Feuerschau,9050_0120,Appenzell,Feuerschau,AI,564,2748736,1244230,775,,1990,S0,H13,Zentrum,A3,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+501,Kno_Oberdorfstrasse,8934_0050,Knonau,Oberdorfstrasse,ZH,573,2677585,1230948,432,,2022,S0,H12,Wohngebiete,A2,,,,,;;
+507,StG_Blumenbergplatz,9000_0340,St.Gallen,Blumenbergplatz,SG,574,2746011,1254720,675,,2443,S23,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+520,Alt_Riet,9450_0040,Altstätten,Riet,SG,868,2761525,1247760,415,,2343,S0,H0,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+521,Amr_Marktplatz,8580_0030,Amriswil,Marktplatz,TG,873,2740050,1267710,450,,2348,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+523,Arb_Quai,9320_0050,Arbon,Quai,TG,875,2750650,1264700,397,,2350,S0,H11,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+524,Bse_Haselberg,8363_0010,Bichelsee,Haselberg,TG,876,2710925,1258025,740,,2351,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+525,Buc_Unterstüdtlistr,9470_0030,Buchs,Unterstüdtlistrasse,SG,869,2754050,1225900,450,,2344,S0,H13,Zentrum,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+526,Bue_Schulhaus,8575_0030,Bürglen,Schulhaus,TG,877,2729190,1267740,451,,2352,S0,H12,Wohngebiete,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+527,Dih_Schwanzwisen,8253_0020,Diessenhofen,Schwanzwisen,TG,878,2698975,1281905,421,,2353,S0,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+528,Dih_Zentrum,8253_0030,Diessenhofen,Zentrum,TG,879,2698600,1282885,408,,2354,S0,H13,Zentrum,A2,Städtisch,Verkehr,geschlossen,&lt; 5&apos;000,
+530,Fis_Allenwinden,8376_0010,Fischingen,Allenwinden,TG,880,2714230,1249125,945,,2355,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+531,Fra_ARA,8500_0040,Frauenfeld,ARA,TG,881,2709558,1270010,393,,2356,S0,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+532,Fra_PTTGarage,8500_0050,Frauenfeld,PTT Garage,TG,882,2710680,1269107,398,,2357,S12,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+533,Gla_OPSIS,8750_0040,Glarus,OPSIS,GL,863,2723800,1211350,471,,2338,S13,H13,Zentrum,A3,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+536,Klt_Werkhof,8750_0050,Klöntal,Werkhof,GL,864,2718768,1210725,850,,2339,S0,H0,,A3,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+537,Kre_Alpenrosenstrasse,8280_0050,Kreuzlingen,Alpenrosenstrasse,TG,883,2729920,1279050,408,,2358,S0,H22,Wohngebiete,A2,Vorstädtisch,Industrie,geschlossen,&lt; 5&apos;000,
+538,Kre_Hauptstrasse,8280_0060,Kreuzlingen,Hauptstrasse,TG,884,2730435,1279040,415,,2359,S0,H23,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+539,Kre_Reutiwiesen,8280_0070,Kreuzlingen,Reutiwiesen,TG,885,2732410,1278050,409,,2360,S21,H21,Randzonen,A2,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+541,Mau_Pünt,8576_0010,Mauren,Pünt,TG,910,2729182,1269404,439,,2125,S11,H0,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+542,NeE_Walwisen,9322_0020,Neukirch-Egnach,Walwisen,TG,886,2746530,1266570,415,,2361,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+543,Net_Schulhaus,8754_0020,Netstal,Schulhaus,GL,865,2722692,1213686,465,,2340,S13,H13,Zentrum,A3,Ländlich,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+544,Opf_Tenniscenter,8152_0070,Opfikon,Tenniscenter,ZH,901,2685570,1253830,431,,2376,S31,H21,Randzonen,A2,Vorstädtisch,Verkehr,offen,&gt; 50&apos;000,
+545,Ott_Waldishüsli,8561_0010,Ottoberg,Waldishüsli,TG,887,2724340,1272325,582,,2362,S0,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+547,Rap_Merkurstrasse,8640_0030,Rapperswil-Jona,Merkurstrasse,SG,870,2704555,1231505,410,,2345,S0,H12,Wohngebiete,A2,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+548,Ric_Breiti,9532_0010,Rickenbach,Breiti,TG,889,2722080,1256255,548,,2364,S11,H00,,A2,Ländlich,Verkehr,keine,5&apos;000 - 20&apos;000,
+549,Rom_Huebzelg,8590_0030,Romanshorn,Huebzelg,TG,890,2745005,1269975,422,,2365,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+550,Sar_Schulhaus,7320_0020,Sargans,Schulhaus,SG,871,2751500,1212650,485,,2346,S0,H12,Wohngebiete,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+552,Sir_Elektra,8370_0030,Sirnach,Elektra,TG,891,2717295,1258087,530,,2366,S0,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+553,Soo_Büehlen,8762_0030,Sool,Büehlen,GL,867,2725219,1206789,645,,2342,S0,H0,,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+554,Stb_Schuelhüsli,8266_0020,Steckborn,Schuelhüsli,TG,892,2715995,1280715,400,,2367,S0,H13,Zentrum,A2,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+555,Tae_Nagelshusen,8274_0010,Tägerwilen,Nagelshusen,TG,893,2728050,1278255,504,,2368,S00,H0,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+556,Teu_Lehn,9053_0020,Teufen,Lehn,AR,861,2748690,1249850,912,,2336,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+557,Wad_Spital,8340_0310,Wald,Spital,ZH,903,2711161,1237318,642,,2378,S0,H11,Randzonen,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+558,WaS_Töbeliweg,8880_0020,Walenstadt,Töbeliweg,SG,872,2743295,1221080,525,,2347,S0,H11,Randzonen,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+559,Wee_Moos,8570_0050,Weerswilen,Moos,TG,894,2727270,1271550,668,,2369,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+560,WeF_Fallenwisen,8570_0060,Weinfelden,Fallenwisen,TG,895,2726360,1268530,432,,2370,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+561,WeF_Primarschulhaus,8570_0070,Weinfelden,Primarschulhaus (Paul Reinhard),TG,896,2725450,1269200,429,,2371,S0,H12,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+562,Zch_SchwamAlt,8000_0050,Zürich,Schwamendingen Schulhaus Saatlen,ZH,75,2684921,1251510,430,,1371,S00,H32,Wohngebiete,,,,,,;;
+563,Zch_Rosengartenstrasse,8000_1720,Zürich,Rosengartenstrasse,ZH,578,2682096,1249940,433,,2437,S33,H33,Zentrum,A2,Städtisch,Verkehr,geschlossen,&gt; 50&apos;000,
+564,Wil_Rudenzburg,9500_0040,Wil,Rudenzburg,SG,580,2721386,1258230,573,,2010,S12,H23,Zentrum,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+565,WeF_Berufsbildungszentrum,8570_0040,Weinfelden,Berufsbildungszentrum,TG,584,2725371,1269705,430,,2020,S0,H13,Zentrum,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+566,Obf_Gugelrebenstrasse,8912_0050,Obfelden,Gugelrebenstrasse,ZH,582,2674772,1235944,474,,2024,S0,H12,Wohngebiete,A1,Ländlich,Verkehr,einseitig offen,&lt; 5&apos;000,
+567,Alt_Rorschacherstrasse,9450_0030,Altstätten,Rorschacherstrasse,SG,583,2759025,1249840,451,,2000,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+568,Neu_Autohaus,8200_0250,Neuhausen am Rhf.,Autohaus,SH,579,2688896,1283090,390,,2013,S23,H23,Zentrum,A3,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+569,6890_0010,6890_0010,Lustenau,Wiesenrain,AT,627,2767145,1253330,410,,1984,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+576,7013_0040,7013_0040,Domat/Ems,Plarenga,GR,667,2755101,1189730,570,,2128,S21,H00   ,,A2    ,Ländlich,Verkehr,keine,20&apos;000 - 50&apos;000,
+584,7208_0010,7208_0010,Malans,Rütenen,GR,668,2761786,1204850,529,,2129,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+603,8000_0130,8000_0130,Zürich,Limmatquai 18,ZH,621,2683468,1247065,408,,2076,S12,H33,,A2,,,,,;;
+616,8000_0990,8000_0990,Zürich,Turbinenplatz,ZH,622,2681427,1249307,403,,2077,S13,H33,,A2,,,,,;;
+617,8104_0010,8104_0010,Weiningen,Chübelackerstrasse,ZH,616,2675801,1252310,426,,2071,S12,H12,,A2,,,,,;;
+618,8104_0020,8104_0020,Weiningen,Chalofenstrasse 9,ZH,615,2675936,1252300,439,,2070,S12,H12,,A2,,,,,;;
+619,8104_0030,8104_0030,Weiningen,Grossächerweg 4,ZH,617,2675485,1252195,411,,2072,S12,H11,,A2,,,,,;;
+620,8104_0040,8104_0040,Weiningen,Restaurant Winzerhaus,ZH,618,2674975,1252738,450,,2073,S11,H11,,A2,,,,,;;
+622,8105_0020,8105_0020,Regensdorf,Affolternstrasse 313,ZH,629,2678821,1253360,455,,2088,S11,H0,,A2,,,,,;;
+623,8105_0030,8105_0030,Regensdorf,Im Vogelsang,ZH,607,2678821,1253360,445,,2062,S11,H11,,A2,,,,,;;
+625,8152_0020,8152_0020,Opfikon,Frohdörflistrasse,ZH,603,2684333,1253656,437,,2058,S23,H13,,A2,,,,,;;
+626,8152_0060,8152_0060,Opfikon,Kreisel Glatthof,ZH,604,2685161,1254405,426,,2059,S23,H23,,A2,,,,,;;
+629,8174_0010,8174_0010,Stadel,Grundstrasse,ZH,669,2677921,1265241,426,,2130,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+632,8194_0010,8194_0010,Hüntwangen,Steinacker,ZH,670,2678909,1271880,399,,2131,S00,H0     ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+669,8213_0020,8213_0020,Neunkirch,Erspel,SH,671,2678191,1283124,420,,2132,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+702,8308_0030,8308_0030,Illnau-Effretikon,Wildert,ZH,672,2696535,1250584,543,,2133,S0,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+715,8400_0120,8400_0120,Winterthur,Bahnmeisterweg,ZH,620,2696628,1261540,437,,2075,S13,H23,,A2,,,,,;;
+716,8400_0130,8400_0130,Winterthur,Eishalle,ZH,652,2698710,1261365,450,,2111,S11,H22,Wohngebiete,A2,,,,,;;
+717,8400_0140,8400_0140,Winterthur,Tenniscenter,ZH,661,2699619,1260950,453,,2120,S11,H23,Zentrum,A2,,,,,;;
+718,8400_0150,8400_0150,Winterthur,Holzwingertstrasse,ZH,654,2700753,1261981,473,,2113,S0,H21,Randzonen,A2,,,,,;;
+719,8400_0160,8400_0160,Winterthur,Schiessstand Ohrbühl,ZH,659,2699795,1261718,457,,2118,S11,H23,Zentrum,A2,,,,,;;
+720,8400_0170,8400_0170,Winterthur,Landenbergstrasse,ZH,656,2698402,1262227,507,,2115,S00,H21,Randzonen,A2,,,,,;;
+721,8400_0180,8400_0180,Winterthur,Sulzerallee 3,ZH,660,2699070,1261922,453,,2119,S0,H23,Zentrum,A2,,,,,;;
+722,8400_0190,8400_0190,Winterthur,Ida-Sträuli-Strasse,ZH,655,2700037,1262190,457,,2114,S0,H21,Randzonen,A2,,,,,;;
+723,8400_0200,8400_0200,Winterthur,Ohrbühlstrasse 93,ZH,657,2700203,1262318,460,,2116,S0,H22,Wohngebiete,A2,,,,,;;
+724,8400_0210,8400_0210,Winterthur,Rümikerstrasse 16,ZH,658,2700086,1262418,460,,2117,S0,H22,Wohngebiete,A2,,,,,;;
+725,8400_0220,8400_0220,Winterthur,Eulachpark,ZH,653,2699779,1262427,459,,2112,S00,H21,Randzonen,A2,,,,,;;
+726,8400_0230,8400_0230,Winterthur,Werkhof Wülflingen,ZH,662,2695728,1261118,436,,2121,S11,H23,Zentrum,A2,,,,,;;
+727,8400_0240,8400_0240,Winterthur,Bahnhof Neuhegi,ZH,651,2700257,1262102,460,,2110,S0,H21,Randzonen,A2,,,,,;;
+728,8414_0010,8414_0010,Buch am Irchel,Tächlishalden,ZH,673,2689194,1268759,453,,2134,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+733,8463_0020,8463_0020,Benken,Dorfplatz,ZH,625,2691266,1278780,420,,2085,S11,H11,Randzonen,A2,,,,,;;
+734,8477_0020,8477_0020,Oberstammheim,Ölenberg,ZH,674,2702813,1276463,459,,2135,S0,H00   ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+742,8574_0010,8574_0010,Lengwil,Weiher Nr 1,TG,909,2730492,1277044,502,,2136,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+746,8580_0020,8580_0020,Amriswil,Hudelmoos Nr 0,TG,907,2739134,1265420,518,,2122,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+750,8617_0010,8617_0010,Mönchaltdorf,Altorfwisen,ZH,676,2697610,1239954,445,,2137,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+755,8700_0010,8700_0010,Küsnacht,Küsnachter Berg,ZH,677,2690876,1241451,658,,2138,S0,H0     ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+764,8750_0030,8750_0030,Glarus,Schweizerhof,GL,626,2724313,1210111,505,,2086,S0,H11,Randzonen,A2,,,,,;;
+773,8824_0010,8824_0010,Schönenberg,Oberhüsli,ZH,678,2691695,1226810,730,,2139,S0,H00   ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+780,8903_0050,8903_0050,Birmensdorf,Bachstrasse,ZH,592,2675438,1245168,482,,2047,S13,H13,,A2,,,,,;;
+781,8903_0090,8903_0090,Birmensdorf,Am Berg 193,ZH,591,2674830,1244774,504,,2046,S11,H11,,A2,,,,,;;
+784,8907_0110,8907_0110,Wettswil,Moosstrasse,ZH,619,2678118,1243249,538,,2074,S12,H12,,A2,,,,,;;
+785,8908_0020,8908_0020,Hedingen,Zentrum,ZH,595,2676390,1239097,510,,2050,S13,H13,,A2,,,,,;;
+787,8912_0010,8912_0010,Obfelden,Muristrasse 5,ZH,602,2675220,1235885,480,,2057,S12,H11,,A2,,,,,;;
+788,8912_0020,8912_0020,Obfelden,Ecke Schürweidstrasse 4,ZH,601,2674815,1236010,475,,2056,S11,H11,,A2,,,,,;;
+789,8912_0030,8912_0030,Obfelden,Dorfstrasse 63,ZH,600,2674465,1235108,440,,2055,S12,H11,,A2,,,,,;;
+790,8912_0040,8912_0040,Obfelden,Sennhüttenstrasse 18,ZH,628,2674703,1235967,470,,2087,S12,H11,Randzonen,A2,,,,,;;
+791,8913_0010,8913_0010,Ottenbach,Widenospen 3,ZH,606,2673549,1236565,427,,2061,S12,H11,,A2,,,,,;;
+792,8913_0020,8913_0020,Ottenbach,Dorfplatz,ZH,623,2673064,1237168,415,,2060,S13,H13,,A2,,,,,;;
+793,8932_0010,8932_0010,Mettmenstetten,Sunneggstrasse 12,ZH,599,2675905,1234754,469,,2054,S21,H0,,A2,,,,,;;
+794,8932_0030,8932_0030,Mettmenstetten,Gemeindehaus,ZH,598,2677589,1233010,472,,2053,S13,H13,,A2,,,,,;;
+795,8926_0010,8926_0010,Kappel am Albis,Uerzlikon,ZH,679,2680067,1230326,527,,2140,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+797,8934_0020,8934_0020,Knonau,Chamstrasse 42,ZH,596,2677926,1230180,441,,2051,S32,H11,,A2,,,,,;;
+798,8934_0040,8934_0040,Knonau,Waldrand,ZH,597,2677911,1231319,456,,2052,S11,H11,,A2,,,,,;;
+820,9000_0280,9000_0280,St.Gallen,Wildeggstrasse,SG,613,2746836,1254410,693,,2068,S0,H22,,A1,,,,,;;
+821,9000_0290,9000_0290,St.Gallen,Flurhofstrasse 47,SG,609,2747426,1254880,685,,2064,S0,H22,,A2,,,,,;;
+822,9000_0300,9000_0300,St.Gallen,Rosenbergstrasse,SG,641,2745646,1254335,671,,2100,S13,H23,Zentrum,A2,,,,,;;
+823,9000_0310,9000_0310,St.Gallen,Melchtalstrasse,SG,611,2745366,1254360,709,,2066,S0,H22,,A2,,,,,;;
+824,9000_0320,9000_0320,St.Gallen,Lindentalstrasse,SG,610,2747511,1255565,654,,2065,S0,H22,,A2,,,,,;;
+825,9000_0330,9000_0330,St.Gallen,Untere Lindentalstrasse,SG,612,2747366,1255535,646,,2067,S0,H22,,A2,,,,,;;
+826,9000_0350,9000_0350,St.Gallen,Güterbahnhof,SG,636,2745331,1253725,675,,2095,S0,H23,Zentrum,A2,,,,,;;
+827,9000_0360,9000_0360,St.Gallen,Museumsstrasse,SG,640,2746606,1254875,660,,2099,S0,H23,Zentrum,A2,,,,,;;
+828,9000_0370,9000_0370,St.Gallen,Stadtpark,SG,643,2746616,1254710,660,,2102,S00,H23,Zentrum,A2,,,,,;;
+829,9000_0380,9000_0380,St.Gallen,Talhofstrasse,SG,644,2746326,1254845,664,,2103,S0,H23,Zentrum,A2,,,,,;;
+830,9000_0390,9000_0390,St.Gallen,Torstrasse,SG,645,2746271,1254850,663,,2104,S22,H23,Zentrum,A2,,,,,;;
+831,9000_0400,9000_0400,St.Gallen,St.Katharinen,SG,642,2746256,1254710,665,,2101,S0,H23,Zentrum,A2,,,,,;;
+832,9000_0410,9000_0410,St.Gallen,Bohl,SG,634,2746181,1254645,667,,2093,S0,H23,Zentrum,A2,,,,,;;
+833,9000_0420,9000_0420,St.Gallen,Kirchgasse,SG,638,2746156,1254775,672,,2097,S0,H23,Zentrum,A2,,,,,;;
+834,9000_0430,9000_0430,St.Gallen,Unterer Graben 21,SG,646,2746081,1254800,671,,2105,S22,H23,Zentrum,A2,,,,,;;
+835,9000_0440,9000_0440,St.Gallen,Metzgergasse,SG,639,2746086,1254725,671,,2098,S0,H23,Zentrum,A2,,,,,;;
+836,9000_0450,9000_0450,St.Gallen,Bergtreppe 1,SG,721,2746001,1254755,683,,2183,S0,H23,,A2,,,,,;;
+837,9000_0460,9000_0460,St.Gallen,Bergtreppe 2,SG,632,2745981,1254770,687,,2091,S00,H23,Zentrum,A2,,,,,;;
+838,9000_0470,9000_0470,St.Gallen,Bergtreppe 3,SG,633,2745951,1254780,697,,2092,S0,H23,Zentrum,A2,,,,,;;
+839,9000_0480,9000_0480,St.Gallen,Kino Rex,SG,637,2745946,1254690,678,,2096,S0,H23,Zentrum,A2,,,,,;;
+840,9000_0490,9000_0490,St.Gallen,Zwinglistrasse,SG,647,2745836,1254630,687,,2106,S0,H23,Zentrum,A2,,,,,;;
+841,9000_0500,9000_0500,St.Gallen,Bahnhofplatz,SG,631,2745751,1254250,669,,2090,S0,H23,Zentrum,A2,,,,,;;
+842,9000_0510,9000_0510,St.Gallen,Gäbrisstrasse,SG,635,2745721,1254110,671,,2094,S0,H23,Zentrum,A2,,,,,;;
+843,9000_0520,9000_0520,St.Gallen,Stuelegg Nr 4,SG,680,2747627,1252579,912,,2141,S00,H00   ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+859,9050_0130,9050_0130,Steinegg,Rödelbach Nr 2,AI,681,2750796,1243628,820,,2142,S0,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+885,9200_0040,9200_0040,Gossau,Herisauerstrasse 64,SG,593,2736691,1252710,647,,2048,S13,H13,,A2,,,,,;;
+886,9205_0010,9205_0010,Waldkirch,Mooshueb,SG,682,2737996,1259830,587,,2143,S0,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+887,9205_0020,9205_0020,Waldkirch,Wisental,SG,683,2738221,1259845,589,,2144,S0,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+888,9205_0030,9205_0030,Waldkirch,Felsenhof,SG,684,2738336,1259650,596,,2145,S0,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+913,9443_0010,9443_0010,Widnau,Büchelweg,SG,648,2766125,1252720,406,,2107,S00,H12,Wohngebiete,A2,,,,,;;
+914,9443_0020,9443_0020,Widnau,Rheinradweg,SG,649,2766885,1253025,411,,2108,S00,H11,Randzonen,A2,,,,,;;
+922,9465_0010,9465_0010,Salez,Schwarzengraben Nr 2,SG,685,2754931,1233346,436,,2146,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+923,9465_0020,9465_0020,Salez,Schwarzengraben Nr 3,SG,686,2755204,1233211,435,,2147,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+928,9486_0010,9486_0010,Schaanwald,Grenzübergang,FL,630,2761411,1231850,460,,2089,S11,H0,,A3,,,,,;;
+938,9494_0020,9494_0020,Schaan,Lindenkreuzung,FL,687,2757020,1226075,450,,2148,S13,H13    ,,A2    ,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+939,9494_0030,9494_0030,Schaan,Lindenkreuzung Nr 1,FL,688,2757047,1226080,450,,2149,S13,H13    ,,A2    ,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+958,Amr_Hudelmoos,8580_0040,Amriswil,Hudelmoos Nr 3,TG,908,2739124,1265522,521,,2123,S00,H00,,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+961,App_Meistersrüte,9057_0050,Appenzell,Meistersrüte,AI,689,2750337,1245711,930,,2150,S11,H0     ,,A1     ,Ländlich,Hintergrund,keine,5&apos;000 - 20&apos;000,
+966,Bac_Sennenberg,8340_0030,Bachtel,Sennenberg,ZH,590,2710341,1239600,930,,2045,S00,H0     ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+967,Bal_Aviols,9496_0020,Balzers,Aviols,FL,690,2756663,1215349,473,,2151,S12,H11    ,,A2    ,Ländlich,Hintergrund,offen,5&apos;000 - 20&apos;000,
+980,ELi_Horberriet,8360_0010,Eschlikon,Horberriet,TG,691,2715421,1257220,575,,2152,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+981,ELi_Riethof,8360_0020,Eschlikon,Riethof,TG,692,2715300,1257014,583,,2153,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+988,Fra_Sand,8500_0060,Frauenfeld,Sand,TG,693,2707595,1269988,384,,2154,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+991,Gon_Gontenbad,9108_0030,Gonten,Gontenbad,AI,940,2745301,1243603,896,,2155,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+993,Hae_Buo,9312_0010,Häggenschwil,Buo,SG,801,2743590,1261675,568,,2049,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1006,LaR_Grabewis,8585_0010,Langrickenbach,Grabewis,TG,695,2736326,1272535,515,,2156,S0,H00   ,,A2    ,Ländlich,Hintergrund,keine,5&apos;000 - 20&apos;000,
+1013,Oeg_St.Anton,9413_0020,Oberegg,St.Anton,AI,696,2758570,1253406,1071,,2157,S0,H0     ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1019,Rap_Hochhaus,8640_0020,Rapperswil-Jona,Hochhaus,SG,697,2704501,1231520,430,,2158,S22,H23   ,,A2    ,Städtisch,Verkehr,offen,20&apos;000 - 50&apos;000,
+1025,Rte_Hirschberg,9058_0040,Rüte,Hirschberg,AI,698,2750311,1244398,890,,2159,S0,H0     ,,A1     ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1028,SNs_Wellrüti,8718_0020,Schänis,Wellrüti,SG,608,2722924,1223521,630,,2063,S00,H00   ,,A1     ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1030,SHn_Ebnet,9054_0020,Schlatt-Haslen,Ebnet,AI,699,2745831,1248340,768,,2160,S0,H0     ,,A1     ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1041,StE_Rödelbach,9057_0040,Steinegg,Rödelbach,AI,614,2750831,1243700,820,,2069,S0,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1050,Wdi_Waldhof,8564_0010,Wäldi,Waldhof,TG,700,2723864,1276672,572,,2161,S0,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1053,Wgi_Weiertal,9545_0020,Wängi,Weiertal,TG,701,2713921,1259410,641,,2162,S00,H0     ,,A2    ,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1059,WeF_Weid,8570_0080,Weinfelden,Weid,TG,912,2723547,1270162,422,,2163,S00,H00   ,,A2    ,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1060,Neu_Schaffhauserstrasse,8212_0150,Neuhausen am Rhf.,Schaffhauserstrasse,SH,585,2688816,1282412,418,,2463,S13,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1061,Sch_Güterstrasse,8952_0010,Schlieren,Güterstrasse,ZH,586,2676061,1250243,392,,2041,S0,H12,Wohngebiete,A2,Vorstädtisch,Industrie,einseitig offen,&lt; 5&apos;000,
+1062,Vad_Landesbibliothek,9490_0040,Vaduz,Landesbibliothek,FL,587,2757951,1222605,455,,2444,S00,H13,Zentrum,A3,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1063,Wez_Turnhallenstrasse,8620_0020,Wetzikon,Turnhallenstrasse,ZH,588,2703076,1242612,544,,2040,S0,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1064,Win_Veltheim,8400_0250,Winterthur,Veltheim,ZH,589,2696556,1262725,440,,2431,S0,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1065,8754_0030,8754_0030,Netstal,Wiggisparkzentrum,GL,703,2723046,1214203,455,,2165,S12,H13,,A2,Ländlich,Verkehr,offen,5&apos;000 - 20&apos;000,
+1066,8752_0050,8752_0050,Näfels,Schwärzistrasse,GL,704,2723929,1218452,436,,2166,S0,H0,,A2,Ländlich,Industrie,offen,&lt; 5&apos;000,
+1067,8866_0010,8866_0010,Ziegelbrücke,Berufsschule,GL,705,2722745,1221825,424,,2167,S0,H0,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1068,8784_0020,8784_0020,Braunwald,Bergstation Braunwaldbahn,GL,719,2718726,1199807,1256,,2181,S0,H0     ,,A0    ,,,,,;;
+1069,8913_0030,8913_0030,Ottenbach,Dorfplatz Lichtsignal,ZH,718,2673044,1237170,415,,2180,S12,H13    ,,A2    ,,,,,;;
+1070,8952_0020,8952_0020,Schlieren,Bernstrasse,ZH,717,2676203,1250677,392,,2179,S21,H12    ,,A2    ,,,,,;;
+1071,8952_0030,8952_0030,Schlieren,Mühleackerstrasse 13,ZH,716,2676056,1249768,405,,2178,S0,H12    ,,A2    ,,,,,;;
+1072,8952_0040,8952_0040,Schlieren,Sportanlage Zelgli,ZH,715,2675988,1251041,392,,2177,S0,H11    ,,A2    ,,,,,;;
+1073,8952_0050,8952_0050,Schlieren,Stadtpark,ZH,714,2676062,1250053,395,,2176,S0,H13    ,,A2    ,,,,,;;
+1074,8952_0060,8952_0060,Schlieren,Zürcherstrasse 4,ZH,713,2676227,1250109,395,,2175,S22,H13    ,,A2    ,,,,,;;
+1075,8620_0030,8620_0030,Wetzikon,Bahnhofstrasse,ZH,712,2702522,1241986,530,,2174,S21,H23   ,,A2    ,,,,,;;
+1076,8620_0040,8620_0040,Wetzikon,Hans Georg Nägelistrasse,ZH,711,2702408,1242324,551,,2173,S0,H22,,A2    ,,,,,;;
+1077,8620_0050,8620_0050,Wetzikon,Legionärsweg,ZH,710,2703898,1243206,562,,2172,S11,H22   ,,A2    ,,,,,;;
+1078,8620_0060,8620_0060,Wetzikon,Spitalstrasse,ZH,709,2702701,1241984,531,,2171,S11,H22   ,,A2    ,,,,,;;
+1079,8620_0070,8620_0070,Wetzikon,Stadthaus,ZH,708,2703018,1242737,545,,2170,S12,H23   ,,A2    ,,,,,;;
+1080,9500_0060,9500_0060,Wil,Lindenhof,SG,707,2721511,1257670,566,,2169,S00,H22   ,,A2    ,,,,,;;
+1081,9500_0050,9500_0050,Wil,Toggenburgerstrasse,SG,706,2721361,1257555,565,,2168,S13,H22   ,,A2    ,,,,,;;
+1082,8308_0040,8308_0040,Illnau-Effretikon,Chrützegg,ZH,720,2696535,1251183,540,,2182,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1083,Flu_ARA,8890_0010,Flums,ARA,SG,722,2744136,1218550,437,,2184,S00,H00,,A3,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1084,,,Zürich-Kaserne,NABEL,ZH,723,2682450,1247990,409,,2185,,,,,,,,,;;
+1085,,,Rigi-Seebodenalp,NABEL,SZ,724,2677835,1213440,1031,,2186,,,,,,,,,;;
+1086,,,Tänikon,NABEL,TG,725,2710500,1259810,538,,2187,,,,,,,,,;;
+1087,,,Dübendorf,NABEL,ZH,726,2688675,1250900,432,,2188,,,,,,,,,;;
+1088,,,Lägeren,NABEL,AG,727,2669780,1259020,689,,2189,,,,,,,,,;;
+1089,Kre_Marktweg,8280_0080,Kreuzlingen,Marktweg,TG,730,2730174,1278960,412,,2191,S0,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1090,Wil_Rudenzburg Kreuzung,9500_0070,Wil,Rudenzburg Kreuzung,SG,731,2721340,1258230,573,,2192,S13,H23,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1091,Opf_Glattpark,8152_0120,Opfikon,Glattpark,ZH,732,2684665,1253012,426,,2193,S0,H22,Wohngebiete,A2,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1092,9403_0050,9403_0050,Goldach,St.Gallerstrasse 76,SG,733,2753015,1260640,431,,2194,S12,H22,Wohngebiete,A2,,,,,;;
+1093,8757_0020,8757_0020,Filzbach,Gäsistrasse,GL,744,2726872,1220673,425,,2206,S21,H00,,A3,,,,,;;
+1094,8890_0020,8890_0020,Flums,Bergstrasse,SG,743,2744625,1217135,458,,2205,S0,H13,Zentrum,A3,,,,,;;
+1095,8882_0010,8882_0010,Mühlehorn,Tiefenwinkel,GL,742,2732697,1219748,430,,2204,S0,H0,,A3,,,,,;;
+1096,8152_0110,8152_0110,Opfikon,Boulevard Lilienthal 51,ZH,741,2684558,1252782,427,,2203,S0,H22,Wohngebiete,A2,Städtisch,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1097,8152_0100,8152_0100,Opfikon,Dufauxstrasse 54,ZH,740,2684759,1252838,425,,2202,S0,H22,Wohngebiete,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1098,8152_0080,8152_0080,Opfikon,Earhart-Strasse 5,ZH,739,2684950,1253189,425,,2201,S0,H22,Wohngebiete,A2,Städtisch,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1099,8152_0090,8152_0090,Opfikon,Hamilton-Promenade,ZH,738,2684972,1253005,424,,2200,S0,H22,Wohngebiete,A2,Städtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1100,9000_0530,9000_0530,St.Gallen,Schwertgasse 14,SG,737,2746285,1254735,666,,2199,S0,H23,Zentrum,A2,,,,,;;
+1101,8730_0020,8730_0020,Uznach,Kirchplatz,SG,736,2717230,1231650,427,,2198,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1102,8730_0040,8730_0040,Uznach,Obergasse,SG,735,2717165,1231585,427,,2197,S0,H13,Zentrum,A2,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1103,8730_0030,8730_0030,Uznach,Tönierhaus,SG,734,2717225,1231660,427,,2196,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1104,Wei_Nägelseestrasse,8104_0050,Weiningen,Nägelseestrasse,ZH,747,2675817,1252111,418,,2207,S31,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1105,8754_0040,8754_0040,Netstal,Mattstrasse 3,GL,745,2722974,1213551,465,,2208,S13,H13,Zentrum,A1,,,,,;;
+1106,Alt_Hoher Kasten,9450_0050,Altstätten,Hoher Kasten,SG,746,2754850,1239015,1793,,2209,S00,H00,,A0,Hochgebirge,Hintergrund,keine,&lt; 5&apos;000,
+1107,Hor_Sekundarschule,8810_0030,Horgen,Sekundarschule,ZH,748,2687799,1234471,477,,2210,S0,H13,Zentrum,A1,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1108,Win_St.Gallerstrasse,8400_0270,Winterthur,St. Gallerstrasse,ZH,749,2697547,1261627,444,,2211,S22,H23,Zentrum,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1109,8103_0030,8103_0030,Unterengstringen,Büelstrasse,ZH,750,2675888,1251928,430,,2212,S0,H11,Randzonen,A2,,,,,;;
+1110,8103_0020,8103_0020,Unterengstringen,Chriesihogerweg,ZH,751,2675630,1252016,420,,2213,S31,H11,Randzonen,A2,,,,,;;
+1111,Flu_Dorf,8890_0030,Flums,Dorf,SG,755,2744955,1217235,447,,2215,S00,H13,Zentrum,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1112,8134_0030,8134_0030,Adliswil,Dietlimoos,ZH,758,2682502,1241706,469,,2218,S11,H11,Randzonen,A2,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1113,8750_0060,8750_0060,Glarus,Sandstrasse 13,GL,759,2723713,1211141,480,,2219,S0,H13,Zentrum,A3,Ländlich,Verkehr,geschlossen,&lt; 5&apos;000,
+1114,8810_0060,8810_0060,Horgen,Drusbergstrasse,ZH,760,2687706,1234339,490,,2220,S0,H12,Wohngebiete,A1,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1115,8810_0050,8810_0050,Horgen,Kummrütistrasse,ZH,761,2687559,1234159,520,,2221,S0,H12,Wohngebiete,A1,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1116,8810_0040,8810_0040,Horgen,Mythenstrasse,ZH,762,2687443,1234084,550,,2222,S22,H11,Randzonen,A1,Städtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1117,8810_0080,8810_0080,Horgen,Schärbächlistrasse,ZH,763,2688024,1234836,420,,2223,S12,H12,Wohngebiete,A1,Städtisch,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1118,8810_0070,8810_0070,Horgen,Steinbruchstrasse,ZH,764,2687955,1234591,450,,2224,S0,H13,Zentrum,A1,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1119,8102_0010,8102_0010,Oberengstringen,Zürcherstrasse 21,ZH,765,2678522,1251005,428,,2225,S12,H22,Wohngebiete,A2,Städtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1120,8645_0140,8645_0140,Rapperswil-Jona,Allmeindstrasse,SG,766,2705880,1232265,422,,2226,S0,H22,Wohngebiete,A2,Städtisch,Verkehr,geschlossen,&lt; 5&apos;000,
+1121,8645_0080,8645_0080,Rapperswil-Jona,Alte Jonastrasse,SG,767,2704730,1231825,415,,2227,S0,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,&lt; 5&apos;000,
+1122,8645_0030,8645_0030,Rapperswil-Jona,Bahnhofplatz,SG,768,2704395,1231375,409,,2228,S0,H23,Zentrum,A2,Städtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1123,8645_0050,8645_0050,Rapperswil-Jona,Giegenegg,SG,769,2705630,1232410,437,,2229,S00,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1124,8645_0100,8645_0100,Rapperswil-Jona,Haldenstrasse,SG,770,2704580,1231865,413,,2230,S13,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1125,8645_0110,8645_0110,Rapperswil-Jona,Obere Bahnhofstrasse,SG,771,2704540,1231635,412,,2231,S13,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1126,8645_0060,8645_0060,Rapperswil-Jona,Rathaus,SG,772,2704330,1231524,414,,2232,S0,H23,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1127,8645_0150,8645_0150,Rapperswil-Jona,Schmiedgasse 1,SG,773,2704490,1231570,411,,2233,S13,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1128,8645_0160,8645_0160,Rapperswil-Jona,Schmiedgasse 2,SG,774,2704490,1231580,412,,2234,S13,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1129,8645_0170,8645_0170,Rapperswil-Jona,Schmiedgasse 3,SG,775,2704485,1231590,412,,2235,S0,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,&lt; 5&apos;000,
+1130,8645_0180,8645_0180,Rapperswil-Jona,Schmiedgasse 4,SG,776,2704480,1231605,412,,2236,S0,H23,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1131,8645_0130,8645_0130,Rapperswil-Jona,Seedammstrasse,SG,777,2704275,1231345,409,,2282,S22,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1132,8645_0040,8645_0040,Rapperswil-Jona,Seepromenade,SG,778,2703955,1231565,407,,2238,S00,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1133,8645_0070,8645_0070,Rapperswil-Jona,Seewiesstrasse,SG,779,2704545,1232235,401,,2239,S0,H23,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1134,8645_0120,8645_0120,Rapperswil-Jona,Untere Bahnhofstrasse,SG,780,2704455,1231415,409,,2281,S23,H23,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1135,8645_0090,8645_0090,Rapperswil-Jona,Zürcherstrasse,SG,781,2704360,1232670,409,,2241,S12,H21,Randzonen,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1136,8105_0050,8105_0050,Regensdorf,Dorfstrasse,ZH,782,2678415,1254834,442,,2304,S0,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1137,8105_0040,8105_0040,Regensdorf,Weiningerstrasse,ZH,783,2677188,1253459,492,,2243,S0,H11,Randzonen,A2,Vorstädtisch,Verkehr,keine,5&apos;000 - 20&apos;000,
+1138,9490_0050,9490_0050,Vaduz,Binnendamm,FL,784,2757271,1222691,460,,2244,S00,H11,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1139,8400_0260,8400_0260,Winterthur,Frauenfelderstrasse,ZH,785,2699387,1262562,456,,2245,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,offen,20&apos;000 - 50&apos;000,
+1140,8400_0360,8400_0360,Winterthur,Kanzleistrasse,ZH,786,2699708,1259976,464,,2246,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1141,8400_0280,8400_0280,Winterthur,Lindstrasse,ZH,787,2696734,1262854,442,,2247,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1142,8400_0370,8400_0370,Winterthur,Metzggasse,ZH,788,2697128,1261699,441,,2248,S0,H23,Zentrum,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1143,8400_0340,8400_0340,Winterthur,Mühlestrasse,ZH,789,2697556,1261462,443,,2249,S00,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1144,8400_0290,8400_0290,Winterthur,Neuwiesenstrasse,ZH,790,2696677,1262197,436,,2250,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1145,8400_0330,8400_0330,Winterthur,St. Gallerstrasse 2,ZH,791,2697547,1261637,444,,2251,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1146,8400_0350,8400_0350,Winterthur,St. Gallerstrasse 39,ZH,792,2697924,1261652,446,,2252,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1147,8400_0320,8400_0320,Winterthur,Terrassenweg,ZH,793,2693765,1263594,426,,2253,S0,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1148,8400_0310,8400_0310,Winterthur,Wülflingerstrasse 393,ZH,794,2693540,1263540,409,,2254,S22,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1149,8400_0300,8400_0300,Winterthur,Zürcherstrasse,ZH,795,2696252,1261509,439,,2255,S22,H22,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1150,5436_0010,5436_0010,Würenlos,Landstrasse,AG,796,2669989,1254702,425,,2256,S0,H11,Randzonen,A2,Ländlich,Verkehr,offen,&lt; 5&apos;000,
+1151,Mei_Bezirksgericht,8706_0020,Meilen,Bezirksgericht,ZH,797,2691909,1235880,423,,2257,S0,H13,Zentrum,A2,Städtisch,Hintergrund,offen,5&apos;000 - 20&apos;000,
+1152,8757_0030,8757_0030,Filzbach,Sportzentrum,GL,798,2728127,1220328,715,,2258,S0,H0,,A0,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1153,Bul_Stadthalle,8180_0020,Bülach,Stadthalle,ZH,808,2682598,1263398,406,,2263,S0,H12,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1154,Klo_Gerlisbergstrasse,8302_0060,Kloten,Gerlisbergstrasse,ZH,906,2686430,1256533,440,,2271,S0,H13,Zentrum,A2,Städtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1155,8303_0010,8303_0010,Bassersdorf,Bachstrasse,ZH,804,2689307,1255529,455,,2260,S12,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1156,8180_0050,8180_0050,Bülach,Allmendstrasse,ZH,805,2682112,1263005,434,,2261,S22,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1157,8180_0030,8180_0030,Bülach,Gewerbe Feldermösli,ZH,806,2682973,1262784,414,,2262,S0,H12,Wohngebiete,A2,Vorstädtisch,Industrie,einseitig offen,&lt; 5&apos;000,
+1158,8180_0040,8180_0040,Bülach,Glashütte,ZH,809,2682819,1264408,433,,2264,S0,H12,Wohngebiete,A2,Vorstädtisch,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1159,8180_0060,8180_0060,Bülach,Lindenhof,ZH,810,2682816,1263794,430,,2265,S0,H13,Zentrum,A2,Vorstädtisch,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1160,8953_0030,8953_0030,Dietikon,Badenerstrasse,ZH,811,2672485,1250960,391,,2266,S12,H12,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1161,8305_0010,8305_0010,Dietlikon,Gemeindehaus,ZH,812,2688998,1253335,402,,2267,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1162,8604_0010,8604_0010,Hegnau,Kreisel,ZH,813,2693508,1249425,459,,2268,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1163,8913_0040,8913_0040,Ottenbach,Bibelaas,ZH,814,2672489,1236903,383,,2270,S0,H00,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1164,9533_0020,9533_0020,Kirchberg,Turpenriet,SG,815,2720315,1251605,740,,2269,S0,H11,Randzonen,A2,Ländlich,Verkehr,keine,&lt; 5&apos;000,
+1165,9497_0030,9497_0030,Triesenberg,Gschindstrasse 13,FL,817,2759540,1220985,875,,2272,S0,H13,Zentrum,A1,Ländlich,Hintergrund,geschlossen,&lt; 5&apos;000,
+1166,9497_0040,9497_0040,Triesenberg,Landstrasse 41,FL,818,2759860,1220345,855,,2273,S0,H13,Zentrum,A1,Ländlich,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1167,9033_0020,9033_0020,Untereggen,Schlossweier,SG,819,2752265,1258595,554,,2274,S0,H0,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1168,Bil_Niederriet,8865_0010,Bilten,Niederriet,GL,820,2719010,1225155,411,,2283,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1169,arosa,,Arosa,Meteoschweiz LKO,GR,822,2770745,1183315,1840,,2290,S00,H11,Randzonen,A0,Hochgebirge,Hintergrund,offen,&lt; 5&apos;000,
+1170,castaneda,,Castaneda,Camac,GR,823,2731320,1124230,770,,2291,S00,H11,Randzonen,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1171,davosbubenbrunnenplatz,,Davos,Bubenbrunnenplatz,GR,824,2781855,1185185,1560,,2292,S0,H13,Zentrum,A0,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1172,grono,,Grono,Dorf,GR,825,2731850,1123070,333,,2293,S0,H12,Wohngebiete,A2,Ländlich,Hintergrund,geschlossen,5&apos;000 - 20&apos;000,
+1173,mesocco,,Mesocco,Dorf,GR,826,2738060,1139050,790,,2294,S11,H12,Wohngebiete,A2,Ländlich,Hintergrund,geschlossen,5&apos;000 - 20&apos;000,
+1174,rothenbrunnen,,Rothenbrunnen,A13,GR,827,2751520,1181100,623,,2295,S11,H00,,A2,Ländlich,Hintergrund,geschlossen,5&apos;000 - 20&apos;000,
+1175,roveredomunicipio,,Roveredo,Municipio,GR,828,2730210,1121880,320,,2296,S00,H12,Wohngebiete,A2,Ländlich,Hintergrund,geschlossen,&lt; 5&apos;000,
+1176,sanvittore,,San Vittore,Dorf,GR,829,2728530,1122160,280,,2297,S0,H12,Wohngebiete,A2,Ländlich,Hintergrund,geschlossen,5&apos;000 - 20&apos;000,
+1177,soglio,,Soglio,Dorf,GR,830,2761600,1134410,1100,,2298,S00,H00,,A1,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1178,stmoritzkreiseldulac,,St. Moritz,Kreisel du Lac,GR,831,2784034,1151358,1770,,2299,S0,H13,Zentrum,A0,Hochgebirge,Hintergrund,offen,&lt; 5&apos;000,
+1179,stmoritz,,St. Moritz,Schulhaus,GR,832,2782220,1152530,1770,,2300,S0,H13,Zentrum,A0,Hochgebirge,Hintergrund,offen,&lt; 5&apos;000,
+1180,9487_0020,9487_0020,Bendern,Eschner Strasse 9,FL,833,2756498,1230904,441,,2301,S11,H0,,A2,Ländlich,Verkehr,offen,5&apos;000 - 20&apos;000,
+1181,8306_0010,8306_0010,Brüttisellen,Haldenstrasse,ZH,856,2689893,1252918,443,,2326,S0,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1182,8157_0010,8157_0010,Dielsdorf,Wehntalerstrasse,ZH,855,2676479,1259551,455,,2325,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1183,9444_0070,9444_0070,Diepoldsau,Alpsteinstrasse 6a,SG,854,2768300,1250035,410,,2324,S0,H11,Randzonen,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1184,9444_0050,9444_0050,Diepoldsau,Hintere Kirchstrasse 27,SG,853,2767720,1250880,408,,2323,S0,H13,Zentrum,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1185,9444_0040,9444_0040,Diepoldsau,Schmitterstrasse 29,SG,852,2767420,1251120,406,,2322,S12,H12,Wohngebiete,A2,Ländlich,Hintergrund,einseitig offen,20&apos;000 - 50&apos;000,
+1186,9444_0060,9444_0060,Diepoldsau,Sportanlage,SG,851,2767720,1250880,411,,2321,S00,H11,Randzonen,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1187,9444_0080,9444_0080,Diepoldsau,Tannenweg 8,SG,850,2768145,1250070,408,,2320,S0,H11,Randzonen,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1188,9444_0090,9444_0090,Diepoldsau,Vordere Kirchstrasse 8,SG,849,2767260,1250620,409,,2319,S0,H13,Zentrum,A2,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1189,Klo_Feld,8302_0070,Kloten,Feld,ZH,968,2686370,1256639,440,,2464,S0,H22,Wohngebiete,A2,Vorstädtisch,Hintergrund,keine,&lt; 5&apos;000,
+1190,8934_0060,8934_0060,Knonau,Ägelsee,ZH,847,2675681,1232590,447,,2317,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1191,8753_0010,8753_0010,Mollis,Welschenbüel,GL,846,2725392,1219122,831,,2316,S0,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1192,8754_0050,8754_0050,Netstal,Kleinzaun,GL,845,2723193,1214621,450,,2315,S0,H11,Randzonen,A3,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1193,8330_0020,8330_0020,Pfäffikon,Rappengasse,ZH,844,2701487,1246996,384,,2314,S0,H13,Zentrum,A2,Vorstädtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1194,9491_0020,9491_0020,Ruggell,Riet,FL,843,2760091,1235669,430,,2313,S00,H00,,A2,Städtisch,Hintergrund,keine,&lt; 5&apos;000,
+1195,9063_0010,9063_0010,Stein,Sägehüsli,AR,842,2745030,1247240,720,,2312,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1196,9495_0020,9495_0020,Triesen,Landstrasse II,FL,841,2758298,1219795,460,,2311,S12,H13,Zentrum,A2,Ländlich,Verkehr,geschlossen,&lt; 5&apos;000,
+1197,8488_0020,8488_0020,Turbenthal,Tablat,ZH,840,2707669,1252229,646,,2310,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1198,Ust_Bildungszentrum,8610_0030,Uster,Bildungszentrum,ZH,839,2695829,1244930,454,,2309,S0,H21,Randzonen,A2,Vorstädtisch,Hintergrund,offen,&lt; 5&apos;000,
+1199,8620_0080,8620_0080,Wetzikon,Robenhuserriet,ZH,838,2701988,1243514,538,,2308,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1200,8400_0400,8400_0400,Winterthur,Haltestelle Hegi,ZH,837,2700217,1262011,460,,2307,S12,H21,Randzonen,A2,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1201,Win_Neuhegi,8400_0390,Winterthur,Neuhegi,ZH,836,2700093,1262210,459,,2306,S0,H21,Randzonen,A2,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1202,8400_0380,8400_0380,Winterthur,Seenerstrasse,ZH,835,2699700,1262050,452,,2305,S13,H21,Randzonen,A2,Städtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1241,Aff_Islisberg,8910_0170,Affoltern,Islisberg,ZH,897,2674876,1238892,475,,2372,S23,H00,,A2,Ländlich,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1242,8058_0010,8058_0010,Kloten,Flughafen Airside,ZH,898,2685175,1256475,465,,2373,S0,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1243,8058_0020,8058_0020,Kloten,Flughafen Landside,ZH,899,2685175,1256475,465,,2374,S0,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1244,8058_0030,8058_0030,Kloten,Flughafen Terminal A,ZH,900,2684300,1256500,440,,2375,S0,H21,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1246,Reg_Gubrist,8105_0060,Regensdorf,Gubrist-Tunnel,ZH,902,2678796,1253093,449,,2377,S33,H00,,A2,Vorstädtisch,Verkehr,geschlossen,&gt; 50&apos;000,
+1248,Wei_Gubrist,8104_0060,Weiningen,Gubrist-Tunnel,ZH,904,2675892,1252279,410,,2379,S33,H00,,A2,Vorstädtisch,Verkehr,geschlossen,&gt; 50&apos;000,
+1249,Wet_Islisberg,8907_0130,Wettswil,Islisberg,ZH,905,2677119,1243022,531,,2380,S23,H00,,A2,Ländlich,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1250,Neu_Autobahneinfahrt,8212_0160,Neuhausen am Rhf.,Autobahneinfahrt,SH,913,2688874,1283133,393,,2381,S23,H21,Randzonen,A3,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1251,8106_0010,8106_0010,Adlikon b. R.,Breitestrasse,ZH,914,2677346,1255894,433,,2382,S11,H11,Randzonen,A2,Vorstädtisch,Verkehr,offen,20&apos;000 - 50&apos;000,
+1252,8134_0010,8134_0010,Adliswil,Grütstrasse,ZH,915,2682820,1241474,478,,2384,S22,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,20&apos;000 - 50&apos;000,
+1253,8953_0040,8953_0040,Dietikon,Kronenplatz,ZH,916,2672591,1250968,391,,2385,S12,H23,Zentrum,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1254,8451_0010,8451_0010,Kleinandelfingen,Trottenweg,ZH,917,2693600,1272807,365,,2383,S0,H13,Zentrum,A2,Ländlich,Verkehr,geschlossen,&lt; 5&apos;000,
+1255,9000_0540,9000_0540,St.Gallen,Langgasse,SG,918,2746845,1255590,669,,2386,S13,H22,Wohngebiete,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1256,9497_0050,9497_0050,Triesenberg,Zentrum Messstation,FL,919,2759719,1220719,885,,2387,S0,H13,Zentrum,A1,Ländlich,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1257,9556_0020,9556_0020,Affeltrangen,Märwiler Riet,TG,920,2723192,1266352,505,,2388,S0,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1258,9305_0010,9305_0010,Berg,Huebermoos,SG,921,2745620,1260525,591,,2389,S00,H00,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1259,9058_0050,9058_0050,Brülisau,Rossweid,AI,922,2752549,1239898,954,,2390,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1260,9056_0020,9056_0020,Gais,Kleckelmoos,AR,923,2753878,1247097,965,,2391,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1261,9508_0010,9508_0010,Immenberg,Maggenauer,TG,924,2716416,1265344,548,,2392,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1262,8573_0010,8573_0010,Kemmental,Bommer Weier,TG,925,2729147,1275724,529,,2393,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1263,8232_0020,8232_0020,Merishausen,Gräte,SH,926,2688178,1290485,580,,2394,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1264,9313_0010,9313_0010,Muolen,Hudelmoos,SG,927,2739626,1264815,519,,2395,S0,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1265,8173_0010,8173_0010,Neerach,Turpenlöcher,ZH,928,2678574,1262079,409,,2396,S0,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1266,8213_0030,8213_0030,Neunkirch,Widen,SH,929,2681076,1283155,440,,2397,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1267,8475_0010,8475_0010,Ossingen,Dachsenhuserriet,ZH,930,2694191,1275542,410,,2398,S0,H00,,A2,Ländlich,Verkehr,keine,5&apos;000 - 20&apos;000,
+1268,9425_0020,9425_0020,Thal,Altenrhein,SG,931,2759296,1262291,398,,2399,S0,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1269,9497_0060,9497_0060,Triesenberg,Steg,FL,932,2762435,1219671,1200,,2400,S11,H0,,A0,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1270,8730_0050,8730_0050,Uznach,Kaltbrunner Riet,SG,933,2717580,1230665,408,,2401,S0,H00,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1271,7324_0010,7324_0010,Vilters,Kiesfang,SG,934,2752688,1210737,487,,2402,S0,H11,Randzonen,A3,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1272,8195_0010,8195_0010,Wasterkingen,Büelhalden,ZH,935,2677272,1271915,427,,2403,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1273,8620_0090,8620_0090,Wetzikon,Seeriet,ZH,936,2701636,1244049,538,,2404,S00,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1274,8400_0410,8400_0410,Winterthur,Hoh Wülflingen,ZH,937,2693935,1261383,516,,2405,S0,H00,,A2,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1275,9524_0030,9524_0030,Zuzwil,Zuzwiler Riet,SG,938,2726963,1259705,535,,2406,S00,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1276,9320_0060,9320_0060,Arbon,Altstadtumfahrung,TG,941,2750123,1264779,410,,2410,S0,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1277,Arb_Mole,9320_0080,Arbon,Mole,TG,942,2750728,1264408,398,,2411,S00,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1278,9320_0070,9320_0070,Arbon,Sonnenhügelstrasse,TG,943,2749606,1265041,410,,2412,S0,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,offen,5&apos;000 - 20&apos;000,
+1279,9403_0060,9403_0060,Goldach,Sonnenhaldenstasse,SG,944,2753900,1260650,412,,2413,S13,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1280,8280_0090,8280_0090,Kreuzlingen,Hafenstrasse 3,TG,945,2730708,1279301,400,,2414,S13,H21,Randzonen,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1281,8280_0100,8280_0100,Kreuzlingen,Konstanzerstrasse 5,TG,946,2729973,1279711,400,,2415,S0,H21,Randzonen,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1282,8700_0020,8700_0020,Küsnacht,Seestrasse,ZH,947,2686256,1241411,412,,2416,S13,H13,Zentrum,A2,Vorstädtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1283,8752_0060,8752_0060,Näfels,Freulerpalast, Giessenbrücke,GL,948,2723338,1217705,437,,2417,S13,H13,Zentrum,A3,Ländlich,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1284,8330_0030,8330_0030,Pfäffikon,Hochstrasse,ZH,949,2701733,1246944,550,,2418,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1285,8105_0070,8105_0070,Regensdorf,Feldstrasse,ZH,950,2678120,1254544,441,,2419,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1286,8590_0040,8590_0040,Romanshorn,Arbonerstrasse,TG,951,2745237,1269460,410,,2420,S12,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1287,8590_0050,8590_0050,Romanshorn,Kreuzlingerstrasse,TG,952,2744998,1270078,420,,2421,S12,H12,Wohngebiete,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1288,9000_0550,9000_0550,St.Gallen,Geltenwilenstrasse,SG,953,2745448,1253826,677,,2422,S13,H22,Wohngebiete,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1289,8104_0070,8104_0070,Weiningen,Zürcherstrasse,ZH,954,2675878,1252143,416,,2423,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1290,8185_0010,8185_0010,Winkel,Niederrüti,ZH,955,2684108,1259212,436,,2424,S0,H11,Randzonen,A2,Ländlich,Verkehr,offen,5&apos;000 - 20&apos;000,
+1291,8535_0010,8535_0010,Herdern,Spottenberg,TG,956,2710201,1273957,575,,2425,S00,H00,,A1,Ländlich,Hintergrund,keine,&lt; 5&apos;000,
+1292,8880_0030,8880_0030,Walenstadt,Paschga,SG,957,2743185,1219835,430,,2426,S0,H00,,,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1293,9658_0020,9658_0020,Wildhaus,Munzenriet,SG,958,2745299,1229291,1028,,2427,S00,H00,,A0,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1294,stmoritzrosatsch,,St. Moritz,Via Rosatsch,GR,960,2784052,1151197,1770,,2428,S0,H13,Zentrum,A0,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1295,poschiavo,,Poschiavo,Croce Bianca,GR,961,2801670,1133556,1010,,2429,S0,H13,Zentrum,A0,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1296,arosamaran,,Arosa,Maran,GR,959,2771036,1184827,1840,,2430,S0,H13,Zentrum,A0,Vorstädtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1297,8706_0030,8706_0030,Meilen,Fähre,ZH,962,2690839,1235940,409,,2432,S12,H11,Randzonen,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1298,8820_0030,8820_0030,Wädenswil,Zugerstrasse,ZH,963,2693209,1231700,419,,2433,S0,H23,Zentrum,A1,Städtisch,Verkehr,einseitig offen,&lt; 5&apos;000,
+1299,9436_0010,9436_0010,Balgach,Hoechstern,SG,964,2764470,1252424,403,,2439,S00,H00,,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1300,8000_1770,8000_1770,Zürich,Manessestrasse 34,ZH,967,2682011,1246986,415,,2440,S22,H33,Zentrum,A2,Städtisch,Verkehr,einseitig offen,&gt; 50&apos;000,
+1301,8000_1490,8000_1490,Zürich,Wasserwerkstrasse 18,ZH,966,2683149,1248650,415,,2441,S23,H33,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1302,8000_1050,8000_1050,Zürich,Seebahnstrasse 229,ZH,965,2681593,1248060,410,,2442,S12,H33,Zentrum,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1303,9200_0060,9200_0060,Gossau,Friedbergstrasse,SG,969,2736735,1253315,635,,2445,S13,H13,Zentrum,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1304,9200_0050,9200_0050,Gossau,Hauptstrasse,SG,970,2736540,1253190,633,,2446,S13,H13,Zentrum,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1305,Her_Alpsteinstrasse,,Herisau,Alpsteinstrasse (Mst),AR,971,2738970,1249055,747,,2447,S12,H12,Wohngebiete,A2,Städtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1306,9100_0070,9100_0070,Herisau,Durchgangsstrasse,AR,972,2738435,1250515,723,,2448,S13,H11,Randzonen,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1307,9100_0080,9100_0080,Herisau,Poststrasse,AR,973,2738910,1249910,775,,2449,S13,H13,Zentrum,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1308,9100_0090,9100_0090,Herisau,Schulhaus Wilen,AR,974,2738970,1249190,747,,2450,S13,H11,Randzonen,A2,Städtisch,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1309,Bau_Oberstufenschulhaus,,Bauma,Oberstufenschulhaus,ZH,975,2708970,1247320,640,,2451,S0,H13,Zentrum,A3,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1310,Hem_Schulhaus,,Hemmental,Schulhaus,SH,976,2686546,1287702,590,,2452,S0,H12,Wohngebiete,A3,Ländlich,Hintergrund,einseitig offen,&lt; 5&apos;000,
+1311,9000_0560,9000_0560,St.Gallen,Kreuzung St.Fiden,SG,977,2747365,1255135,671,,2453,S13,H22,Wohngebiete,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1312,Wal_Feuerwehrdepot,,Wald,Feuerwehrdepot,ZH,978,2711719,1236440,613,,2454,S0,H11,Randzonen,A3,Ländlich,Hintergrund,einseitig offen,5&apos;000 - 20&apos;000,
+1313,Zch_Bullingerhof,,Zürich,Bullingerhof,ZH,979,2681189,1248091,411,,2455,S00,H32,Wohngebiete,A2,Städtisch,Hintergrund,geschlossen,&lt; 5&apos;000,
+1314,Brü_Säntis,,Brütten,Säntisstrasse,ZH,980,2693324,1258946,630,,2456,S0,H11,Randzonen,A2,Ländlich,Hintergrund,offen,&lt; 5&apos;000,
+1315,Zch_Aubrücke,,Zürich,Aubrücke,ZH,981,2685497,1251608,427,,2457,S00,H31,Randzonen,A2,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1316,8500_0040,8500_0040,Frauenfeld,Zürcherstrasse Ost,TG,982,2710363,1268908,408,,2458,S13,H21,Randzonen,A2,Städtisch,Verkehr,geschlossen,20&apos;000 - 50&apos;000,
+1317,9495_0021,9495_0021,Triesen,Landstrasse III,FL,983,2758298,1219795,462,,2459,S12,H13,Zentrum,A2,Vorstädtisch,Verkehr,einseitig offen,5&apos;000 - 20&apos;000,
+1318,8592_0010,8592_0010,Uttwil,Romanshornerstrasse,TG,984,2743070,1272035,416,,2460,S12,H13,Zentrum,A2,Ländlich,Verkehr,geschlossen,5&apos;000 - 20&apos;000,
+1319,8000_2220,8000_2220,Zürich,Saatlenstrasse Unterführung,ZH,985,2685118,1251318,430,,2461,S0,H32,Wohngebiete,A2,Städtisch,Hintergrund,offen,&lt; 5&apos;000,
+1320,8000_2230,8000_2230,Zürich,Überlandstrasse 200,ZH,986,2685435,1251641,425,,2462,S00,H32,Wohngebiete,A2,Städtisch,Hintergrund,einseitig offen,&lt; 5&apos;000,

@@ -10,8 +10,8 @@ data_monitoring_nabel <- read_local_csv("inst/extdata/nabel_ib_y1.csv")
 data_monitoring_nabel_h1 <- lapply(c("inst/extdata/nabel_zue_h1.txt", "inst/extdata/nabel_due_h1.txt"), function(x) read_local_csv(x, delim = "\t"))
 
 # => read Ostluft monitoring airquality data (y1 & h1)
-data_monitoring_ostluft <- read_local_csv("inst/extdata/ostluft_airmo_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
-data_monitoring_ostluft_h1 <- read_local_csv("inst/extdata/ostluft_airmo_h1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
+data_monitoring_ostluft <- read_local_csv("inst/extdata/ostluft_ktzh_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
+data_monitoring_ostluft_h1 <- read_local_csv("inst/extdata/ostluft_ktzh_h1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
 
 # => read pre-compiled Ostluft y1 monitoring data for nitrogen deposition to sensitive ecosystems into separate dataset
 data_monitoring_ndep <- read_local_csv("inst/extdata/ostluft_compiled_ndep_y1.csv", locale = readr::locale(encoding = "UTF-8"))
@@ -20,6 +20,7 @@ data_monitoring_ndep <- read_local_csv("inst/extdata/ostluft_compiled_ndep_y1.cs
 # => read NABEL & Ostluft monitoring site metadata
 site_meta_nabel <- read_local_csv("inst/extdata/nabel_ib_y1.csv", col_select = c("Station", "Ost Y", "Nord X", "Höhe", "Zonentyp", "Stationstyp"))
 site_meta_ostluft <- read_local_csv("inst/extdata/ostluft_site_metadata.csv", delim = ",", locale = readr::locale(encoding = "UTF-8"))
+
 
 # prepare datasets ...
 # ---
@@ -53,6 +54,7 @@ data_monitoring_aq <-
 data_monitoring_ndep <-
   data_monitoring_ndep |>
   dplyr::mutate(source = "Ostluft")
+
 
 # save datasets
 # ---
