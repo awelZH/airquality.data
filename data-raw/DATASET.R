@@ -83,8 +83,8 @@ site_meta_ndep <- read_local_csv("inst/extdata/ostluft_site_ndep_metadata.csv", 
 # => restructure site metadata
 site_meta_ndep <-
   site_meta_ndep |>
-  dplyr::rename(site = msNameAirMo)
-# TODO: write & apply function to derive Ostluft Standortklasse (as in report)
+  dplyr::rename(site = msNameAirMo) |>
+  dplyr::mutate(siteclass = siteclass_nh3(gve_5km, n_austrag_5km))
 
 # => msNameAirMo as primary key
 data_monitoring_ndep <-
