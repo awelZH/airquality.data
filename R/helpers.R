@@ -46,6 +46,11 @@ longmetric <- function(x) {
 }
 
 
+#' Derive NH3 emission surrounding siteclass from GVE & N-Austrag within 5km
+#'
+#' @param x ...
+#'
+#' @keywords internal
 siteclass_nh3 <- function(gve, nfert) {
 
   siteclass <-
