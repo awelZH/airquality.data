@@ -65,4 +65,3 @@ siteclass_nh3 <- function(gve, nfert) {
 
   return(siteclass)
 }
-
