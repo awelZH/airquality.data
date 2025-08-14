@@ -233,15 +233,16 @@ prep_site_meta_ostluft <- function(meta) {
 
   meta <-
     meta |>
-    dplyr::filter(msKT == "ZH" & !is.na(msNameAirMo) & !is.na(scSiedlungsgroesse) & !is.na(scVerkehrslage)) |>
+    dplyr::filter(!is.na(msNameAirMo) & !is.na(scSiedlungsgroesse) & !is.na(scVerkehrslage)) |>
     dplyr::mutate(
       site_long = paste(msOrt, msOrtsteil, sep = " - "),
       scSiedlungsgroesse = stringr::str_trim(scSiedlungsgroesse),
       scVerkehrslage = stringr::str_trim(scVerkehrslage)
     ) |>
-    dplyr::select(msNameAirMo, site_long, spXCoord, spYCoord, spHoehe, scSiedlungsgroesse, scVerkehrslage) |>
+    dplyr::select(msNameAirMo, site_long, msKT, spXCoord, spYCoord, spHoehe, scSiedlungsgroesse, scVerkehrslage) |>
     dplyr::rename(
       site = msNameAirMo,
+      canton = msKT,
       x = spXCoord,
       y = spYCoord,
       masl = spHoehe,

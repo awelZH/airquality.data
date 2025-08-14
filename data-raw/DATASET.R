@@ -84,12 +84,16 @@ site_meta_ndep <- read_local_csv("inst/extdata/ostluft_site_ndep_metadata.csv", 
 site_meta_ndep <-
   site_meta_ndep |>
   dplyr::rename(site = msNameAirMo) |>
-  dplyr::mutate(siteclass = siteclass_nh3(gve_5km, n_austrag_5km))
+  dplyr::mutate(siteclass_nh3 = siteclass_nh3(gve_5km, n_austrag_5km)) |>
+  dplyr::left_join(dplyr::select(site_meta, site, site_long, canton, x, y, masl, siteclass), by = "site") |>
+  dplyr::select(site, site_long, fubcode, canton, x, y, masl, siteclass, siteclass_nh3, gve_5km, n_austrag_5km,
+                oekosystem1, oekosystem2, oekosystem_bafu, oekosystem_detail, cln_fun_oekosystem1, cln_fun_oekosystem2)
 
+# TODO: data_monitoring_ndep straight away with msNameAirMo...
 # => msNameAirMo as primary key
 data_monitoring_ndep <-
   site_meta_ndep |>
-  dplyr::select(site, fubcode) |>
+  dplyr::select(site, site_long, fubcode) |>
   dplyr::right_join(data_monitoring_ndep, by = "fubcode") |>
   dplyr::mutate(
     starttime = lubridate::fast_strptime(starttime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT+1", lt = FALSE),
@@ -97,7 +101,7 @@ data_monitoring_ndep <-
     interval = "period"
   ) |>
   dplyr::mutate_if(is.character, factor) |>
-  dplyr::select(site, starttime, endtime, interval, parameter, value, unit, method, source)
+  dplyr::select(site, site_long, starttime, endtime, interval, parameter, value, unit, method, source)
 
 
 # save datasets
