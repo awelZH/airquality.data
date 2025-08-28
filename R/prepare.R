@@ -134,25 +134,48 @@ prepare_monitoring_nabel_h1 <- function(data, keep_incomplete = FALSE, tz = "Etc
 #' @param meta ...
 #'
 #' @keywords internal
-prepare_monitoring_aq <- function(data, meta) {
+prepare_monitoring_aq <- function(data, meta, interval = "y1") {
 
-  data <-
-    data |>
-    pad2() |>
-    dplyr::mutate(
-      year = lubridate::year(starttime),
-      parameter = dplyr::recode(parameter, "O3_max_98%_m1" = "O3_max_98p_m1") # for technical reasons
-    ) |>
-    dplyr::select(-source) |>
-    dplyr::left_join(meta, by = "site") |>
-    dplyr::filter(!is.na(siteclass)) |>
-    dplyr::arrange(site, parameter, starttime) |>
-    dplyr::mutate(
-      pollutant = shortpollutant(parameter),
-      metric = longmetric(parameter)
-    ) |>
-    dplyr::rename(concentration = value) |>
-    dplyr::select(year, site, site_long, siteclass, x, y, masl, pollutant, metric, parameter, concentration, unit, source)
+  if (interval == "y1") {
+
+    data <-
+      data |>
+      pad2() |>
+      dplyr::mutate(
+        year = lubridate::year(starttime),
+        parameter = dplyr::recode(parameter, "O3_max_98%_m1" = "O3_max_98p_m1") # for technical reasons
+      ) |>
+      dplyr::select(-source) |>
+      dplyr::left_join(meta, by = "site") |>
+      dplyr::filter(!is.na(siteclass)) |>
+      dplyr::arrange(site, parameter, starttime) |>
+      dplyr::mutate(
+        pollutant = airquality.methods::shortpollutant(parameter),
+        metric = airquality.methods::longmetric(parameter)
+      ) |>
+      dplyr::rename(concentration = value) |>
+      dplyr::select(year, site, site_long, canton, siteclass, x, y, masl, pollutant, metric, parameter, concentration, unit, source) |>
+      dplyr::mutate_if(is.character, factor)
+
+  }
+
+  if (interval == "d1") {
+
+    data <-
+      data |>
+      dplyr::select(-source) |>
+      dplyr::left_join(meta, by = "site") |>
+      dplyr::filter(!is.na(siteclass)) |>
+      dplyr::arrange(site, parameter, starttime) |>
+      dplyr::mutate(
+        pollutant = airquality.methods::shortpollutant(parameter),
+        metric = airquality.methods::longmetric(parameter, interval = !!interval)
+      ) |>
+      dplyr::rename(concentration = value) |>
+      dplyr::select(starttime, site, site_long, canton, siteclass, x, y, masl, pollutant, metric, parameter, concentration, unit, source) |>
+      dplyr::mutate_if(is.character, factor)
+
+  }
 
   return(data)
 }

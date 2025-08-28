@@ -120,7 +120,7 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
   header <- dplyr::select(header, -1)
   data <- dplyr::slice(data, (which(dplyr::pull(data, 1) == "Startzeit") + 1):nrow(data))
   colnames(data)[1] <- "starttime"
-  data <- dplyr::mutate(data, starttime = lubridate::parse_date_time(.data$starttime, c("dmYHMS", "dmYHM", "dmY"), tz = tz))
+  data <- dplyr::mutate(data, starttime = lubridate::parse_date_time(.data$starttime, orders = c("dmYHMS", "dmYHM", "dmY"), tz = tz))
 
   col_ids <- rlang::names2(data)[-1]
   # FIXME: kann das vereinfacht werden mit pivot_longer? sollte eigentlich möglich sein

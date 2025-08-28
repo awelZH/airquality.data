@@ -4,7 +4,7 @@
 \alias{prepare_monitoring_aq}
 \title{Merge monitoring dataset with site metadata, derive pollutant and metric variable and prepare final dataset}
 \usage{
-prepare_monitoring_aq(data, meta)
+prepare_monitoring_aq(data, meta, interval = "y1")
 }
 \arguments{
 \item{data}{...}
