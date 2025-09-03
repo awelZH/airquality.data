@@ -126,11 +126,11 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
   # FIXME: kann das vereinfacht werden mit pivot_longer? sollte eigentlich möglich sein
   sites <- c(header[1, ], recursive = TRUE)
   sites <- rlang::set_names(sites, col_ids)
-  parameters <- c(header[which(dplyr::pull(header,1) %in% c("NO2","NO2_PS","O3","PM10","PM10h","PM2.5","PM2.5h","EC10","EC2.5")),], recursive = TRUE) #! ... Liste vervollständigen
+  parameters <- c(header[which(dplyr::pull(header,1) %in% c("NO2","NO2_PS","O3","PM10","PM10h","PM2.5","PM2.5h","EC10","EC2.5","T","Hr","StrGlo","RainDur","WD","WVs","WVv")),], recursive = TRUE) #! ... Liste vervollständigen
   parameters <- rlang::set_names(parameters, col_ids)
   intervals <- c(header[which(dplyr::pull(header,1) %in% c("y1","m1","d1","h1","min30","min10")),], recursive = TRUE)
   intervals <- rlang::set_names(intervals, col_ids)
-  units <- c(header[which(dplyr::pull(header,1) %in% c("µg/m3","ppb","ppm","ppt","°C","hPa","%","W/m2")),], recursive = TRUE) #! ... Liste vervollständigen
+  units <- c(header[which(dplyr::pull(header,1) %in% c("µg/m3","ppb","ppm","ppt","°C","hPa","%","W/m2","min","m/s","°")),], recursive = TRUE) #! ... Liste vervollständigen
   units <- rlang::set_names(units, col_ids)
 
 

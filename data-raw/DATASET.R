@@ -83,6 +83,38 @@ usethis::use_data(data_monitoring_aq_d1, overwrite = TRUE)
 
 
 
+
+# Ostluft meteo monitoring data:
+# as input for air quality trend analysis
+
+# read datasets ...
+# ---
+data_monitoring_ostluft_met_d1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_meteo_d1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
+
+
+# prepare datasets ...
+# ---
+data_monitoring_ostluft_met_d1 <-
+  data_monitoring_ostluft_met_d1 |>
+  restructure_monitoring_ostluft(na.rm = TRUE) |>
+  dplyr::mutate(source = "Ostluft")
+
+# => merge & finalise datasets
+data_monitoring_met_d1 <-
+  data_monitoring_ostluft_met_d1 |>
+  prepare_monitoring_aq(site_meta, interval = "d1") |>
+  dplyr::select(-pollutant, -metric)
+
+
+# save datasets
+# ---
+usethis::use_data(data_monitoring_met_d1, overwrite = TRUE)
+
+
+
+
+
+
 # fundamentals for nitrogen deposition analysis:
 # compiling monitoring period data and site metadata in Ostluft by Ostluft and NABEL monitoring networks
 

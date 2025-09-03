@@ -28,6 +28,20 @@
 
 
 
+#' Meteorological monitoring data within Ostluft
+#'
+#' Meteorological monitoring data as daily values at sites in Ostluft, Switzerland,
+#' for selected parameters (T, Hr, p, StrGlo, RainDur)
+#' from cantonal (Ostluft)  air quality monitoring networks.
+#'
+#' @format ## `data_monitoring_met_d1`
+#' A tibble:
+#' ...
+#'
+#' @source <https://www.ostluft.ch/>
+"data_monitoring_met_d1"
+
+
 #' Air quality monitoring period-data for deriving reactive nitrogen deposition to sensitive ecosystems in Ostluft
 #'
 #' Concentration or deposition data, respectively, for NH3, NO2, HNO3, aerosol NH4+, aerosol NO3-, bulk deposition of NH4+, bulk deposition of NO3-
