@@ -85,6 +85,76 @@ usethis::use_data(data_monitoring_aq_d1, overwrite = TRUE)
 
 
 
+
+
+# MeteoSchweiz meteo monitoring data:
+# as input for air quality trend analysis
+
+# read datasets ...
+# ---
+# => MeteoSchweiz Bodenmessstationen im Kanton Zürich
+stations <- airquality.methods::read_local_csv("https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_stations.csv")
+# dplyr::filter(stations, station_canton == "ZH" & station_type_de == "Automatische Wetterstationen") |> View()
+sites_meteo <- c("KLO", "REH", "SMA", "HOE")
+stations <-
+  stations |>
+  dplyr::filter(station_abbr %in% !!sites_meteo) |>
+  dplyr::select(station_abbr, station_name)
+
+
+# => d1 Messdaten von sites_meteo
+urls <- airquality.methods:::get_geo_admin_metadata("ch.meteoschweiz.ogd-smn", filter = "csv")
+urls <- as.character(sapply(tolower(sites_meteo), function(x) urls[stringr::str_detect(urls, x)]))
+urls <- urls[urls != "character(0)"]
+data_monitoring_met_d1 <- airquality.methods::read_local_csv(urls)
+
+
+# prepare datasets ...
+# ---
+# => Messparameter
+parameters <- airquality.methods::read_local_csv("https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_parameters.csv")
+parameters <- dplyr::select(parameters, parameter_shortname, parameter_unit, parameter_description_de)
+# View(parameters)
+selected_parameters <- c("WD" = "Windrichtung; Tagesmittel", "WVs" = "Windgeschwindigkeit skalar; Tagesmittel in m/s", "Föhnindex" = "Föhnindex, Tageswert",
+                         "StrGlo" = "Globalstrahlung; Tagesmittel", "Lrad" = "Langwellige Ausstrahlung; Tagesmittel", "p" = "Luftdruck auf Barometerhöhe (QFE); Tagesmittel",
+                         "T" = "Lufttemperatur 2 m über Boden; Tagesmittel", "T_max_min10" = "Lufttemperatur 2 m über Boden; Tagesmaximum",
+                          "RainSum" = "Niederschlag; Tagessumme 0 UTC - 0 UTC", "Hr" = "Relative Luftfeuchtigkeit 2 m über Boden; Tagesmittel")
+parameters <-
+  parameters |>
+  dplyr::filter(parameter_description_de %in% !!selected_parameters) |>
+  dplyr::mutate(parameter = dplyr::recode(parameter_description_de, !!!setNames(names(selected_parameters), selected_parameters))) |>
+  dplyr::rename(unit = parameter_unit) |>
+  dplyr::select(-parameter_description_de)
+
+data_monitoring_met_d1 <-
+  data_monitoring_met_d1 |>
+  dplyr::left_join(stations, by = "station_abbr") |>
+  dplyr::rename(
+    site = station_name,
+    starttime = reference_timestamp
+    ) |>
+  dplyr::select(-station_abbr) |>
+  tidyr::gather(parameter_shortname, value, -starttime, -site) |>
+  dplyr::left_join(parameters, by = "parameter_shortname") |>
+  dplyr::filter(parameter_shortname %in% !!parameters$parameter_shortname) |>
+  dplyr::select(-parameter_shortname) |>
+  dplyr::mutate(
+    starttime = lubridate::fast_strptime(starttime, format = "%d.%m.%Y %H:%S", tz = "Etc/GMT-1", lt = FALSE), # oder in UTC? Lässt sich in dem Fall jedenfalls nicht einfach auf UTC+1 beziehen..
+    interval = "d1",
+    source = "MeteoSchweiz"
+    ) |>
+  dplyr::mutate_if(is.character, factor) |>
+  dplyr::select(starttime, interval, site, parameter, unit, value, source)
+
+
+# save datasets
+# ---
+usethis::use_data(data_monitoring_met_d1, overwrite = TRUE)
+
+
+
+
+
 # # Ostluft meteo monitoring data:
 # # as input for air quality trend analysis
 #
@@ -110,6 +180,9 @@ usethis::use_data(data_monitoring_aq_d1, overwrite = TRUE)
 # # save datasets
 # # ---
 # usethis::use_data(data_monitoring_met_d1, overwrite = TRUE)
+
+
+
 
 
 
