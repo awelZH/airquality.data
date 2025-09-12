@@ -54,7 +54,7 @@ data_monitoring_nabel_y1 <-
 data_monitoring_nabel_d1 <-
   purrr::map(data_monitoring_nabel_d1, restructure_monitoring_nabel_d1) |>
   dplyr::bind_rows() |>
-  dplyr::mutate(source = "NABEL (BAFU & Empa") |>
+  dplyr::mutate(source = "NABEL (BAFU & Empa)") |>
   dplyr::filter(!(parameter %in% c("RainSum", "StrGlo", "T"))) # only air pollutants
 
 # => restructure Ostluft & calculate O3 peak season from h1 data

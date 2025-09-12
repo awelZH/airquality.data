@@ -80,7 +80,7 @@ restructure_monitoring_nabel_y1 <- function(data, keep_incomplete = FALSE) {
 recode_nabel_sites <- function(site) {
 
   site <- dplyr::recode(
-    site, DUE = "Dübendorf-Empa", ZUE = "Zürich-Kaserne", BAS = "Basel-Binningen", BRM = "Beromünster", CHA = "Chaumont",
+    site, DUE = "Dübendorf-EMPA", "Dübendorf-Empa" = "Dübendorf-EMPA", ZUE = "Zürich-Kaserne", BAS = "Basel-Binningen", BRM = "Beromünster", CHA = "Chaumont",
     DAV = "Davos-Seehornwald", HAE = "Härkingen-A1", JUN = "Jungfraujoch", LAE = "Lägeren", LAU = "Lausanne-César-Roux",
     LUG = "Lugano-Università", MAG = "Magadino-Cadenazzo", PAY = "Payerne", RIG = "Rigi-Seebodenalp", SIO = "Sion-Aéroport-A9",
     TAE = "Tänikon"
@@ -144,6 +144,7 @@ restructure_monitoring_nabel_d1 <- function(data, tz = "Etc/GMT-1") {
     tidyr::separate(parameter, c("parameter", "unit"), sep = " ") |>
     dplyr::mutate(
       site = !!site,
+      site = recode_nabel_sites(site),
       interval = "d1",
       parameter = dplyr::recode(parameter, EC = "eBC", NOX = "NOx", TEMP = "T", PREC = "RainSum", RAD = "StrGlo"),
       unit = stringr::str_remove(unit, "\\["),

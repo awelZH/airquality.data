@@ -1,7 +1,7 @@
 Package: airquality.data
 Type: Package
 Title: Air quality monitoring data within the Canton of Zurich, Switzerland
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person(
       "Jörg", "Sintermann",
