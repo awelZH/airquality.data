@@ -71,6 +71,26 @@ restructure_monitoring_nabel_y1 <- function(data, keep_incomplete = FALSE) {
 }
 
 
+
+#' Recode NABEL short site names to long names
+#'
+#' @param site ...
+#'
+#' @keywords internal
+recode_nabel_sites <- function(site) {
+
+  site <- dplyr::recode(
+    site, DUE = "Dübendorf-Empa", ZUE = "Zürich-Kaserne", BAS = "Basel-Binningen", BRM = "Beromünster", CHA = "Chaumont",
+    DAV = "Davos-Seehornwald", HAE = "Härkingen-A1", JUN = "Jungfraujoch", LAE = "Lägeren", LAU = "Lausanne-César-Roux",
+    LUG = "Lugano-Università", MAG = "Magadino-Cadenazzo", PAY = "Payerne", RIG = "Rigi-Seebodenalp", SIO = "Sion-Aéroport-A9",
+    TAE = "Tänikon"
+  )
+
+  return(site)
+}
+
+
+
 #' Convert NABEL h1 dataset into standard format
 #'
 #' @param data ...
@@ -92,10 +112,7 @@ restructure_monitoring_nabel_h1 <- function(data, tz = "Etc/GMT-1") {
       parameter = dplyr::pull(header,2)[dplyr::pull(header,1) == "Messwert"],
       interval = "h1",
       unit = dplyr::pull(header,2)[dplyr::pull(header,1) == "Einheit"],
-      site = dplyr::recode(site, DUE = "Dübendorf-Empa", ZUE = "Zürich-Kaserne", BAS = "Basel-Binningen", BRM = "Beromünster", CHA = "Chaumont",
-                           DAV = "Davos-Seehornwald", HAE = "Härkingen-A1", JUN = "Jungfraujoch", LAE = "Lägeren", LAU = "Lausanne-César-Roux",
-                           LUG = "Lugano-Università", MAG = "Magadino-Cadenazzo", PAY = "Payerne", RIG = "Rigi-Seebodenalp", SIO = "Sion-Aéroport-A9",
-                           TAE = "Tänikon"),
+      site = recode_nabel_sites(site),
       unit = stringr::str_replace(unit, "ug", "µg")
     )
   data <- dplyr::mutate(data, value = as.numeric(value))
@@ -104,6 +121,41 @@ restructure_monitoring_nabel_h1 <- function(data, tz = "Etc/GMT-1") {
 
   return(data)
 }
+
+
+#' Convert NABEL d1 dataset into standard format
+#'
+#' @param data ...
+#' @param tz ...
+#'
+#' @keywords internal
+restructure_monitoring_nabel_d1 <- function(data, tz = "Etc/GMT-1") {
+
+  header <- dplyr::slice(data, 1:which(stringr::str_detect(dplyr::pull(data, 1), "Quelle:")))
+  header <- dplyr::pull(header,1)
+  site <- header[stringr::str_detect(header, "Station:")]
+  site <- stringr::str_remove(site, "Station: ")
+  data <- dplyr::slice(data, (which(stringr::str_detect(dplyr::pull(data, 1), "Quelle:")) + 1):nrow(data))
+  colnames(data)[1] <- "starttime"
+  data <- dplyr::mutate(data, starttime = lubridate::parse_date_time(.data$starttime, c("dmyHMS", "dmyHM", "dmy"), tz = tz))
+  data <-
+    data |>
+    tidyr::gather(parameter, value, -starttime) |>
+    tidyr::separate(parameter, c("parameter", "unit"), sep = " ") |>
+    dplyr::mutate(
+      site = !!site,
+      interval = "d1",
+      parameter = dplyr::recode(parameter, EC = "eBC", NOX = "NOx", TEMP = "T", PREC = "RainSum", RAD = "StrGlo"),
+      unit = stringr::str_remove(unit, "\\["),
+      unit = stringr::str_remove(unit, "\\]"),
+      unit = stringr::str_replace(unit, "ug", "µg")
+    )
+  data <- dplyr::mutate_if(data, is.character, factor)
+  data <- dplyr::select(data, starttime, site, parameter, interval, unit, value)
+
+  return(data)
+}
+
 
 
 #' Convert Ostluft dataset into standard long format

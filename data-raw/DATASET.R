@@ -18,13 +18,14 @@ devtools::load_all(path = "R")
 # ---
 # => read NABEL monitoring airquality data (y1 & h1)
 data_monitoring_nabel_y1 <- airquality.methods::read_local_csv("inst/extdata/nabel_ib_y1.csv")
+data_monitoring_nabel_d1 <- lapply(c("inst/extdata/nabel_zue_d1.csv", "inst/extdata/nabel_due_d1.csv"), airquality.methods::read_local_csv)
 data_monitoring_nabel_h1 <- lapply(c("inst/extdata/nabel_zue_h1.txt", "inst/extdata/nabel_due_h1.txt"), function(x) airquality.methods::read_local_csv(x, delim = "\t"))
 #TODO: d1 & 2024 y1
 
 # => read Ostluft monitoring airquality data (y1 & h1, d1)
 data_monitoring_ostluft_y1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
-data_monitoring_ostluft_h1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_h1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
 data_monitoring_ostluft_d1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_d1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
+data_monitoring_ostluft_h1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_h1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
 
 # => read pre-compiled Ostluft y1 monitoring data for nitrogen deposition to sensitive ecosystems into separate dataset
 # data_monitoring_ndep <- airquality.methods::read_local_csv("inst/extdata/ostluft_compiled_ndep_y1.csv", locale = readr::locale(encoding = "UTF-8"))
@@ -50,6 +51,12 @@ data_monitoring_nabel_y1 <-
   prepare_monitoring_nabel_h1() |>
   dplyr::bind_rows(data_monitoring_nabel_y1)
 
+data_monitoring_nabel_d1 <-
+  purrr::map(data_monitoring_nabel_d1, restructure_monitoring_nabel_d1) |>
+  dplyr::bind_rows() |>
+  dplyr::mutate(source = "NABEL (BAFU & Empa") |>
+  dplyr::filter(!(parameter %in% c("RainSum", "StrGlo", "T"))) # only air pollutants
+
 # => restructure Ostluft & calculate O3 peak season from h1 data
 data_monitoring_ostluft_y1 <- prepare_monitoring_ostluft_y1(data_monitoring_ostluft_y1)
 data_monitoring_ostluft_y1 <-
@@ -68,7 +75,10 @@ data_monitoring_aq_y1 <-
   dplyr::bind_rows(data_monitoring_ostluft_y1) |>
   prepare_monitoring_aq(site_meta)
 
-data_monitoring_aq_d1 <- prepare_monitoring_aq(data_monitoring_ostluft_d1, site_meta, interval = "d1")
+data_monitoring_aq_d1 <-
+  data_monitoring_ostluft_d1 |>
+  dplyr::bind_rows(data_monitoring_nabel_d1) |>
+  prepare_monitoring_aq(site_meta, interval = "d1")
 
 # data_monitoring_ndep <-
 #   data_monitoring_ndep |>
@@ -103,7 +113,7 @@ stations <-
 
 
 # => d1 Messdaten von sites_meteo
-urls <- airquality.methods:::get_geo_admin_metadata("ch.meteoschweiz.ogd-smn", filter = "csv")
+urls <- airquality.methods:::get_geo_admin_metadata2("ch.meteoschweiz.ogd-smn", filter = "csv")
 urls <- as.character(sapply(tolower(sites_meteo), function(x) urls[stringr::str_detect(urls, x)]))
 urls <- urls[urls != "character(0)"]
 data_monitoring_met_d1 <- airquality.methods::read_local_csv(urls)
@@ -118,7 +128,7 @@ parameters <- dplyr::select(parameters, parameter_shortname, parameter_unit, par
 selected_parameters <- c("WD" = "Windrichtung; Tagesmittel", "WVs" = "Windgeschwindigkeit skalar; Tagesmittel in m/s", "Föhnindex" = "Föhnindex, Tageswert",
                          "StrGlo" = "Globalstrahlung; Tagesmittel", "Lrad" = "Langwellige Ausstrahlung; Tagesmittel", "p" = "Luftdruck auf Barometerhöhe (QFE); Tagesmittel",
                          "T" = "Lufttemperatur 2 m über Boden; Tagesmittel", "T_max_min10" = "Lufttemperatur 2 m über Boden; Tagesmaximum",
-                          "RainSum" = "Niederschlag; Tagessumme 0 UTC - 0 UTC", "Hr" = "Relative Luftfeuchtigkeit 2 m über Boden; Tagesmittel")
+                         "RainSum" = "Niederschlag; Tagessumme 0 UTC - 0 UTC", "Hr" = "Relative Luftfeuchtigkeit 2 m über Boden; Tagesmittel")
 parameters <-
   parameters |>
   dplyr::filter(parameter_description_de %in% !!selected_parameters) |>
@@ -132,7 +142,7 @@ data_monitoring_met_d1 <-
   dplyr::rename(
     site = station_name,
     starttime = reference_timestamp
-    ) |>
+  ) |>
   dplyr::select(-station_abbr) |>
   tidyr::gather(parameter_shortname, value, -starttime, -site) |>
   dplyr::left_join(parameters, by = "parameter_shortname") |>
@@ -142,7 +152,7 @@ data_monitoring_met_d1 <-
     starttime = lubridate::fast_strptime(starttime, format = "%d.%m.%Y %H:%S", tz = "Etc/GMT-1", lt = FALSE), # oder in UTC? Lässt sich in dem Fall jedenfalls nicht einfach auf UTC+1 beziehen..
     interval = "d1",
     source = "MeteoSchweiz"
-    ) |>
+  ) |>
   dplyr::mutate_if(is.character, factor) |>
   dplyr::select(starttime, interval, site, parameter, unit, value, source)
 
