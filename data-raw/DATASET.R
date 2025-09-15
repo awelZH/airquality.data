@@ -67,6 +67,7 @@ data_monitoring_ostluft_y1 <-
 data_monitoring_ostluft_d1 <-
   data_monitoring_ostluft_d1 |>
   restructure_monitoring_ostluft(na.rm = FALSE) |>
+  remove_duplicate_d1() |>
   dplyr::mutate(source = "Ostluft")
 
 # => merge & finalise datasets

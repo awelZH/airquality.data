@@ -12,7 +12,15 @@ prepare_monitoring_meta <- function(meta_ostluft, meta_nabel) {
   meta <-
     meta_ostluft |>
     dplyr::bind_rows(meta_nabel) |>
-    dplyr::mutate(siteclass = paste(zone, type, sep = " - ")) |>
+    dplyr::mutate(
+      siteclass = paste(zone, type, sep = " - "),
+      canton = dplyr::case_when(
+        site == "Dübendorf-EMPA" ~ "ZH",
+        site == "Zürich-Kaserne" ~ "ZH",
+        site == "Tänikon" ~ "TG",
+        TRUE ~ canton
+      )
+      ) |>
     dplyr::select(-zone, -type)
 
   return(meta)

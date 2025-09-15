@@ -210,6 +210,90 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
 }
 
 
+#' Parameter replacement function for parameter NO2 / NO2_ps
+#'
+#' @description
+#' Function to make sure that there are no duplicate measurements (used in remove_duplicate_y1())
+#' in case there have been NO2 monitor and passive sampler measurements (prefer monitor data = reference method)
+#'
+#' @param parameter ...
+#' @param value ...
+#'
+#' @keywords internal
+
+replace_no2_ps <- function(parameter, value){
+  if (sum(c("NO2", "NO2_PS") %in% parameter) == 2) {
+    if (!is.na(value[which(parameter == "NO2")])){
+      value[which(parameter == "NO2_PS")] <- NA
+    }
+  }
+  return(value)
+}
+
+
+#' Parameter replacement function for parameter PM10
+#'
+#' @description
+#' Function to make sure that there are no duplicate measurements (used in remove_duplicate_y1())
+#' same for PM10 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method);
+#'
+#' @param parameter ...
+#' @param value ...
+#'
+#' @keywords internal
+
+replace_pm10 <- function(parameter, value){
+  if (sum(c("PM10", "PM10h") %in% parameter) == 2) {
+    if (!is.na(value[which(parameter == "PM10h")])){
+      value[which(parameter == "PM10")] <- NA
+    }
+  }
+  return(value)
+}
+
+
+#' Parameter replacement function for parameter PM2.5
+#'
+#' @description
+#' Function to make sure that there are no duplicate measurements (used in remove_duplicate_y1())
+#' same for PM2.5 monitor and high volume sampler measurements (prefer high-volume-sampler data = reference method)
+#'
+#' @param parameter ...
+#' @param value ...
+#'
+#' @keywords internal
+
+replace_pm25 <- function(parameter, value){
+  if (sum(c("PM2.5", "PM2.5h") %in% parameter) == 2) {
+    if (!is.na(value[which(parameter == "PM2.5h")])){
+      value[which(parameter == "PM2.5")] <- NA
+    }
+  }
+  return(value)
+}
+
+
+#' Parameter replacement function for parameter EC / eBC
+#'
+#' @description
+#' Function to make sure that there are no duplicate measurements (used in remove_duplicate_y1())
+#' in case there have been eBC/EC values for both the 10 and 2.5 PM-fraction - then prefer the PM2.5 fraction.
+#'
+#' @param parameter ...
+#' @param value ...
+#'
+#' @keywords internal
+replace_ec <- function(parameter, value){
+  if (sum(c("EC10", "EC2.5") %in% parameter) == 2) {
+    if (!is.na(value[which(parameter == "EC10")])){
+      value[which(parameter == "EC10")] <- NA
+    }
+  }
+  return(value)
+}
+
+
+
 #' Make sure that there are no duplicate measurements per site / year / unit in Ostluft dataset
 #'
 #' @description
@@ -224,42 +308,6 @@ restructure_monitoring_ostluft <- function(data, keep_incomplete = FALSE, tz = "
 #' @keywords internal
 remove_duplicate_y1 <- function(data){
 
-  replace_no2_ps <- function(parameter, value){
-    if (sum(c("NO2", "NO2_PS") %in% parameter) == 2) {
-      if (!is.na(value[which(parameter == "NO2")])){
-        value[which(parameter == "NO2_PS")] <- NA
-      }
-    }
-    return(value)
-  }
-
-  replace_pm10 <- function(parameter, value){
-    if (sum(c("PM10", "PM10h") %in% parameter) == 2) {
-      if (!is.na(value[which(parameter == "PM10h")])){
-        value[which(parameter == "PM10")] <- NA
-      }
-    }
-    return(value)
-  }
-
-  replace_pm25 <- function(parameter, value){
-    if (sum(c("PM2.5", "PM2.5h") %in% parameter) == 2) {
-      if (!is.na(value[which(parameter == "PM2.5h")])){
-        value[which(parameter == "PM2.5")] <- NA
-      }
-    }
-    return(value)
-  }
-
-  replace_ec <- function(parameter, value){
-    if (sum(c("EC10", "EC2.5") %in% parameter) == 2) {
-      if (!is.na(value[which(parameter == "EC10")])){
-        value[which(parameter == "EC10")] <- NA
-      }
-    }
-    return(value)
-  }
-
   data <-
     data |>
     dplyr::group_by(starttime, site, unit) |>
@@ -272,6 +320,31 @@ remove_duplicate_y1 <- function(data){
     dplyr::ungroup() |>
     dplyr::filter(!is.na(value)) |>
     dplyr::mutate(parameter = dplyr::recode_factor(parameter, !!!c("NO2_PS" = "NO2", "PM10h" = "PM10", "PM2.5h" = "PM2.5", "EC10" = "eBC", "EC2.5" = "eBC")))
+
+  return(data)
+}
+
+
+#' Make sure that there are no duplicate measurements per site /day / unit in Ostluft dataset
+#'
+#' @description
+#' Function to make sure that there are no duplicate measurements per site / day / unit for data with interval = d1 in format rOstluft::format_rolf()
+#' in case there have been eBC/EC values for both the 10 and 2.5 PM-fraction - then prefer the PM2.5 fraction.
+#'
+#' @param data ...
+#'
+#' @keywords internal
+remove_duplicate_d1 <- function(data){
+
+  data <-
+    data |>
+    dplyr::group_by(starttime, site, unit) |>
+    dplyr::mutate(
+      value = replace_ec(parameter, value)
+    ) |>
+    dplyr::ungroup() |>
+    dplyr::filter(!is.na(value)) |>
+    dplyr::mutate(parameter = dplyr::recode_factor(parameter, !!!c("EC10" = "eBC", "EC2.5" = "eBC")))
 
   return(data)
 }
