@@ -20,7 +20,7 @@ devtools::load_all(path = "R")
 data_monitoring_nabel_y1 <- airquality.methods::read_local_csv("inst/extdata/nabel_ib_y1.csv")
 data_monitoring_nabel_d1 <- lapply(c("inst/extdata/nabel_zue_d1.csv", "inst/extdata/nabel_due_d1.csv"), airquality.methods::read_local_csv)
 data_monitoring_nabel_h1 <- lapply(c("inst/extdata/nabel_zue_h1.txt", "inst/extdata/nabel_due_h1.txt"), function(x) airquality.methods::read_local_csv(x, delim = "\t"))
-#TODO: d1 & 2024 y1
+#TODO: 2024ff y1
 
 # => read Ostluft monitoring airquality data (y1 & h1, d1)
 data_monitoring_ostluft_y1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
@@ -29,7 +29,7 @@ data_monitoring_ostluft_h1 <- airquality.methods::read_local_csv("inst/extdata/o
 
 # => read pre-compiled Ostluft y1 monitoring data for nitrogen deposition to sensitive ecosystems into separate dataset
 # data_monitoring_ndep <- airquality.methods::read_local_csv("inst/extdata/ostluft_compiled_ndep_y1.csv", locale = readr::locale(encoding = "UTF-8"))
-# TODO: replace when respective analysis is online or remove and hyperlinc separately
+# TODO: replace when respective analysis is online or remove and hyperlink separately
 
 # => read NABEL & Ostluft monitoring site metadata
 site_meta_nabel <- airquality.methods::read_local_csv("inst/extdata/nabel_ib_y1.csv", col_select = c("Station", "Ost Y", "Nord X", "Höhe", "Zonentyp", "Stationstyp"))
@@ -103,9 +103,11 @@ usethis::use_data(data_monitoring_aq_d1, overwrite = TRUE)
 
 # read datasets ...
 # ---
-# => MeteoSchweiz Bodenmessstationen im Kanton Zürich
+# => verfügbare MeteoSchweiz Bodenmessstationen im Kanton Zürich
 stations <- airquality.methods::read_local_csv("https://data.geo.admin.ch/ch.meteoschweiz.ogd-smn/ogd-smn_meta_stations.csv")
-# dplyr::filter(stations, station_canton == "ZH" & station_type_de == "Automatische Wetterstationen") |> View()
+# dplyr::filter(stations, station_canton == "ZH" & station_type_de == "Automatische Wetterstationen")
+
+# => ausgewählte Staionen im Kanton Zürich
 sites_meteo <- c("KLO", "REH", "SMA", "HOE")
 stations <-
   stations |>
@@ -114,8 +116,8 @@ stations <-
 
 
 # => d1 Messdaten von sites_meteo
-urls <- airquality.methods:::get_geo_admin_metadata2("ch.meteoschweiz.ogd-smn", filter = "csv")
-urls <- as.character(sapply(tolower(sites_meteo), function(x) urls[stringr::str_detect(urls, x)]))
+urls <- airquality.methods:::get_geo_admin_metadata("ch.meteoschweiz.ogd-smn", filter = "_d_historical.csv")
+urls <- as.character(sapply(tolower(sites_meteo), function(x) urls[which(stringr::str_detect(urls, x))]))
 urls <- urls[urls != "character(0)"]
 data_monitoring_met_d1 <- airquality.methods::read_local_csv(urls)
 
