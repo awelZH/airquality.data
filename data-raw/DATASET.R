@@ -122,6 +122,13 @@ urls <- urls[urls != "character(0)"]
 data_monitoring_met_d1 <- airquality.methods::read_local_csv(urls)
 
 
+# # => y1 Messdaten von sites_meteo
+# urls <- airquality.methods:::get_geo_admin_metadata("ch.meteoschweiz.ogd-smn", filter = "_y.csv")
+# urls <- as.character(sapply(tolower(sites_meteo), function(x) urls[which(stringr::str_detect(urls, x))]))
+# urls <- urls[urls != "character(0)"]
+# data_monitoring_met_y1 <- airquality.methods::read_local_csv(urls)
+
+
 # prepare datasets ...
 # ---
 # => Messparameter
