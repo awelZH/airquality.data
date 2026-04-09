@@ -20,7 +20,6 @@ devtools::load_all(path = "R")
 data_monitoring_nabel_y1 <- airquality.methods::read_local_csv("inst/extdata/nabel_ib_y1.csv")
 data_monitoring_nabel_d1 <- lapply(c("inst/extdata/nabel_zue_d1.csv", "inst/extdata/nabel_due_d1.csv"), airquality.methods::read_local_csv)
 data_monitoring_nabel_h1 <- lapply(c("inst/extdata/nabel_zue_h1.txt", "inst/extdata/nabel_due_h1.txt"), function(x) airquality.methods::read_local_csv(x, delim = "\t"))
-#TODO: 2024ff y1
 
 # => read Ostluft monitoring airquality data (y1 & h1, d1)
 data_monitoring_ostluft_y1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
