@@ -269,7 +269,7 @@ data_monitoring_ndep_y1 <-
   dplyr::left_join(dplyr::select(site_meta_ndep, site, ecosys, canton), by = c("site", "ecosys")) |>
   dplyr::filter(canton %in% !!ostluft) |>
   dplyr::rename(
-    datasouce = source,
+    datasource = source,
     nmonths = n
     ) |>
   dplyr::mutate(source = factor("Ostluft"))
