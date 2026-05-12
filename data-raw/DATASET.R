@@ -56,25 +56,52 @@ data_monitoring_nabel_d1 <-
   dplyr::mutate(source = "NABEL (BAFU & Empa)") |>
   dplyr::filter(!(parameter %in% c("RainSum", "StrGlo", "T"))) # only air pollutants
 
-# temporary workaround to include O3_max_h1 for NABEL:
-data_monitoring_nabel_d1 <-
-  data_monitoring_nabel_h1 |>
-  lapply(restructure_monitoring_nabel_h1) |>
-  dplyr::bind_rows() |>
-  dplyr::filter(parameter == "O3" & !is.na(value)) |>
-  dplyr::mutate(starttime = lubridate::floor_date(starttime, unit = "1 day")) |>
-  dplyr::summarise(
-    n = dplyr::n(),
-    value = max(value), .by = c("starttime", "site", "unit")
+# temporary workaround to include O3_max_h1 & T_max_h1 for NABEL:
+temp <- function(file, site) {
+  readr::read_delim(file, delim = ";", skip = 5) |>
+    rename(
+      endtime = `Datum/Zeit`,
+      O3 = `O3 [ug/m3]`,
+      T = `TEMP [C]`
     ) |>
-  dplyr::filter(n >= 0.8 * 24) |>
-  dplyr::mutate(
-    parameter = "O3_max_h1",
-    interval = factor("d1"),
-    source = factor("NABEL (BAFU & Empa)")
-  ) |>
-  dplyr::select(starttime, site, parameter, interval, unit, value, source) |>
-  dplyr::bind_rows(data_monitoring_nabel_d1)
+    mutate(starttime = fast_strptime(endtime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT-1", lt = FALSE) - hours(1)) |>
+    select(-endtime) |>
+    pivot_longer(-starttime, values_to = "value", names_to = "parameter") |>
+    dplyr::mutate(
+      starttime = lubridate::floor_date(starttime, unit = "1 day"),
+      site = factor(site),
+      unit = factor(case_when(
+        parameter == "O3" ~ "µg/m3",
+        parameter == "T" ~ "°C"
+      ))
+      ) |>
+    dplyr::summarise(
+      n = dplyr::n(),
+      value = max(value), .by = c("starttime", "site", "parameter", "unit")
+    ) |>
+    dplyr::filter(n >= 0.8 * 24) |>
+    dplyr::mutate(
+      parameter = factor(paste0(parameter, "_max_h1")),
+      interval = factor("d1"),
+      source = factor("NABEL (BAFU & Empa)")
+    ) |>
+    dplyr::select(starttime, site, parameter, interval, unit, value, source)
+}
+
+d1 <- temp("inst/extdata/ZUE.csv", "Zürich-Kaserne")
+d2 <- temp("inst/extdata/DUE.csv", "Dübendorf-EMPA")
+d3 <- temp("inst/extdata/TAE.csv", "Tänikon")
+d <-
+  d1 |>
+  bind_rows(d2) |>
+  bind_rows(d3)
+
+data_monitoring_nabel_d1 <- dplyr::filter(data_monitoring_nabel_d1, !when_all(parameter == "O3_max_h1", site %in% c("Zürich-Kaserne", "Dübendorf-EMPA", "Tänikon")))
+data_monitoring_nabel_d1 <-
+  d |>
+  dplyr::filter(parameter == "O3_max_h1") |>
+  bind_rows(data_monitoring_nabel_d1)
+
 
 # => restructure Ostluft & calculate O3 peak season from h1 data
 data_monitoring_ostluft_y1 <- prepare_monitoring_ostluft_y1(data_monitoring_ostluft_y1)
@@ -203,6 +230,11 @@ data_monitoring_ostluft_met_d1 <-
   restructure_monitoring_ostluft(na.rm = TRUE) |>
   dplyr::mutate(source = "Ostluft")
 
+# temp: add NABEL T_max_h1
+data_monitoring_ostluft_met_d1 <-
+  d |>
+  dplyr::filter(parameter == "T_max_h1") |>
+  dplyr::bind_rows(data_monitoring_ostluft_met_d1)
 
 # => merge datasets
 data_monitoring_met_d1 <-
