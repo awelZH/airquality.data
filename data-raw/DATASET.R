@@ -1,5 +1,6 @@
 library(devtools)
 library(airquality.methods)
+library(OL.Stickstoffdeposition)
 library(rOstluft)
 library(zoo)
 library(dplyr)
@@ -25,10 +26,6 @@ data_monitoring_nabel_h1 <- lapply(c("inst/extdata/nabel_zue_h1.txt", "inst/extd
 data_monitoring_ostluft_y1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_y1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
 data_monitoring_ostluft_d1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_d1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
 data_monitoring_ostluft_h1 <- airquality.methods::read_local_csv("inst/extdata/ostluft_airmo_h1.csv", locale = readr::locale(encoding = "UTF-8"), col_names = FALSE)
-
-# => read pre-compiled Ostluft y1 monitoring data for nitrogen deposition to sensitive ecosystems into separate dataset
-# data_monitoring_ndep <- airquality.methods::read_local_csv("inst/extdata/ostluft_compiled_ndep_y1.csv", locale = readr::locale(encoding = "UTF-8"))
-# TODO: replace when respective analysis is online or remove and hyperlink separately
 
 # => read NABEL & Ostluft monitoring site metadata
 site_meta_nabel <- airquality.methods::read_local_csv("inst/extdata/nabel_ib_y1.csv", col_select = c("Station", "Ost Y", "Nord X", "Höhe", "Zonentyp", "Stationstyp"))
@@ -126,10 +123,6 @@ data_monitoring_aq_d1 <-
   data_monitoring_ostluft_d1 |>
   dplyr::bind_rows(data_monitoring_nabel_d1) |>
   prepare_monitoring_aq(site_meta, interval = "d1")
-
-# data_monitoring_ndep <-
-#   data_monitoring_ndep |>
-#   dplyr::mutate(source = "Ostluft")
 
 
 # save datasets
@@ -242,8 +235,6 @@ data_monitoring_met_d1 <-
   bind_rows(data_monitoring_ostluft_met_d1)
 
 
-
-
 # save datasets
 # ---
 usethis::use_data(data_monitoring_met_d1, overwrite = TRUE)
@@ -252,51 +243,43 @@ usethis::use_data(data_monitoring_met_d1, overwrite = TRUE)
 
 
 
+# data for nitrogen deposition:
+# compiled offline by Ostluft from monitoring period data in Ostluft and NABEL + WSL monitoring networks
+# as well as derived from statistical models based on NABEL monitoring data and MeteoSwiss gridded data in case compounds are not fulli measured
 
-
-
-# fundamentals for nitrogen deposition analysis:
-# compiling monitoring period data and site metadata in Ostluft by Ostluft and NABEL monitoring networks
-
-# read datasets ...
-# ---
-# => read ndep Ostluft & NABEL monitoring data based on sample periods (about one month)
-data_monitoring_ndep <- airquality.methods::read_local_csv("inst/extdata/ostluft_ndep_periods.csv", locale = readr::locale(encoding = "UTF-8"))
-
-# => read ndep monitoring site metadata
-site_meta_ndep <- airquality.methods::read_local_csv("inst/extdata/ostluft_site_ndep_metadata.csv", locale = readr::locale(encoding = "UTF-8"))
-
-
-# prepare datasets ...
-# ---
-# => restructure site metadata
+# site metadata
 site_meta_ndep <-
-  site_meta_ndep |>
-  dplyr::rename(site = msNameAirMo) |>
-  dplyr::mutate(siteclass_nh3 = siteclass_nh3(gve_5km, n_austrag_5km)) |>
-  dplyr::left_join(dplyr::select(site_meta, site, site_long, canton, x, y, masl, siteclass), by = "site") |>
-  dplyr::select(site, site_long, fubcode, canton, x, y, masl, siteclass, siteclass_nh3, gve_5km, n_austrag_5km,
-                oekosystem1, oekosystem2, oekosystem_bafu, oekosystem_detail, cln_fun_oekosystem1, cln_fun_oekosystem2)
+  OL.Stickstoffdeposition::meta |>
+  dplyr::select(-fub_region) |>
+  dplyr::mutate(source = "Ostluft")
 
-# TODO: data_monitoring_ndep straight away with msNameAirMo...
-# => msNameAirMo as primary key
-data_monitoring_ndep <-
-  site_meta_ndep |>
-  dplyr::select(site, site_long, fubcode) |>
-  dplyr::right_join(data_monitoring_ndep, by = "fubcode") |>
-  dplyr::mutate(
-    starttime = lubridate::fast_strptime(starttime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT+1", lt = FALSE),
-    endtime = lubridate::fast_strptime(endtime, format = "%d.%m.%Y %H:%M", tz = "Etc/GMT+1", lt = FALSE),
-    interval = "period"
-  ) |>
-  dplyr::mutate_if(is.character, factor) |>
-  dplyr::select(site, site_long, starttime, endtime, interval, parameter, value, unit, method, source)
+# yearly data deposition by compound and deposition-vector
+nmin_months <- 11
+nmin_params <- 7
+ostluft <- c("ZH", "TG", "AI", "FL", "GL", "SG", "GR", "SH", "AR")
+
+data_monitoring_ndep_y1 <-
+  OL.Stickstoffdeposition::dataset_ndep |>
+  dplyr::add_count(year, starttime, site, ecosys, name = "nparams") |>
+  dplyr::filter(when_all(
+    n >= !!nmin_months,
+    nparams == !!nmin_params
+  )) |>
+  dplyr::select(-nparams) |>
+  dplyr::left_join(dplyr::select(site_meta_ndep, site, ecosys, canton), by = c("site", "ecosys")) |>
+  dplyr::filter(canton %in% !!ostluft) |>
+  dplyr::rename(
+    datasouce = source,
+    nmonths = n
+    ) |>
+  dplyr::mutate(source = factor("Ostluft"))
 
 
 # save datasets
 # ---
 usethis::use_data(site_meta_ndep, overwrite = TRUE)
-usethis::use_data(data_monitoring_ndep, overwrite = TRUE)
+usethis::use_data(data_monitoring_ndep_y1, overwrite = TRUE)
+
 
 
 

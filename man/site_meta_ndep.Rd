@@ -3,7 +3,7 @@
 \docType{data}
 \name{site_meta_ndep}
 \alias{site_meta_ndep}
-\title{Air quality monitoring site-metadata for deriving reactive nitrogen deposition to sensitive ecosystems in Ostluft}
+\title{Site-metadata for reactive nitrogen deposition to sensitive ecosystems in Ostluft}
 \format{
 ## `site_meta_ndep`
 A tibble:
@@ -17,6 +17,6 @@ site_meta_ndep
 }
 \description{
 metadata at ecosystem reactive nitrogen deposition sites in the area of Ostluft, Switzerland,
-from the intercantonal (Ostluft) and national (NABEL) air quality monitoring networks.
+from the intercantonal (Ostluft) and national (NABEL) air quality monitoring networks as well as from Swiss federal research institute WSL, in one case..
 }
 \keyword{datasets}

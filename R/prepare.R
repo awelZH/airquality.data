@@ -188,4 +188,3 @@ prepare_monitoring_aq <- function(data, meta, interval = "y1") {
 
   return(data)
 }
-
