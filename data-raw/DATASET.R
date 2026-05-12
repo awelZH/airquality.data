@@ -56,6 +56,26 @@ data_monitoring_nabel_d1 <-
   dplyr::mutate(source = "NABEL (BAFU & Empa)") |>
   dplyr::filter(!(parameter %in% c("RainSum", "StrGlo", "T"))) # only air pollutants
 
+# temporary workaround to include O3_max_h1 for NABEL:
+data_monitoring_nabel_d1 <-
+  data_monitoring_nabel_h1 |>
+  lapply(restructure_monitoring_nabel_h1) |>
+  dplyr::bind_rows() |>
+  dplyr::filter(parameter == "O3" & !is.na(value)) |>
+  dplyr::mutate(starttime = lubridate::floor_date(starttime, unit = "1 day")) |>
+  dplyr::summarise(
+    n = dplyr::n(),
+    value = max(value), .by = c("starttime", "site", "unit")
+    ) |>
+  dplyr::filter(n >= 0.8 * 24) |>
+  dplyr::mutate(
+    parameter = "O3_max_h1",
+    interval = factor("d1"),
+    source = factor("NABEL (BAFU & Empa)")
+  ) |>
+  dplyr::select(starttime, site, parameter, interval, unit, value, source) |>
+  dplyr::bind_rows(data_monitoring_nabel_d1)
+
 # => restructure Ostluft & calculate O3 peak season from h1 data
 data_monitoring_ostluft_y1 <- prepare_monitoring_ostluft_y1(data_monitoring_ostluft_y1)
 data_monitoring_ostluft_y1 <-
